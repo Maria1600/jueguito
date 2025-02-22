@@ -1,0 +1,242 @@
+[gd_scene load_steps=52 format=3 uid="uid://be7x8syjhvq6u"]
+
+[ext_resource type="Script" path="res://escenas/character_body_2d.gd" id="1_a6d0f"]
+[ext_resource type="Texture2D" uid="uid://cw0bhq47bnsc6" path="res://sprites/The Female Adventurer - Free/death_Left_Down/sprite_0.png" id="1_dd0xg"]
+[ext_resource type="Texture2D" uid="uid://bjwvqm3s7vxyo" path="res://sprites/The Female Adventurer - Free/death_Left_Down/sprite_1.png" id="2_n2gcb"]
+[ext_resource type="Texture2D" uid="uid://dws3xoghb2dr6" path="res://sprites/The Female Adventurer - Free/death_Left_Down/sprite_2.png" id="3_f1408"]
+[ext_resource type="Texture2D" uid="uid://c4xv7ag21khey" path="res://sprites/The Female Adventurer - Free/death_Left_Down/sprite_3.png" id="4_elaie"]
+[ext_resource type="Texture2D" uid="uid://wlgpy4sxdiux" path="res://sprites/The Female Adventurer - Free/death_Left_Down/sprite_4.png" id="5_8ecrb"]
+[ext_resource type="Texture2D" uid="uid://du5gopvwop6ct" path="res://sprites/The Female Adventurer - Free/death_Left_Down/sprite_5.png" id="6_ervq5"]
+[ext_resource type="Texture2D" uid="uid://c08sar0ayh4xk" path="res://sprites/The Female Adventurer - Free/death_Left_Down/sprite_6.png" id="7_glbev"]
+[ext_resource type="Texture2D" uid="uid://ctpvlefdidiut" path="res://sprites/The Female Adventurer - Free/death_Left_Down/sprite_7.png" id="8_4o8wi"]
+[ext_resource type="Texture2D" uid="uid://db6723pvtqn2i" path="res://sprites/The Female Adventurer - Free/death_Right_Down/sprite_0.png" id="9_7pgee"]
+[ext_resource type="Texture2D" uid="uid://baygmuf4yhbug" path="res://sprites/The Female Adventurer - Free/death_Right_Down/sprite_1.png" id="10_eoyih"]
+[ext_resource type="Texture2D" uid="uid://tnskq3p3lckt" path="res://sprites/The Female Adventurer - Free/death_Right_Down/sprite_2.png" id="11_hci7s"]
+[ext_resource type="Texture2D" uid="uid://bl1prp7ppkmvp" path="res://sprites/The Female Adventurer - Free/death_Right_Down/sprite_3.png" id="12_i2kud"]
+[ext_resource type="Texture2D" uid="uid://c0wrq8uepjho7" path="res://sprites/The Female Adventurer - Free/death_Right_Down/sprite_4.png" id="13_wvrch"]
+[ext_resource type="Texture2D" uid="uid://do840h7i5nujs" path="res://sprites/The Female Adventurer - Free/death_Right_Down/sprite_5.png" id="14_jv4km"]
+[ext_resource type="Texture2D" uid="uid://dlivyaotbs2wi" path="res://sprites/The Female Adventurer - Free/death_Right_Down/sprite_6.png" id="15_qolr2"]
+[ext_resource type="Texture2D" uid="uid://cxefftwokthvh" path="res://sprites/The Female Adventurer - Free/death_Right_Down/sprite_7.png" id="16_7gwbp"]
+[ext_resource type="Texture2D" uid="uid://c6fwcp25yui8e" path="res://sprites/The Female Adventurer - Free/IdleSeparadoLeftDown/Idle_Left_Down_frame_0.png" id="17_hac3q"]
+[ext_resource type="Texture2D" uid="uid://d07p40vqdtax4" path="res://sprites/The Female Adventurer - Free/IdleSeparadoLeftDown/Idle_Left_Down_frame_1.png" id="18_qadoa"]
+[ext_resource type="Texture2D" uid="uid://cpw8ctd0nkkbn" path="res://sprites/The Female Adventurer - Free/IdleSeparadoLeftDown/Idle_Left_Down_frame_2.png" id="19_xqngr"]
+[ext_resource type="Texture2D" uid="uid://bdtc2mynfqop0" path="res://sprites/The Female Adventurer - Free/IdleSeparadoLeftDown/Idle_Left_Down_frame_3.png" id="20_eiday"]
+[ext_resource type="Texture2D" uid="uid://conyg0o44ay8w" path="res://sprites/The Female Adventurer - Free/IdleSeparadoLeftDown/Idle_Left_Down_frame_4.png" id="21_y6w2l"]
+[ext_resource type="Texture2D" uid="uid://855xj2p37spr" path="res://sprites/The Female Adventurer - Free/IdleSeparadoLeftDown/Idle_Left_Down_frame_5.png" id="22_waqt5"]
+[ext_resource type="Texture2D" uid="uid://jcuadjrhkaxd" path="res://sprites/The Female Adventurer - Free/IdleSeparadoLeftDown/Idle_Left_Down_frame_6.png" id="23_ar62b"]
+[ext_resource type="Texture2D" uid="uid://d4lwblpcjb3f4" path="res://sprites/The Female Adventurer - Free/IdleSeparadoLeftDown/Idle_Left_Down_frame_7.png" id="24_7r0n7"]
+[ext_resource type="Texture2D" uid="uid://nlo32bx4el74" path="res://sprites/The Female Adventurer - Free/IdleSeparadoRightDown/frame_0.png" id="25_htcpp"]
+[ext_resource type="Texture2D" uid="uid://bp2727541d8qt" path="res://sprites/The Female Adventurer - Free/IdleSeparadoRightDown/frame_1.png" id="26_8ylqa"]
+[ext_resource type="Texture2D" uid="uid://4m2jyv85o7qh" path="res://sprites/The Female Adventurer - Free/IdleSeparadoRightDown/frame_2.png" id="27_8dkt1"]
+[ext_resource type="Texture2D" uid="uid://mrlb4skg71ix" path="res://sprites/The Female Adventurer - Free/IdleSeparadoRightDown/frame_3.png" id="28_ydkc2"]
+[ext_resource type="Texture2D" uid="uid://bj28x5oh08iqo" path="res://sprites/The Female Adventurer - Free/IdleSeparadoRightDown/frame_4.png" id="29_qohq5"]
+[ext_resource type="Texture2D" uid="uid://co6hy2ylpod7l" path="res://sprites/The Female Adventurer - Free/IdleSeparadoRightDown/frame_5.png" id="30_oj3ma"]
+[ext_resource type="Texture2D" uid="uid://r2vfu5sssy02" path="res://sprites/The Female Adventurer - Free/IdleSeparadoRightDown/frame_6.png" id="31_ejfsw"]
+[ext_resource type="Texture2D" uid="uid://j0adb1wwsqhr" path="res://sprites/The Female Adventurer - Free/IdleSeparadoRightDown/frame_7.png" id="32_wvqj7"]
+[ext_resource type="Texture2D" uid="uid://deqifwoc8ueb2" path="res://sprites/The Female Adventurer - Free/walk_Left_Down/sprite_0.png" id="33_66hor"]
+[ext_resource type="Texture2D" uid="uid://bfxncvbsb2i44" path="res://sprites/The Female Adventurer - Free/walk_Left_Down/sprite_1.png" id="34_whm8w"]
+[ext_resource type="Texture2D" uid="uid://bjv1ypwvd0417" path="res://sprites/The Female Adventurer - Free/walk_Left_Down/sprite_2.png" id="35_iqjmm"]
+[ext_resource type="Texture2D" uid="uid://337dlenmdnlo" path="res://sprites/The Female Adventurer - Free/walk_Left_Down/sprite_3.png" id="36_kfgac"]
+[ext_resource type="Texture2D" uid="uid://brjtolpfstaa7" path="res://sprites/The Female Adventurer - Free/walk_Left_Down/sprite_4.png" id="37_uxf3h"]
+[ext_resource type="Texture2D" uid="uid://bx5mc3kc8j7eo" path="res://sprites/The Female Adventurer - Free/walk_Left_Down/sprite_5.png" id="38_7vmd0"]
+[ext_resource type="Texture2D" uid="uid://cu15hn2lb7r85" path="res://sprites/The Female Adventurer - Free/walk_Left_Down/sprite_6.png" id="39_3lp4a"]
+[ext_resource type="Texture2D" uid="uid://cqncdd2kmxqsk" path="res://sprites/The Female Adventurer - Free/walk_Left_Down/sprite_7.png" id="40_7wr7g"]
+[ext_resource type="Texture2D" uid="uid://dn35rbtbuy07" path="res://sprites/The Female Adventurer - Free/walk_Right_Down/sprite_0.png" id="41_6bkti"]
+[ext_resource type="Texture2D" uid="uid://bkn0a12pcxpv0" path="res://sprites/The Female Adventurer - Free/walk_Right_Down/sprite_1.png" id="42_avjtt"]
+[ext_resource type="Texture2D" uid="uid://qq15g3kbmvi8" path="res://sprites/The Female Adventurer - Free/walk_Right_Down/sprite_2.png" id="43_8an7p"]
+[ext_resource type="Texture2D" uid="uid://dt3ucauhx335" path="res://sprites/The Female Adventurer - Free/walk_Right_Down/sprite_3.png" id="44_qqrlf"]
+[ext_resource type="Texture2D" uid="uid://dkdxdvpjtdm4x" path="res://sprites/The Female Adventurer - Free/walk_Right_Down/sprite_4.png" id="45_5upf7"]
+[ext_resource type="Texture2D" uid="uid://dekkq232k4jxb" path="res://sprites/The Female Adventurer - Free/walk_Right_Down/sprite_5.png" id="46_ff437"]
+[ext_resource type="Texture2D" uid="uid://b3n2dc1286bre" path="res://sprites/The Female Adventurer - Free/walk_Right_Down/sprite_6.png" id="47_s5rxq"]
+[ext_resource type="Texture2D" uid="uid://cwfrrnn4j68f4" path="res://sprites/The Female Adventurer - Free/walk_Right_Down/sprite_7.png" id="48_lqas8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ns2nc"]
+size = Vector2(15, 26)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qcjvl"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_dd0xg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_n2gcb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_f1408")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_elaie")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_8ecrb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ervq5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_glbev")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_4o8wi")
+}],
+"loop": false,
+"name": &"deathLeftDown",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_7pgee")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_eoyih")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_hci7s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_i2kud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_wvrch")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_jv4km")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_qolr2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_7gwbp")
+}],
+"loop": false,
+"name": &"deathRightDown",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_hac3q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_qadoa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_xqngr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_eiday")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_y6w2l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_waqt5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_ar62b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_7r0n7")
+}],
+"loop": true,
+"name": &"idleLeftDown",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("25_htcpp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_8ylqa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_8dkt1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_ydkc2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_qohq5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_oj3ma")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_ejfsw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_wvqj7")
+}],
+"loop": true,
+"name": &"idleRightDown",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("33_66hor")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_whm8w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_iqjmm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_kfgac")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_uxf3h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_7vmd0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_3lp4a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_7wr7g")
+}],
+"loop": true,
+"name": &"walkLeftDown",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("41_6bkti")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_avjtt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_8an7p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_qqrlf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_5upf7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_ff437")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_s5rxq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_lqas8")
+}],
+"loop": true,
+"name": &"walkRightDown",
+"speed": 6.0
+}]
+
+[node name="Personaje" type="CharacterBody2D"]
+script = ExtResource("1_a6d0f")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, -1)
+shape = SubResource("RectangleShape2D_ns2nc")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_qcjvl")
+animation = &"deathLeftDown"

@@ -1,0 +1,190 @@
+[gd_scene load_steps=14 format=3 uid="uid://0j2qnye35qko"]
+
+[ext_resource type="Texture2D" uid="uid://dvqd0ofsn368a" path="res://sprites/2D_SL_Knight_v1.0/Pray/sprite_0.png" id="1_kj00x"]
+[ext_resource type="PackedScene" uid="uid://ctld6pfbnxxhe" path="res://escenas/suelillo.tscn" id="1_wta4i"]
+[ext_resource type="PackedScene" uid="uid://be7x8syjhvq6u" path="res://escenas/jugador.tscn" id="2_cs2id"]
+[ext_resource type="Texture2D" uid="uid://b4y48f8bsahfd" path="res://sprites/2D_SL_Knight_v1.0/Pray/sprite_1.png" id="2_u4e2l"]
+[ext_resource type="Texture2D" uid="uid://dw2cjswhsbsts" path="res://sprites/2D_SL_Knight_v1.0/Pray/sprite_2.png" id="3_p6p7p"]
+[ext_resource type="Texture2D" uid="uid://blvpcpidl0vrx" path="res://sprites/2D_SL_Knight_v1.0/Pray/sprite_3.png" id="4_ql7ro"]
+[ext_resource type="Texture2D" uid="uid://dw4sp8ut4offw" path="res://sprites/2D_SL_Knight_v1.0/Pray/sprite_4.png" id="5_4xn3w"]
+[ext_resource type="Texture2D" uid="uid://dnjv5b1u3topf" path="res://sprites/2D_SL_Knight_v1.0/Pray/sprite_5.png" id="6_gxulq"]
+[ext_resource type="Texture2D" uid="uid://8qtm5f3bn8e0" path="res://sprites/2D_SL_Knight_v1.0/Pray/sprite_6.png" id="7_4vnqs"]
+[ext_resource type="Texture2D" uid="uid://dtd03ujgpd70n" path="res://sprites/2D_SL_Knight_v1.0/Pray/sprite_7.png" id="8_1gu78"]
+[ext_resource type="Texture2D" uid="uid://cwd53psylb531" path="res://sprites/Forest of Illusion Files/Forest of Illusion Files/Previews/Preview.png" id="11_4c2wy"]
+[ext_resource type="PackedScene" uid="uid://bjfb62qjyuf5b" path="res://escenas/enemigo_1.tscn" id="12_h1j4k"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_i81ym"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_kj00x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_u4e2l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_p6p7p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ql7ro")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_4xn3w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_gxulq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_4vnqs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_1gu78")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Mapa1" type="Node2D"]
+
+[node name="Suelos" type="Node2D" parent="."]
+
+[node name="Suelillo4" parent="Suelos" instance=ExtResource("1_wta4i")]
+
+[node name="Suelillo" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(248, 0)
+
+[node name="Suelillo2" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(82, 0)
+
+[node name="Suelillo3" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(165, 0)
+
+[node name="Suelillo5" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(332, 41)
+
+[node name="Suelillo6" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(576, 41)
+
+[node name="Suelillo7" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(494, 41)
+
+[node name="Suelillo8" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(414, 41)
+
+[node name="Suelillo9" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(659, 12)
+
+[node name="Suelillo10" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(739, 12)
+
+[node name="Suelillo11" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(822, 12)
+
+[node name="Suelillo12" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(820, -88)
+
+[node name="Suelillo13" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(738, -88)
+
+[node name="Suelillo14" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(986, 12)
+
+[node name="Suelillo15" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(904, 12)
+
+[node name="Suelillo16" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(903, -88)
+
+[node name="Suelillo17" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(1067, 12)
+
+[node name="Suelillo18" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(1197, -156)
+
+[node name="Suelillo19" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(1115, -156)
+
+[node name="Suelillo20" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(1032, -156)
+
+[node name="Suelillo21" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(1278, -156)
+
+[node name="Suelillo22" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(1359, -156)
+
+[node name="Suelillo23" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(1229, 12)
+
+[node name="Suelillo24" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(1308, 12)
+
+[node name="Suelillo25" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(1147, 12)
+
+[node name="Suelillo26" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(1390, 12)
+
+[node name="Suelillo27" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(1520, -202)
+
+[node name="Suelillo28" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(1439, -202)
+
+[node name="Suelillo30" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(1472, 12)
+
+[node name="Suelillo31" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(540, -190)
+
+[node name="Suelillo32" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(624, -157)
+
+[node name="Suelillo33" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(461, -190)
+
+[node name="Suelillo34" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(304, -190)
+
+[node name="Suelillo35" parent="Suelos" instance=ExtResource("1_wta4i")]
+position = Vector2(379, -190)
+
+[node name="Jugador" parent="." instance=ExtResource("2_cs2id")]
+position = Vector2(9, -3)
+
+[node name="Npc1" type="AnimatedSprite2D" parent="."]
+position = Vector2(93, -19)
+sprite_frames = SubResource("SpriteFrames_i81ym")
+frame_progress = 0.194559
+
+[node name="Backgrounds" type="Node2D" parent="."]
+z_index = -2
+
+[node name="Background" type="Sprite2D" parent="Backgrounds"]
+position = Vector2(344, -342)
+texture = ExtResource("11_4c2wy")
+
+[node name="Background2" type="Sprite2D" parent="Backgrounds"]
+position = Vector2(1189, -313)
+texture = ExtResource("11_4c2wy")
+
+[node name="Enemigos" type="Node2D" parent="."]
+
+[node name="Enemigo3" parent="Enemigos" instance=ExtResource("12_h1j4k")]
+position = Vector2(1119, -7)
+
+[node name="Enemigo1" parent="Enemigos" instance=ExtResource("12_h1j4k")]
+position = Vector2(946, -107)
+
+[node name="Enemigo2" parent="Enemigos" instance=ExtResource("12_h1j4k")]
+position = Vector2(627, 21)
+
+[node name="Enemigo4" parent="Enemigos" instance=ExtResource("12_h1j4k")]
+position = Vector2(1486, -7)
+
+[node name="Enemigo5" parent="Enemigos" instance=ExtResource("12_h1j4k")]
+position = Vector2(1389, -175)
+
+[node name="Enemigo6" parent="Enemigos" instance=ExtResource("12_h1j4k")]
+position = Vector2(320, -209)

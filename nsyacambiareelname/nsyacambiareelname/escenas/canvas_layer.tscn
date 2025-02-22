@@ -1,0 +1,41 @@
+[gd_scene load_steps=2 format=3 uid="uid://c65mykxhru07r"]
+
+[ext_resource type="FontFile" uid="uid://cm4ptmmv5dm08" path="res://pixelout/Pixelout Personal Use Only.ttf" id="1_i6y2y"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 273.0
+offset_top = 210.0
+offset_right = -316.0
+offset_bottom = -338.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_type_variation = &"HeaderLarge"
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_i6y2y")
+theme_override_font_sizes/font_size = 100
+text = "GAME OVER"
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -250.0
+offset_top = 9.0
+offset_right = -74.0
+offset_bottom = 77.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_disabled_color = Color(1.08294e-06, 0.414995, 0.368665, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0.501961, 0.447059, 1)
+theme_override_font_sizes/font_size = 18
+text = "Empezar de nuevo"

@@ -1,0 +1,112 @@
+[gd_scene load_steps=21 format=3 uid="uid://bjfb62qjyuf5b"]
+
+[ext_resource type="Script" path="res://escenas/enemigo_1.gd" id="1_xarf5"]
+[ext_resource type="Texture2D" uid="uid://bm1caeqimsl7x" path="res://sprites/Mushroom/Mushroom-LeftRun/sprite_0.png" id="1_ylau6"]
+[ext_resource type="Texture2D" uid="uid://bxkb2o5whyab" path="res://sprites/Mushroom/Mushroom-LeftRun/sprite_1.png" id="2_8wbk3"]
+[ext_resource type="Texture2D" uid="uid://blp7ymdyn45ms" path="res://sprites/Mushroom/Mushroom-LeftRun/sprite_2.png" id="3_wejt0"]
+[ext_resource type="Texture2D" uid="uid://cmc4ssgoqa8tc" path="res://sprites/Mushroom/Mushroom-LeftRun/sprite_3.png" id="4_ey5kl"]
+[ext_resource type="Texture2D" uid="uid://kx64stsp1iqa" path="res://sprites/Mushroom/Mushroom-LeftRun/sprite_4.png" id="5_10mxp"]
+[ext_resource type="Texture2D" uid="uid://clf64ayv1jwgc" path="res://sprites/Mushroom/Mushroom-LeftRun/sprite_5.png" id="6_emb88"]
+[ext_resource type="Texture2D" uid="uid://blkypsndtsu7w" path="res://sprites/Mushroom/Mushroom-LeftRun/sprite_6.png" id="7_156xc"]
+[ext_resource type="Texture2D" uid="uid://xvnw4utgtieg" path="res://sprites/Mushroom/Mushroom-LeftRun/sprite_7.png" id="8_085a8"]
+[ext_resource type="Texture2D" uid="uid://cmcngha50i3k3" path="res://sprites/Mushroom/Mushroom-RightRun/sprite_0.png" id="9_w711t"]
+[ext_resource type="Texture2D" uid="uid://bjus5riubqybw" path="res://sprites/Mushroom/Mushroom-RightRun/sprite_1.png" id="10_876j1"]
+[ext_resource type="Texture2D" uid="uid://mgb6rwsy5s84" path="res://sprites/Mushroom/Mushroom-RightRun/sprite_2.png" id="11_6vh4i"]
+[ext_resource type="Texture2D" uid="uid://bbdslcu80757b" path="res://sprites/Mushroom/Mushroom-RightRun/sprite_3.png" id="12_big4e"]
+[ext_resource type="Texture2D" uid="uid://ctdtoxnecot66" path="res://sprites/Mushroom/Mushroom-RightRun/sprite_4.png" id="13_e5jbx"]
+[ext_resource type="Texture2D" uid="uid://lv8lk2i1sw21" path="res://sprites/Mushroom/Mushroom-RightRun/sprite_5.png" id="14_cvlfd"]
+[ext_resource type="Texture2D" uid="uid://dv6hia07m14c8" path="res://sprites/Mushroom/Mushroom-RightRun/sprite_6.png" id="15_0jjrp"]
+[ext_resource type="Texture2D" uid="uid://dp1s1u0lbldks" path="res://sprites/Mushroom/Mushroom-RightRun/sprite_7.png" id="16_5xtb8"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_avtnd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ylau6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_8wbk3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_wejt0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ey5kl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_10mxp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_emb88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_156xc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_085a8")
+}],
+"loop": true,
+"name": &"runLeft",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_w711t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_876j1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_6vh4i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_big4e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_e5jbx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_cvlfd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_0jjrp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_5xtb8")
+}],
+"loop": true,
+"name": &"runRight",
+"speed": 8.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ybq8w"]
+size = Vector2(30, 28)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tv47v"]
+size = Vector2(30, 6)
+
+[node name="CharacterBody2D" type="CharacterBody2D" groups=["kill"]]
+script = ExtResource("1_xarf5")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_avtnd")
+animation = &"runLeft"
+frame_progress = 0.201073
+
+[node name="Lados" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lados"]
+position = Vector2(-1, 18)
+shape = SubResource("RectangleShape2D_ybq8w")
+
+[node name="Top" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Top"]
+position = Vector2(-1, 1)
+shape = SubResource("RectangleShape2D_tv47v")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-3, -2, -10, 1, -15, 7, -15, 11, -15, 13, -13, 14, -11, 14, -8, 32, -2, 32, 7, 32, 10, 29, 10, 14, 14, 14, 14, 11, 14, 8, 10, 1, 3, -2)
+
+[connection signal="body_entered" from="Lados" to="." method="_on_lados_body_entered"]
+[connection signal="body_entered" from="Top" to="." method="_on_top_body_entered"]
