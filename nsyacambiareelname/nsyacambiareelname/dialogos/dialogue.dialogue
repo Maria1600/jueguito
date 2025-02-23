@@ -1,0 +1,128 @@
+~ start
+Mago: Pero que tenemos aqui... 
+Mago: ¿Que hace una humana como tu por aqui?
+- Entre sin querer.
+	=> continua
+- No se.
+	=> continua
+- Voy a por la llave detras tuya.
+	Mago: A con que eso era lo que estaba captando tanto tu atencion ...
+	Mago: Me aburro mucho aqui solo,¿te gustaria echar el rato contestando a mis acertijos antes de coger la llave?
+	- Dispara.
+		=> acertijo
+	- No quiero que te den.
+		=> END
+- A ti no te incumbe, adios.
+=> END
+
+~ continua
+Mago: Jajajajajjajaja.
+Mago: Es bueno poder hablar con alguien despues de tanto tiempo...
+Mago: Dime humana ¿por que miras tanto hacia la llave de detras?
+- La necesito para salir.
+	Mago: Ummmm, tu necesitas la llave y yo soy un viejo que se aburre.¿Que te parece contestar a un par de acertijos?
+	- Okey dale.
+		=> acertijo
+	- Na paso.
+		=> END
+- Por nada ...
+	Mago: Jajaja vamos no seas tan timida quieres la llave,¿verdad?
+	Mago: Antes de que la pilles ¿te gustaria contestar a algunos de mis acertijos?
+	- Bueno ...
+		=> acertijo
+	- No gracias...
+		=> END
+- Aparta viejo quiero la llave.
+	Mago: Sera mejor que te vayas humana ... La proxima vez no tendrás la suerte de encontrarte a alguien tan agradable como yo  ...
+	=> END
+=> END
+
+~ repite
+Mago: Otra vez aqui ...
+Mago: ¿Quieres intentar superar una prueba? Te dejare coger la llave si lo consigues ...
+- Venga dale.
+	=> acertijo
+- Nah paso
+=> END
+
+~ acertijo
+Mago: Bien vamos a empezar, espero que estes lista.
+Mago: Primer acertijo ... 
+Mago: Entre las sombras yo susurro, pero nunca me verás. Cambio de forma, y deslizandome entre las ramas puedo estar.
+- El eco
+	Mago: ...
+- Un espiritu del bosque
+	Mago: ...
+- El viento
+	Mago: ...
+- Tu padre
+	Mago: ¿Que me quieres decir con eso?
+	Tu: ¿El tuyo no se fue a por un paquete de cigarros y no volvio?
+	Mago: ... ¿no?
+	Mago: ...
+	Tu: ...
+	Mago: ...
+	Tu: ...
+	Mago: Enfin mejor sigamos ...
+
+Mago: Segundo acertijo...
+Mago: No tengo vida, pero crezco. No tengo ojos, pero veo. De noche brillo, de día me escondo. Y en manos de magos, poder concedo.
+- Una estrella fugaz
+	Mago: ...
+- Un cristal magico 
+	Mago: aja.
+	Tu: ¿De hecho no es lo que llevas en la mano un cristal magico?
+	Mago: Eres bastante observadora, algo asi es un colgante que ha pasado de generacion en generacion...
+- Una llama
+	Mago: ...
+- ¿Puedo usar el comodin de la llamada?
+	Mago: ¿Que es eso de una llamada?
+	Tu: ¿No tienes movil? Si que eres viejo.
+	Mago: Si soy algo viejo tengo mas de 300 años pero no recuerdo haber oido nunca ni aqui ni el mundo humano el termino "movil".
+	Tu: Que boomer actualizate.
+	Mago: ¿"Boomer"? Tampoco habia oido ese termino nunca ... ¿Es algo bueno?
+	- Significa que eres viejo
+		Mago: Bueno ... razon no te falta. Supongo que todos los dias se aprende algo nuevo
+	- Si si es muy bueno
+		Mago: Jajaja entonces gracias humana
+	- No significa que eres un desactualizado 
+		Mago: Tu forma de hablar es un tanto peculiar ...
+
+Mago: Ultimo acertijo estate atenta ...
+Mago: Con cuerpo de bestia y mente astuta, en la oscuridad mi furia se disfruta. Si entras en mi reino, tendrás que correr, pues con mis cuernos te puedo vencer.
+- UY UY UY ESTA ME LA SE ERES TU
+	Mago: ... ¿Como?
+	Tu: Claro, ¿tu ex mujer te puso los cuernos no?
+	Mago: Como sabes eso ...
+	Tu: En el bosque los chismes viajan rapido ...
+	Mago: ...
+	Mago: Por casualidad ...¿te las has encontrado?
+	(Te encojes de hombros)
+	Tu: Quien sabe ...
+- Un minotauro
+	Mago: ...
+- Una basilisco
+	Mago: ...
+- Un demonio
+	Mago: ...
+- Un unicornio!!!
+	Mago: ...
+
+Mago: Supongo que hemos pasado un rato bastante entretenido. ¿Te gustaria saber las respuestas a mis acertijos?
+- Claro
+	Mago: En el primer acertijo la respuesta correcta era el viento
+	Mago: Ya que el viento susurra, cambia de forma y se desliza entre los árboles sin ser visto.
+	Mago: En el segundo era el cristal magico
+	Mago: Los cristales crecen, pueden "ver" reflejando la luz, brillan en la oscuridad y suelen ser usados por los magos para aumentar su mana.
+	Mago: Como el que llevo en mi mano ...
+	Mago: Y en el ultimo era el minotauro
+	Mago: Este ser habita en laberintos y es una criatura poderosa con cuerpo de hombre y cabeza de toro
+- Na paso
+=> END
+
+~ bien
+Mago: Bien humana lo hiciste bien puedes pasar
+=> END
+~ mal
+Mago: Por desgracia no lo hiciste del todo bien, pero siempre lo puedes volver a intentar ...
+=> END

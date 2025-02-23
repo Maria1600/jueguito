@@ -1,0 +1,92 @@
+[gd_scene load_steps=8 format=3 uid="uid://cs0fxqck0pdsh"]
+
+[ext_resource type="FontFile" uid="uid://bpa8g5fh0vfxu" path="res://pixelout/212 Keyboard.otf" id="1_jr74s"]
+[ext_resource type="FontFile" uid="uid://jmfrjb8e5us8" path="res://pixelout/Kibbe Granite.ttf" id="2_rbjce"]
+[ext_resource type="FontFile" uid="uid://chbiljpp8fq0v" path="res://pixelout/Woodtrap.ttf" id="3_hessw"]
+[ext_resource type="Texture2D" uid="uid://bqggtcl317yg4" path="res://sprites/controles/pointer-removebg-preview.png" id="4_snjba"]
+[ext_resource type="Texture2D" uid="uid://bnpya71m5xcw5" path="res://sprites/controles/keys-removebg-preview.png" id="5_10hn5"]
+[ext_resource type="Texture2D" uid="uid://dovl0opcvg18j" path="res://sprites/controles/keys-removebg-preview (1).png" id="6_370jn"]
+[ext_resource type="Texture2D" uid="uid://tlb3ed8qkhoa" path="res://sprites/controles/keys-removebg-preview (2).png" id="7_a62b8"]
+
+[node name="Controles" type="CanvasLayer"]
+
+[node name="Label7" type="Label" parent="."]
+anchors_preset = -1
+anchor_right = 0.088
+offset_left = 1226.0
+offset_top = 640.0
+offset_right = 1217.62
+offset_bottom = 678.0
+theme_override_fonts/font = ExtResource("1_jr74s")
+theme_override_font_sizes/font_size = 40
+text = "A  B"
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 460.0
+offset_top = 257.0
+offset_right = -484.0
+offset_bottom = -351.0
+theme_override_colors/font_color = Color(0.286275, 0.6, 0.0784314, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_rbjce")
+theme_override_font_sizes/font_size = 40
+text = "Controles"
+
+[node name="Label2" type="Label" parent="."]
+anchors_preset = -1
+offset_left = 395.0
+offset_top = 328.0
+offset_right = 509.0
+offset_bottom = 354.0
+theme_override_colors/font_color = Color(0.591454, 0.322299, 0.0447851, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_hessw")
+theme_override_font_sizes/font_size = 20
+text = "Movimiento:"
+
+[node name="Label3" type="Label" parent="."]
+anchors_preset = -1
+offset_left = 396.0
+offset_top = 430.0
+offset_right = 651.0
+offset_bottom = 456.0
+theme_override_colors/font_color = Color(0.592157, 0.321569, 0.0431373, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_hessw")
+theme_override_font_sizes/font_size = 20
+text = "Continuar y seleccionar dialogos:"
+
+[node name="Label4" type="Label" parent="."]
+anchors_preset = -1
+offset_left = 397.0
+offset_top = 377.0
+offset_right = 511.0
+offset_bottom = 403.0
+theme_override_colors/font_color = Color(0.592157, 0.321569, 0.0431373, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_hessw")
+theme_override_font_sizes/font_size = 20
+text = "Saltar:"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(694, 439)
+scale = Vector2(0.0896794, 0.0726453)
+texture = ExtResource("4_snjba")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(645.105, 397.54)
+scale = Vector2(0.38842, 0.266161)
+texture = ExtResource("5_10hn5")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(638, 394)
+scale = Vector2(0.40171, 0.419581)
+texture = ExtResource("6_370jn")
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+position = Vector2(637, 394)
+scale = Vector2(0.40171, 0.419581)
+texture = ExtResource("7_a62b8")

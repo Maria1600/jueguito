@@ -80,7 +80,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ybq8w"]
-size = Vector2(30, 28)
+size = Vector2(34, 28)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tv47v"]
 size = Vector2(30, 6)
@@ -96,7 +96,7 @@ frame_progress = 0.201073
 [node name="Lados" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Lados"]
-position = Vector2(-1, 18)
+position = Vector2(1, 18)
 shape = SubResource("RectangleShape2D_ybq8w")
 
 [node name="Top" type="Area2D" parent="."]

@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_14"
+type="Resource"
+uid="uid://b1sxhuh1ougaq"
+path="res://.godot/imported/dialogueBruja.dialogue-00b0e27bfe3dbd619718b8a829624353.tres"
+
+[deps]
+
+source_file="res://dialogos/dialogueBruja.dialogue"
+dest_files=["res://.godot/imported/dialogueBruja.dialogue-00b0e27bfe3dbd619718b8a829624353.tres"]
+
+[params]
+
+defaults=true

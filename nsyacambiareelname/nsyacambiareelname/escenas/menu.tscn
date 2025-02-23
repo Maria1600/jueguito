@@ -1,0 +1,60 @@
+[gd_scene load_steps=5 format=3 uid="uid://br8jltf3gu3kk"]
+
+[ext_resource type="Texture2D" uid="uid://bos3l4sajmyn8" path="res://sprites/fores.jpg" id="1_7ufkp"]
+[ext_resource type="Script" path="res://escenas/menu.gd" id="1_bdps4"]
+[ext_resource type="FontFile" uid="uid://jmfrjb8e5us8" path="res://pixelout/Kibbe Granite.ttf" id="2_07bn2"]
+[ext_resource type="PackedScene" uid="uid://cs0fxqck0pdsh" path="res://escenas/controles.tscn" id="4_pm4dn"]
+
+[node name="Menu" type="Node2D"]
+script = ExtResource("1_bdps4")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(576.161, 330.18)
+scale = Vector2(1.61317, 1.50778)
+texture = ExtResource("1_7ufkp")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 477.0
+offset_top = 316.0
+offset_right = 652.0
+offset_bottom = 375.0
+text = "Iniciar Juego"
+
+[node name="Label" type="Label" parent="."]
+offset_left = 270.0
+offset_top = 148.0
+offset_right = 895.0
+offset_bottom = 239.0
+theme_override_colors/font_color = Color(0.305367, 0.604427, 5.77569e-07, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_07bn2")
+theme_override_font_sizes/font_size = 90
+text = "Forest Scape"
+
+[node name="Button2" type="Button" parent="."]
+offset_left = 478.0
+offset_top = 518.0
+offset_right = 653.0
+offset_bottom = 577.0
+text = "Salir del juego"
+
+[node name="Button3" type="Button" parent="."]
+offset_left = 479.0
+offset_top = 416.0
+offset_right = 654.0
+offset_bottom = 475.0
+text = "Controles"
+
+[node name="Controles" parent="." instance=ExtResource("4_pm4dn")]
+
+[node name="Button4" type="Button" parent="."]
+offset_left = 492.0
+offset_top = 473.0
+offset_right = 643.0
+offset_bottom = 525.0
+text = "Volver al menu"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Button3" to="." method="_on_button_3_pressed"]
+[connection signal="pressed" from="Button4" to="." method="_on_button_4_pressed"]

@@ -1,0 +1,31 @@
+~ start
+Bruja: Oh vaya una humana...
+Bruja: Hola querida, este sitio es muy peligroso no deberías de estar aqui.
+- Me perdi
+	Bruja: oh vaya pobre criatura
+- Soy una pobre alma en pena
+	Bruja: jaja ademas eres graciosa
+	(Yo lo decia enserio...)
+- Porque a todos los NPCS os gusta hablar tanto
+	Bruja: ¿"Npc"? Que termino mas extraño ...
+	Bruja: Pero si me gusta hablar bastante.
+	
+Bruja: Bueno de todas formas chica si quieres salir de aqui te va a ser dificil ...
+Bruja: ¿Ves al grandullón de ahí? Lleva aqui todo el dia dando vueltas como un tonto.
+Bruja: no hay quien lo saque de ahi ya han muerto varias criaturillas ...
+- ¿Entonces estamos atrapadas?
+	Bruja: Jajajaja que graciosa yo puedo salir de aqui cuando quiera. Solo me gusta contemplar al grandullón, es bastante gracioso ...
+	Tu: ¿Que tiene esa cosa de graciosa?
+	Bruja: Jojojo todas las criaturitas son monas si las miras desde una buena perpectiva querida.
+- Yo me lo cargo facil
+	Bruja: Si te hace ilusion intentarlo ...
+- ¿No podrias haberlo matado?
+	Bruja: Jujuju si, pero me gusta que la naturaleza siga su curso.
+Bruja: Me has caido en gracia criatura asi que te ayudare a pasar.
+- Al menos haces algo util no como el viejo de antes
+- Muchas gracias!!
+- Venga rapido que me meo
+
+Bruja: Jujuju tranquila criatura mira mas allá y veras el nuevo camino que se abre ante tus ojos...
+
+=> END

@@ -12,8 +12,6 @@ var start_position: Vector2  # Guarda la posición inicial
 func _ready():
 	start_position = global_position  # Guarda la posición inicial
 
-
-
 func _physics_process(delta):
 	
 	if not is_on_floor():

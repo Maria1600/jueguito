@@ -1,4 +1,4 @@
-[gd_scene load_steps=86 format=4 uid="uid://0j2qnye35qko"]
+[gd_scene load_steps=89 format=4 uid="uid://0j2qnye35qko"]
 
 [ext_resource type="Script" path="res://escenas/mapa_1.gd" id="1_345vl"]
 [ext_resource type="Texture2D" uid="uid://dvqd0ofsn368a" path="res://sprites/2D_SL_Knight_v1.0/Pray/sprite_0.png" id="1_kj00x"]
@@ -13,7 +13,6 @@
 [ext_resource type="Texture2D" uid="uid://8qtm5f3bn8e0" path="res://sprites/2D_SL_Knight_v1.0/Pray/sprite_6.png" id="7_4vnqs"]
 [ext_resource type="Texture2D" uid="uid://dtd03ujgpd70n" path="res://sprites/2D_SL_Knight_v1.0/Pray/sprite_7.png" id="8_1gu78"]
 [ext_resource type="Texture2D" uid="uid://bxewu4xf58alg" path="res://sprites/Hoguera-removebg-preview.png" id="10_st2lb"]
-[ext_resource type="Texture2D" uid="uid://cwd53psylb531" path="res://sprites/Forest of Illusion Files/Forest of Illusion Files/Previews/Preview.png" id="11_4c2wy"]
 [ext_resource type="Texture2D" uid="uid://b8ekc60roov8g" path="res://sprites/Fuego/1_1.png" id="11_kh2os"]
 [ext_resource type="PackedScene" uid="uid://bjfb62qjyuf5b" path="res://escenas/enemigo_1.tscn" id="12_h1j4k"]
 [ext_resource type="Texture2D" uid="uid://dpx3cdimlstso" path="res://sprites/Fuego/1_2.png" id="12_in1wg"]
@@ -58,7 +57,11 @@
 [ext_resource type="Texture2D" uid="uid://o0htn5prca45" path="res://sprites/Undead executioner puppet/summonIdle/sprite_1.png" id="52_qio1j"]
 [ext_resource type="Texture2D" uid="uid://nm7qvcstr4im" path="res://sprites/Undead executioner puppet/summonIdle/sprite_2.png" id="53_3fm11"]
 [ext_resource type="Texture2D" uid="uid://l244fhnp4xpa" path="res://sprites/Undead executioner puppet/summonIdle/sprite_3.png" id="54_ag31f"]
+[ext_resource type="Texture2D" uid="uid://cw8gjdu0n52hl" path="res://sprites/Forest of Illusion Files/Forest of Illusion Files/Layers/back.png" id="58_sm6qo"]
+[ext_resource type="Texture2D" uid="uid://bgw30wxok281t" path="res://sprites/Forest of Illusion Files/Forest of Illusion Files/Layers/middle.png" id="59_yi145"]
 [ext_resource type="PackedScene" uid="uid://esvpfc3f0d62" path="res://escenas/key_area.tscn" id="63_x66kt"]
+[ext_resource type="PackedScene" uid="uid://c65mykxhru07r" path="res://escenas/canvas_layer.tscn" id="64_68trn"]
+[ext_resource type="FontFile" uid="uid://chbiljpp8fq0v" path="res://pixelout/Woodtrap.ttf" id="65_bed5i"]
 [ext_resource type="PackedScene" uid="uid://b273dto5d2htw" path="res://escenas/portal_area.tscn" id="86_p6vb1"]
 [ext_resource type="Texture2D" uid="uid://7t4rmqnkmklj" path="res://sprites/craftpix-net-610575-free-street-animal-pixel-art-asset-pack/3 Cat/Idle.png" id="87_bh4vj"]
 [ext_resource type="Texture2D" uid="uid://dtvaox0yvls27" path="res://sprites/craftpix-net-610575-free-street-animal-pixel-art-asset-pack/4 Cat 2/Idle.png" id="88_4d8xb"]
@@ -423,9 +426,7 @@ texture = ExtResource("44_bmdsa")
 [node name="Aparicion" type="AnimatedSprite2D" parent="Npcs"]
 position = Vector2(1474.29, -25.7143)
 sprite_frames = SubResource("SpriteFrames_su28p")
-animation = &"Aparece"
-frame = 5
-frame_progress = 1.0
+animation = &"idle"
 script = SubResource("GDScript_jfyrk")
 
 [node name="cat" type="AnimatedSprite2D" parent="Npcs"]
@@ -449,14 +450,138 @@ frame_progress = 0.834741
 [node name="Backgrounds" type="Node2D" parent="."]
 z_index = -2
 
-[node name="Background" type="Sprite2D" parent="Backgrounds"]
-position = Vector2(253, -451)
-scale = Vector2(1.23828, 1.35294)
-texture = ExtResource("11_4c2wy")
+[node name="Sprite2D" type="Sprite2D" parent="Backgrounds"]
+z_index = -1
+position = Vector2(-374, -84)
+scale = Vector2(1.4125, 1.49265)
+texture = ExtResource("58_sm6qo")
 
-[node name="Background2" type="Sprite2D" parent="Backgrounds"]
-position = Vector2(1249, -377)
-texture = ExtResource("11_4c2wy")
+[node name="Sprite2D2" type="Sprite2D" parent="Backgrounds"]
+z_index = -1
+position = Vector2(-136.5, -84)
+scale = Vector2(1.56875, 1.49265)
+texture = ExtResource("58_sm6qo")
+
+[node name="Sprite2D3" type="Sprite2D" parent="Backgrounds"]
+z_index = -1
+position = Vector2(127, -86.3364)
+scale = Vector2(1.76008, 1.47547)
+texture = ExtResource("58_sm6qo")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Backgrounds"]
+z_index = -1
+position = Vector2(443, -83)
+scale = Vector2(2.35599, 1.47285)
+texture = ExtResource("58_sm6qo")
+
+[node name="Sprite2D5" type="Sprite2D" parent="Backgrounds"]
+z_index = -1
+position = Vector2(764, -83)
+scale = Vector2(1.83891, 1.47426)
+texture = ExtResource("58_sm6qo")
+
+[node name="Sprite2D6" type="Sprite2D" parent="Backgrounds"]
+z_index = -1
+position = Vector2(1056, -83)
+scale = Vector2(2.01098, 1.49265)
+texture = ExtResource("58_sm6qo")
+
+[node name="Sprite2D7" type="Sprite2D" parent="Backgrounds"]
+z_index = -1
+position = Vector2(1371, -83)
+scale = Vector2(2.01098, 1.49265)
+texture = ExtResource("58_sm6qo")
+
+[node name="Sprite2D8" type="Sprite2D" parent="Backgrounds"]
+z_index = -1
+position = Vector2(1685, -83)
+scale = Vector2(2.01098, 1.49265)
+texture = ExtResource("58_sm6qo")
+
+[node name="Sprite2D9" type="Sprite2D" parent="Backgrounds"]
+z_index = -1
+position = Vector2(1961, -83)
+scale = Vector2(2.01098, 1.49265)
+texture = ExtResource("58_sm6qo")
+
+[node name="Sprite2D10" type="Sprite2D" parent="Backgrounds"]
+z_index = -1
+position = Vector2(2273, -83)
+scale = Vector2(2.01098, 1.49265)
+texture = ExtResource("58_sm6qo")
+
+[node name="Sprite2D11" type="Sprite2D" parent="Backgrounds"]
+z_index = -1
+position = Vector2(2562, -83)
+scale = Vector2(2.01098, 1.49265)
+texture = ExtResource("58_sm6qo")
+
+[node name="Sprite2D12" type="Sprite2D" parent="Backgrounds"]
+position = Vector2(-293, -145)
+texture = ExtResource("59_yi145")
+
+[node name="Sprite2D13" type="Sprite2D" parent="Backgrounds"]
+position = Vector2(1524, -99.5)
+scale = Vector2(1.36589, 1.33456)
+texture = ExtResource("59_yi145")
+
+[node name="Sprite2D14" type="Sprite2D" parent="Backgrounds"]
+position = Vector2(1014.25, -117.25)
+scale = Vector2(1.29818, 1.4614)
+texture = ExtResource("59_yi145")
+
+[node name="Sprite2D15" type="Sprite2D" parent="Backgrounds"]
+position = Vector2(521, -134.5)
+scale = Vector2(1.29167, 1.50368)
+texture = ExtResource("59_yi145")
+
+[node name="Sprite2D16" type="Sprite2D" parent="Backgrounds"]
+position = Vector2(88, -134.5)
+scale = Vector2(1, 1.09191)
+texture = ExtResource("59_yi145")
+
+[node name="Sprite2D17" type="Sprite2D" parent="Backgrounds"]
+position = Vector2(2018, -94.75)
+scale = Vector2(1.36589, 1.38419)
+texture = ExtResource("59_yi145")
+
+[node name="Sprite2D18" type="Sprite2D" parent="Backgrounds"]
+position = Vector2(2538, -94.75)
+scale = Vector2(1.36589, 1.38419)
+texture = ExtResource("59_yi145")
+
+[node name="Sprite2D19" type="Sprite2D" parent="Backgrounds"]
+position = Vector2(1839.06, -236.375)
+scale = Vector2(0.953451, 0.820772)
+texture = ExtResource("59_yi145")
+
+[node name="Sprite2D20" type="Sprite2D" parent="Backgrounds"]
+position = Vector2(2209.44, -240)
+scale = Vector2(0.997721, 0.820772)
+texture = ExtResource("59_yi145")
+
+[node name="Sprite2D21" type="Sprite2D" parent="Backgrounds"]
+z_index = -1
+position = Vector2(228.5, -214)
+scale = Vector2(3.73177, 2.43382)
+texture = ExtResource("59_yi145")
+
+[node name="Sprite2D22" type="Sprite2D" parent="Backgrounds"]
+z_index = -1
+position = Vector2(1426, -212)
+scale = Vector2(2.48438, 2.43382)
+texture = ExtResource("59_yi145")
+
+[node name="Sprite2D23" type="Sprite2D" parent="Backgrounds"]
+z_index = -1
+position = Vector2(2378, -211)
+scale = Vector2(2.48438, 2.43382)
+texture = ExtResource("59_yi145")
+
+[node name="Sprite2D24" type="Sprite2D" parent="Backgrounds"]
+position = Vector2(2584, -240)
+scale = Vector2(0.997721, 0.820772)
+texture = ExtResource("59_yi145")
 
 [node name="Enemigos" type="Node2D" parent="."]
 
@@ -532,4 +657,17 @@ position = Vector2(2135, -181)
 [node name="KeyArea" parent="." instance=ExtResource("63_x66kt")]
 position = Vector2(127, -249)
 
+[node name="GameOver" parent="." instance=ExtResource("64_68trn")]
+
+[node name="KeyCounter" type="CanvasLayer" parent="."]
+
+[node name="Label" type="Label" parent="KeyCounter"]
+offset_left = 11.0
+offset_top = 27.0
+offset_right = 303.0
+offset_bottom = 59.0
+theme_override_fonts/font = ExtResource("65_bed5i")
+theme_override_font_sizes/font_size = 27
+
+[connection signal="body_entered" from="Limits/Se cayo lol" to="Personaje" method="_on_se_cayo_lol_body_entered"]
 [connection signal="body_entered" from="PortalArea" to="Personaje" method="_on_portal_area_body_entered"]

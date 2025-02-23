@@ -6,6 +6,9 @@ extends Node2D
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	DialogueManager.show_example_dialogue_balloon( load("res://dialogos/map1Dialogue.dialogue"), "start" )
+	$GameOver.visible = false
+	ContoladorMap1.set_game_over_label($GameOver)
+	ContoladorMap1.set_keys_label($KeyCounter/Label)
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass

@@ -1,0 +1,80 @@
+[gd_scene load_steps=16 format=3 uid="uid://bhsjpa8el6j2"]
+
+[ext_resource type="Script" path="res://escenas/enemigo_3.gd" id="1_7yw7w"]
+[ext_resource type="Texture2D" uid="uid://dtsu4jyjq4wu8" path="res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0000.png" id="1_vwqyb"]
+[ext_resource type="Texture2D" uid="uid://bs3t2eyka5ivx" path="res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0001.png" id="2_ak2a2"]
+[ext_resource type="Texture2D" uid="uid://kteoy1wd45rw" path="res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0002.png" id="3_ujjwu"]
+[ext_resource type="Texture2D" uid="uid://gko5eul4rr06" path="res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0003.png" id="4_r8y4u"]
+[ext_resource type="Texture2D" uid="uid://jwgj6puc286e" path="res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0004.png" id="5_cm7lb"]
+[ext_resource type="Texture2D" uid="uid://btg3ygfpc4tcm" path="res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0005.png" id="6_nhnng"]
+[ext_resource type="Texture2D" uid="uid://dxfrcbp606mwt" path="res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0006.png" id="7_5234s"]
+[ext_resource type="Texture2D" uid="uid://7cfyicsi0ioi" path="res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0007.png" id="8_721jw"]
+[ext_resource type="Texture2D" uid="uid://kte514vwsp7t" path="res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0008.png" id="9_kthr7"]
+[ext_resource type="Texture2D" uid="uid://dnm5r1wqyax88" path="res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0009.png" id="10_fo70p"]
+[ext_resource type="Texture2D" uid="uid://b5q1es2sb3j56" path="res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0010.png" id="11_cjfrh"]
+[ext_resource type="Texture2D" uid="uid://bxotc28qabmyt" path="res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0011.png" id="12_sirmr"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_buldx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_vwqyb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_ak2a2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ujjwu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_r8y4u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_cm7lb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_nhnng")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_5234s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_721jw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_kthr7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_fo70p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_cjfrh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_sirmr")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0mx46"]
+radius = 13.0
+height = 82.0
+
+[node name="Enemigo3" type="CharacterBody2D" groups=["kill"]]
+script = ExtResource("1_7yw7w")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_buldx")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-6, -12, -10, -10, -10, 2, -11, 14, -12, 23, -13, 32, -13, 36, 7, 36, 9, 31, 9, 25, 8, 13, 8, -3, 5, -13, 6, -20, 8, -27, -4, -36, -7, -37, -10, -34, -11, -30, -11, -25, -9, -21, -7, -16)
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-2, 0)
+shape = SubResource("CapsuleShape2D_0mx46")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

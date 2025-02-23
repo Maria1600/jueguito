@@ -62,6 +62,10 @@ var _method_info_cache: Dictionary = {}
 
 var _dotnet_dialogue_manager: RefCounted
 
+# DialogueManager.gd
+signal answer_correct
+
+
 
 func _ready() -> void:
 	# Cache the known Node2D properties

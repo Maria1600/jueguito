@@ -1,8 +1,50 @@
-[gd_scene load_steps=2 format=3 uid="uid://c65mykxhru07r"]
+[gd_scene load_steps=6 format=3 uid="uid://c65mykxhru07r"]
 
+[ext_resource type="Script" path="res://escenas/canvas_layer.gd" id="1_edrle"]
 [ext_resource type="FontFile" uid="uid://cm4ptmmv5dm08" path="res://pixelout/Pixelout Personal Use Only.ttf" id="1_i6y2y"]
+[ext_resource type="StyleBox" uid="uid://djafplm5aofhm" path="res://sprites/styleButton.res" id="2_fclaj"]
 
-[node name="CanvasLayer" type="CanvasLayer"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x431o"]
+bg_color = Color(0.212824, 0.583799, 0.47949, 1)
+border_width_left = 1
+border_width_top = 2
+border_width_right = 1
+border_width_bottom = 2
+border_color = Color(0.214804, 0.588253, 0.483235, 1)
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+corner_detail = 13
+shadow_size = 5
+shadow_offset = Vector2(2, 2)
+anti_aliasing_size = 5.092
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qyk8y"]
+bg_color = Color(0.212824, 0.583799, 0.47949, 1)
+border_width_left = 1
+border_width_top = 2
+border_width_right = 1
+border_width_bottom = 2
+border_color = Color(0.214804, 0.588253, 0.483235, 1)
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+corner_detail = 13
+shadow_size = 5
+shadow_offset = Vector2(2, 2)
+anti_aliasing_size = 5.092
+
+[node name="GameOver" type="CanvasLayer"]
+script = ExtResource("1_edrle")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0, 0, 0, 0.6)
 
 [node name="Label" type="Label" parent="."]
 anchors_preset = 15
@@ -15,7 +57,7 @@ offset_bottom = -338.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_type_variation = &"HeaderLarge"
-theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(0.519878, 0.82746, 0.675893, 1)
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("1_i6y2y")
@@ -29,13 +71,39 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -250.0
-offset_top = 9.0
-offset_right = -74.0
-offset_bottom = 77.0
+offset_left = -273.0
+offset_top = 43.0
+offset_right = -77.0
+offset_bottom = 111.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_disabled_color = Color(1.08294e-06, 0.414995, 0.368665, 1)
 theme_override_colors/font_hover_pressed_color = Color(0, 0.501961, 0.447059, 1)
 theme_override_font_sizes/font_size = 18
+theme_override_styles/hover = ExtResource("2_fclaj")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_x431o")
+theme_override_styles/normal = ExtResource("2_fclaj")
 text = "Empezar de nuevo"
+
+[node name="Button2" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 44.0
+offset_top = 43.0
+offset_right = 220.0
+offset_bottom = 111.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_disabled_color = Color(1.08294e-06, 0.414995, 0.368665, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0.501961, 0.447059, 1)
+theme_override_font_sizes/font_size = 18
+theme_override_styles/hover = ExtResource("2_fclaj")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_qyk8y")
+theme_override_styles/normal = ExtResource("2_fclaj")
+text = "Volver al menu"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
