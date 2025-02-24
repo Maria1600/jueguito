@@ -1,0 +1,10 @@
+res://escenas/jugador.tscn
+res://sprites/styleButton.res
+res://escenas/character_body_2d.gd
+res://escenas/mapa_2.tscn
+res://escenas/mapa_1.tscn
+res://escenas/menu.tscn
+res://escenas/plataforma.tscn
+res://escenas/mapa_2.gd
+res://escenas/nps.gd
+res://escenas/victoria.tscn

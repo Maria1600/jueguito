@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cw8d0pi10pjh1"
+path="res://.godot/imported/Lanayru Sand Sea - The Legend of Zelda： Skyward Sword.mp3-afde9aef1814ed1aa0cfb4db7f851d92.mp3str"
+
+[deps]
+
+source_file="res://Musica/Lanayru Sand Sea - The Legend of Zelda： Skyward Sword.mp3"
+dest_files=["res://.godot/imported/Lanayru Sand Sea - The Legend of Zelda： Skyward Sword.mp3-afde9aef1814ed1aa0cfb4db7f851d92.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

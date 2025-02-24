@@ -9,6 +9,8 @@ var last_direction = 1  # 1 = Derecha, -1 = Izquierda (por defecto derecha)
 var llaves_recogidas: int = 0  # Variable para almacenar la cantidad de llaves recogidas
 @export var dialogue_resource: DialogueResource
 var muelto: bool = false
+@onready var sound_effect_death = $DeadAudio
+@onready var sound_effect_portal = $PortalAudio
 
 func _ready():
 	initial_position = position  # Guarda la posición inicial
@@ -48,11 +50,12 @@ func suma_llave():
 
 func _on_portal_area_body_entered(body: Node2D) -> void:
 	print("WOOO PORTAL")
-	if body.is_in_group("player"):  # Verifica si el cuerpo es el jugador
+	if body.is_in_group("player"):
+		sound_effect_portal.play()
 		if body.is_in_group("map2"):
 			if llaves_recogidas >= 5:
-				print("hheheheheh")  # Verifica si se ha recogido al menos una llave
-				#get_tree().change_scene_to_file("res://escenas/mapa_2.tscn")
+				print("hheheheheh")
+				get_tree().change_scene_to_file("res://escenas/victoria.tscn")
 			else:
 				reset_position()
 				DialogueManager.show_example_dialogue_balloon( load("res://dialogos/PortalDialogue.dialogue"), "start" )
@@ -68,13 +71,16 @@ func reset_position():
 	position = initial_position  # Restaura la posición inicial
 
 func muere():
-	muelto = true
-	if last_direction < 0:
-		animated_sprite.play("deathLeftDown")
-	else:
-		animated_sprite.play("deathRightDown")
-	ContoladorMap1.game_over.visible = true
-	print("Me muero")
+	if(!muelto):
+		muelto = true
+		if last_direction < 0:
+			animated_sprite.play("deathLeftDown")
+		else:
+			animated_sprite.play("deathRightDown")
+		sound_effect_death.play()
+		await get_tree().create_timer(1.0).timeout
+		ContoladorMap1.game_over.visible = true
+		print("Me muero")
 
 func _on_se_cayo_lol_body_entered(body: Node2D) -> void:
 	muere()

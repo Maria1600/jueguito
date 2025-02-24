@@ -53,5 +53,6 @@ func _on_areabruja_body_entered(body: Node2D) -> void:
 		if not dialogue_bruja:
 			DialogueManager.show_example_dialogue_balloon(load("res://dialogos/dialogueBruja.dialogue"), "start")
 			dialogue_bruja = true
+			get_parent().Habilita_plataformas()
 		else:
 			pass

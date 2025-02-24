@@ -1,0 +1,228 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_2xyk0"]
+
+[resource]
+script = ExtResource("1_2xyk0")
+using_states = PackedStringArray()
+titles = {
+"start": "1"
+}
+character_names = PackedStringArray("Caballero")
+first_title = "0"
+lines = {
+"0": {
+"id": "0",
+"next_id": "1",
+"type": "title"
+},
+"1": {
+"character": "Caballero",
+"id": "1",
+"next_id": "2",
+"text": "Hey tu la de ahi acercate.",
+"type": "dialogue"
+},
+"10": {
+"character": "Caballero",
+"id": "10",
+"next_id": "11",
+"text": "...",
+"type": "dialogue"
+},
+"11": {
+"character": "Caballero",
+"id": "11",
+"next_id": "14",
+"text": "Te lo acabo de decir, ¿estas sorda?",
+"type": "dialogue"
+},
+"12": {
+"id": "12",
+"next_id": "13",
+"text": "iuhjendfbsvgyusa",
+"type": "response"
+},
+"13": {
+"character": "Caballero",
+"id": "13",
+"next_id": "14",
+"text": "vaaale...",
+"type": "dialogue"
+},
+"14": {
+"character": "Caballero",
+"id": "14",
+"next_id": "15",
+"text": "De todas formas chica, te va ser dificil salir de aqui todo esta plagado de monstruos...",
+"type": "dialogue"
+},
+"15": {
+"character": "Caballero",
+"id": "15",
+"next_id": "16",
+"text": "Ademas de que este bosque es extraño... He intentando salir varias veces pero siempre vuelvo al punto de partida.",
+"type": "dialogue"
+},
+"16": {
+"id": "16",
+"next_id": "17",
+"responses": PackedStringArray("16", "18", "20", "21"),
+"text": "Vale eso es raro.",
+"type": "response"
+},
+"17": {
+"character": "Caballero",
+"id": "17",
+"next_id": "23",
+"text": "Y que lo digas...",
+"type": "dialogue"
+},
+"18": {
+"id": "18",
+"next_id": "19",
+"text": "Wao es un bosque magicooooo",
+"type": "response"
+},
+"19": {
+"character": "Caballero",
+"id": "19",
+"next_id": "23",
+"text": "No tiene gracia chica.",
+"type": "dialogue"
+},
+"2": {
+"character": "Caballero",
+"id": "2",
+"next_id": "3",
+"text": "No pensaba que me iba a encontrar con alguien mas aqui.",
+"type": "dialogue"
+},
+"20": {
+"id": "20",
+"next_id": "23",
+"text": "Umm... creo que deberia verlo por mi misma",
+"type": "response"
+},
+"21": {
+"id": "21",
+"next_id": "22",
+"text": "ewiubhfvnnpsswn ahcvvjhcxcb jsd",
+"type": "response"
+},
+"22": {
+"character": "Caballero",
+"id": "22",
+"next_id": "23",
+"text": "¿Chica estas bien?",
+"type": "dialogue"
+},
+"23": {
+"character": "Caballero",
+"id": "23",
+"next_id": "24",
+"text": "Si quieres intentarlo adelante pero ya te digo yo que no es nada facil...",
+"type": "dialogue"
+},
+"24": {
+"character": "Caballero",
+"id": "24",
+"next_id": "26",
+"text": "Yo estare aqui haciendome un asado de setas...",
+"type": "dialogue"
+},
+"25": {
+"id": "25",
+"next_id": "26",
+"type": ""
+},
+"26": {
+"id": "26",
+"is_snippet": false,
+"next_id": "end",
+"next_id_after": "",
+"type": "goto"
+},
+"27": {
+"id": "27",
+"is_snippet": false,
+"next_id": "end",
+"next_id_after": "",
+"type": "goto"
+},
+"3": {
+"character": "Caballero",
+"id": "3",
+"next_id": "4",
+"text": "Yo estaba persiguiendo a un criminal y sin querer acabe adentrandome en este bosque¿Y tu como acabaste aquí?.",
+"type": "dialogue"
+},
+"4": {
+"id": "4",
+"next_id": "5",
+"responses": PackedStringArray("4", "6", "9", "12"),
+"text": "No tengo ni idea",
+"type": "response"
+},
+"5": {
+"character": "Caballero",
+"id": "5",
+"next_id": "14",
+"text": "Bueno eso ahora no es importante...",
+"type": "dialogue"
+},
+"6": {
+"id": "6",
+"next_id": "7",
+"text": "Tenia curiosidad por ver como son los monstruos en realidad",
+"type": "response"
+},
+"7": {
+"character": "Caballero",
+"id": "7",
+"next_id": "8",
+"text": "...",
+"type": "dialogue"
+},
+"8": {
+"character": "Caballero",
+"id": "8",
+"next_id": "14",
+"text": "Tu en verdad estas loca, ¿verdad?",
+"type": "dialogue"
+},
+"9": {
+"id": "9",
+"next_id": "10",
+"text": "¿Y tu como has acabado aqui?",
+"type": "response"
+}
+}
+raw_text = "~ start
+Caballero: Hey tu la de ahi acercate.
+Caballero: No pensaba que me iba a encontrar con alguien mas aqui.
+Caballero: Yo estaba persiguiendo a un criminal y sin querer acabe adentrandome en este bosque¿Y tu como acabaste aquí?.
+- No tengo ni idea
+	Caballero: Bueno eso ahora no es importante...
+- Tenia curiosidad por ver como son los monstruos en realidad
+	Caballero: ...
+	Caballero: Tu en verdad estas loca, ¿verdad?
+- ¿Y tu como has acabado aqui?
+	Caballero: ...
+	Caballero: Te lo acabo de decir, ¿estas sorda?
+- iuhjendfbsvgyusa
+	Caballero: vaaale...
+Caballero: De todas formas chica, te va ser dificil salir de aqui todo esta plagado de monstruos...
+Caballero: Ademas de que este bosque es extraño... He intentando salir varias veces pero siempre vuelvo al punto de partida.
+- Vale eso es raro.
+	Caballero: Y que lo digas...
+- Wao es un bosque magicooooo
+	Caballero: No tiene gracia chica.
+- Umm... creo que deberia verlo por mi misma
+- ewiubhfvnnpsswn ahcvvjhcxcb jsd
+	Caballero: ¿Chica estas bien?
+Caballero: Si quieres intentarlo adelante pero ya te digo yo que no es nada facil...
+Caballero: Yo estare aqui haciendome un asado de setas...
+
+=> END"
+metadata/dialogue_manager_version = "3.3.2"

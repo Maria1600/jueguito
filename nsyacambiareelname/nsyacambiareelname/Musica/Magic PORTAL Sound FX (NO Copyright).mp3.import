@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bb3by1b145s2q"
+path="res://.godot/imported/Magic PORTAL Sound FX (NO Copyright).mp3-be0872947473fc0b3455da75e4f88fbc.mp3str"
+
+[deps]
+
+source_file="res://Musica/Magic PORTAL Sound FX (NO Copyright).mp3"
+dest_files=["res://.godot/imported/Magic PORTAL Sound FX (NO Copyright).mp3-be0872947473fc0b3455da75e4f88fbc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

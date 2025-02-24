@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://x1js5cloyc6l"
+path="res://.godot/imported/Wasted sound in GTA V ⧸ Sonido de muerte GTA V.mp3-c15729bbb2bd8e19bb0090d5066acc4f.mp3str"
+
+[deps]
+
+source_file="res://Musica/Wasted sound in GTA V ⧸ Sonido de muerte GTA V.mp3"
+dest_files=["res://.godot/imported/Wasted sound in GTA V ⧸ Sonido de muerte GTA V.mp3-c15729bbb2bd8e19bb0090d5066acc4f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

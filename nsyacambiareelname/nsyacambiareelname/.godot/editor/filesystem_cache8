@@ -1,0 +1,909 @@
+6b83eef13f46d74bce552f92a480ef09
+::res://::1740409864
+ContoladorMap1.gd::GDScript::-1::1740404452::0::1::::<>Node<>::
+default_bus_layout.tres::AudioBusLayout::8689734140368108122::1740404661::0::1::::<><>::
+icon.svg::CompressedTexture2D::3152999525401009480::1740151832::1740151929::1::::<><>::
+wizard_idle-removebg-preview.png::CompressedTexture2D::5647011820801747145::1740308491::1740308556::1::::<><>::
+::res://addons/::1740151846
+::res://addons/dialogue_manager/::1740316680
+constants.gd::GDScript::-1::1740151846::0::1::::DMConstants<>RefCounted<>::
+dialogue_label.gd::GDScript::-1::1740151846::0::1::::DialogueLabel<>RichTextLabel<>res://addons/dialogue_manager/assets/icon.svg::
+dialogue_label.tscn::PackedScene::5518490004210093266::1740151846::0::1::::<><>::uid://g32um0mltv5d::::res://addons/dialogue_manager/dialogue_label.gd
+dialogue_line.gd::GDScript::-1::1740151847::0::1::::DialogueLine<>RefCounted<>::
+dialogue_manager.gd::GDScript::-1::1740316680::0::1::::<>Node<>::
+dialogue_resource.gd::GDScript::-1::1740151847::0::1::::DialogueResource<>Resource<>res://addons/dialogue_manager/assets/icon.svg::
+dialogue_response.gd::GDScript::-1::1740151847::0::1::::DialogueResponse<>RefCounted<>::
+dialogue_responses_menu.gd::GDScript::-1::1740151847::0::1::::DialogueResponsesMenu<>Container<>res://addons/dialogue_manager/assets/responses_menu.svg::
+editor_translation_parser_plugin.gd::GDScript::-1::1740151847::0::1::::DMTranslationParserPlugin<>EditorTranslationParserPlugin<>::
+import_plugin.gd::GDScript::-1::1740151847::0::1::::DMImportPlugin<>EditorImportPlugin<>::
+inspector_plugin.gd::GDScript::-1::1740151847::0::1::::DMInspectorPlugin<>EditorInspectorPlugin<>::
+plugin.cfg::TextFile::-1::1740151847::0::1::::<><>::
+plugin.gd::GDScript::-1::1740151847::0::1::::<>EditorPlugin<>::
+settings.gd::GDScript::-1::1740151847::0::1::::DMSettings<>Node<>::
+test_scene.gd::GDScript::-1::1740151847::0::1::::BaseDialogueTestScene<>Node2D<>::
+test_scene.tscn::PackedScene::1416400481679934567::1740151847::0::1::::<><>::uid://c8e16qdgu40wo::::res://addons/dialogue_manager/test_scene.gd
+::res://addons/dialogue_manager/assets/::1740151930
+icon.svg::CompressedTexture2D::9148339284877624195::1740151847::1740151930::1::::<><>::
+responses_menu.svg::CompressedTexture2D::8371359403825774630::1740151847::1740151930::1::::<><>::
+update.svg::CompressedTexture2D::9126631778427806641::1740151847::1740151930::1::::<><>::
+::res://addons/dialogue_manager/compiler/::1740151848
+compilation.gd::GDScript::-1::1740151847::0::1::::DMCompilation<>RefCounted<>::
+compiled_line.gd::GDScript::-1::1740151847::0::1::::DMCompiledLine<>RefCounted<>::
+compiler.gd::GDScript::-1::1740151847::0::1::::DMCompiler<>RefCounted<>::
+compiler_regex.gd::GDScript::-1::1740151847::0::1::::DMCompilerRegEx<>RefCounted<>::
+compiler_result.gd::GDScript::-1::1740151847::0::1::::DMCompilerResult<>RefCounted<>::
+expression_parser.gd::GDScript::-1::1740151847::0::1::::DMExpressionParser<>RefCounted<>::
+resolved_goto_data.gd::GDScript::-1::1740151848::0::1::::DMResolvedGotoData<>RefCounted<>::
+resolved_line_data.gd::GDScript::-1::1740151848::0::1::::DMResolvedLineData<>RefCounted<>::
+resolved_tag_data.gd::GDScript::-1::1740151848::0::1::::DMResolvedTagData<>RefCounted<>::
+tree_line.gd::GDScript::-1::1740151848::0::1::::DMTreeLine<>RefCounted<>::
+::res://addons/dialogue_manager/components/::1740151848
+code_edit.gd::GDScript::-1::1740151848::0::1::::DMCodeEdit<>CodeEdit<>::
+code_edit.tscn::PackedScene::5379618807048408118::1740151848::0::1::::<><>::uid://klpiq4tk3t7a::::res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>uid://djeybvlb332mp::::res://addons/dialogue_manager/components/code_edit.gd
+code_edit_syntax_highlighter.gd::GDScript::-1::1740151848::0::1::::DMSyntaxHighlighter<>SyntaxHighlighter<>::
+download_update_panel.gd::GDScript::-1::1740151848::0::1::::<>Control<>::
+download_update_panel.tscn::PackedScene::1130642722554629364::1740151848::0::1::::<><>::uid://kpwo418lb2t2::::res://addons/dialogue_manager/components/download_update_panel.gd<>uid://d3baj6rygkb3f::::res://addons/dialogue_manager/assets/update.svg
+errors_panel.gd::GDScript::-1::1740151848::0::1::::<>HBoxContainer<>::
+errors_panel.tscn::PackedScene::6105315990352960875::1740151848::0::1::::<><>::uid://d2l8nlb6hhrfp::::res://addons/dialogue_manager/components/errors_panel.gd
+files_list.gd::GDScript::-1::1740151848::0::1::::<>VBoxContainer<>::
+files_list.tscn::PackedScene::8113335055803740416::1740151848::0::1::::<><>::uid://dqa4a4wwoo0aa::::res://addons/dialogue_manager/components/files_list.gd<>uid://d3lr2uas6ax8v::::res://addons/dialogue_manager/assets/icon.svg
+find_in_files.gd::GDScript::-1::1740151848::0::1::::<>Control<>::
+find_in_files.tscn::PackedScene::1783514634430556025::1740151848::0::1::::<><>::uid://q368fmxxa8sd::::res://addons/dialogue_manager/components/find_in_files.gd
+search_and_replace.gd::GDScript::-1::1740151848::0::1::::<>VBoxContainer<>::
+search_and_replace.tscn::PackedScene::458254375860855630::1740151848::0::1::::<><>::uid://cijsmjkq21cdq::::res://addons/dialogue_manager/components/search_and_replace.gd
+title_list.gd::GDScript::-1::1740151848::0::1::::<>VBoxContainer<>::
+title_list.tscn::PackedScene::6134415340044566558::1740151848::0::1::::<><>::uid://d0k2wndjj0ifm::::res://addons/dialogue_manager/components/title_list.gd
+update_button.gd::GDScript::-1::1740151848::0::1::::<>Button<>::
+update_button.tscn::PackedScene::5825087957514786930::1740151848::0::1::::<><>::uid://cr1tt12dh5ecr::::res://addons/dialogue_manager/components/update_button.gd<>uid://qdxrxv3c3hxk::::res://addons/dialogue_manager/components/download_update_panel.tscn
+::res://addons/dialogue_manager/components/editor_property/::1740151848
+editor_property.gd::GDScript::-1::1740151848::0::1::::<>EditorProperty<>::
+editor_property_control.gd::GDScript::-1::1740151848::0::1::::<>HBoxContainer<>::
+editor_property_control.tscn::PackedScene::1689506734256736329::1740151848::0::1::::<><>::uid://dooe2pflnqtve::::res://addons/dialogue_manager/components/editor_property/editor_property_control.gd<>uid://b16uuqjuof3n5::::res://addons/dialogue_manager/components/editor_property/resource_button.tscn<>uid://dnufpcdrreva3::::res://addons/dialogue_manager/components/files_list.tscn
+resource_button.gd::GDScript::-1::1740151848::0::1::::<>Button<>::
+resource_button.tscn::PackedScene::4276577239595711888::1740151848::0::1::::<><>::uid://damhqta55t67c::::res://addons/dialogue_manager/components/editor_property/resource_button.gd
+::res://addons/dialogue_manager/example_balloon/::1740315314
+example_balloon.gd::GDScript::-1::1740315314::0::1::::DialogueManagerExampleBalloon<>CanvasLayer<>::
+example_balloon.tscn::PackedScene::2304415056852043862::1740151849::0::1::::<><>::uid://d1wt4ma6055l8::::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>uid://bb52rsfwhkxbn::::res://addons/dialogue_manager/dialogue_responses_menu.gd
+small_example_balloon.tscn::PackedScene::1883859960814163368::1740151849::0::1::::<><>::uid://d1wt4ma6055l8::::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>uid://bb52rsfwhkxbn::::res://addons/dialogue_manager/dialogue_responses_menu.gd
+::res://addons/dialogue_manager/l10n/::1740151849
+en.mo::Translation::-1::1740151849::0::1::::<><>::
+en.po::Translation::-1::1740151849::0::1::::<><>::
+es.po::Translation::-1::1740151849::0::1::::<><>::
+uk.po::Translation::-1::1740151849::0::1::::<><>::
+zh.po::Translation::-1::1740151849::0::1::::<><>::
+zh_TW.po::Translation::-1::1740151849::0::1::::<><>::
+::res://addons/dialogue_manager/utilities/::1740151849
+builtins.gd::GDScript::-1::1740151849::0::1::::<>Object<>::
+dialogue_cache.gd::GDScript::-1::1740151849::0::1::::DMCache<>Node<>::
+::res://addons/dialogue_manager/views/::1740151849
+main_view.gd::GDScript::-1::1740151849::0::1::::<>Control<>::
+main_view.tscn::PackedScene::4884668666408697448::1740151849::0::1::::<><>::uid://cipjcc7bkh1pc::::res://addons/dialogue_manager/views/main_view.gd<>uid://civ6shmka5e8u::::res://addons/dialogue_manager/components/code_edit.tscn<>uid://dnufpcdrreva3::::res://addons/dialogue_manager/components/files_list.tscn<>uid://ctns6ouwwd68i::::res://addons/dialogue_manager/components/title_list.tscn<>uid://co8yl23idiwbi::::res://addons/dialogue_manager/components/update_button.tscn<>uid://gr8nakpbrhby::::res://addons/dialogue_manager/components/search_and_replace.tscn<>uid://cs8pwrxr5vxix::::res://addons/dialogue_manager/components/errors_panel.tscn<>uid://klpiq4tk3t7a::::res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>uid://0n7hwviyyly4::::res://addons/dialogue_manager/components/find_in_files.tscn
+::res://dialogos/::1740349236
+dialogue.dialogue::Resource::6357588531224457337::1740321578::1740326340::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
+dialogueBruja.dialogue::Resource::4249899471727438504::1740348099::1740349236::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
+map1Dialogue.dialogue::Resource::2687160815205215966::1740151849::1740151929::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
+PortalDialogue.dialogue::Resource::2157674900320249721::1740151849::1740151929::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
+::res://escenas/::1740411952
+canvas_layer.gd::GDScript::-1::1740252400::0::1::::<>CanvasLayer<>::
+canvas_layer.tscn::PackedScene::7011398876859499141::1740252450::0::1::::<><>::res://escenas/canvas_layer.gd<>uid://cm4ptmmv5dm08::::res://pixelout/Pixelout Personal Use Only.ttf<>uid://djafplm5aofhm::::res://sprites/styleButton.res
+character_body_2d.gd::GDScript::-1::1740407640::0::1::::<>CharacterBody2D<>::
+controles.tscn::PackedScene::6088195498897491775::1740252437::0::1::::<><>::uid://bpa8g5fh0vfxu::::res://pixelout/212 Keyboard.otf<>uid://jmfrjb8e5us8::::res://pixelout/Kibbe Granite.ttf<>uid://chbiljpp8fq0v::::res://pixelout/Woodtrap.ttf<>uid://bqggtcl317yg4::::res://sprites/controles/pointer-removebg-preview.png<>uid://bnpya71m5xcw5::::res://sprites/controles/keys-removebg-preview.png<>uid://dovl0opcvg18j::::res://sprites/controles/keys-removebg-preview (1).png<>uid://tlb3ed8qkhoa::::res://sprites/controles/keys-removebg-preview (2).png
+enemigo_1.gd::GDScript::-1::1740307695::0::1::::<>CharacterBody2D<>::
+enemigo_1.tscn::PackedScene::3028559685098617937::1740247098::0::1::::<><>::res://escenas/enemigo_1.gd<>uid://bm1caeqimsl7x::::res://sprites/Mushroom/Mushroom-LeftRun/sprite_0.png<>uid://bxkb2o5whyab::::res://sprites/Mushroom/Mushroom-LeftRun/sprite_1.png<>uid://blp7ymdyn45ms::::res://sprites/Mushroom/Mushroom-LeftRun/sprite_2.png<>uid://cmc4ssgoqa8tc::::res://sprites/Mushroom/Mushroom-LeftRun/sprite_3.png<>uid://kx64stsp1iqa::::res://sprites/Mushroom/Mushroom-LeftRun/sprite_4.png<>uid://clf64ayv1jwgc::::res://sprites/Mushroom/Mushroom-LeftRun/sprite_5.png<>uid://blkypsndtsu7w::::res://sprites/Mushroom/Mushroom-LeftRun/sprite_6.png<>uid://xvnw4utgtieg::::res://sprites/Mushroom/Mushroom-LeftRun/sprite_7.png<>uid://cmcngha50i3k3::::res://sprites/Mushroom/Mushroom-RightRun/sprite_0.png<>uid://bjus5riubqybw::::res://sprites/Mushroom/Mushroom-RightRun/sprite_1.png<>uid://mgb6rwsy5s84::::res://sprites/Mushroom/Mushroom-RightRun/sprite_2.png<>uid://bbdslcu80757b::::res://sprites/Mushroom/Mushroom-RightRun/sprite_3.png<>uid://ctdtoxnecot66::::res://sprites/Mushroom/Mushroom-RightRun/sprite_4.png<>uid://lv8lk2i1sw21::::res://sprites/Mushroom/Mushroom-RightRun/sprite_5.png<>uid://dv6hia07m14c8::::res://sprites/Mushroom/Mushroom-RightRun/sprite_6.png<>uid://dp1s1u0lbldks::::res://sprites/Mushroom/Mushroom-RightRun/sprite_7.png
+enemigo_2.gd::GDScript::-1::1740308274::0::1::::<>CharacterBody2D<>::
+enemigo_2.tscn::PackedScene::8615720559350020807::1740322661::0::1::::<><>::res://escenas/enemigo_2.gd<>uid://bd0jfrwdn5kqi::::res://sprites/skeletonAsset/skeletonMove-Sheet64x64.png
+enemigo_3.gd::GDScript::-1::1740325068::0::1::::<>CharacterBody2D<>::
+enemigo_3.tscn::PackedScene::85749255286826241::1740325068::0::1::::<><>::res://escenas/enemigo_3.gd<>uid://dtsu4jyjq4wu8::::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0000.png<>uid://bs3t2eyka5ivx::::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0001.png<>uid://kteoy1wd45rw::::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0002.png<>uid://gko5eul4rr06::::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0003.png<>uid://jwgj6puc286e::::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0004.png<>uid://btg3ygfpc4tcm::::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0005.png<>uid://dxfrcbp606mwt::::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0006.png<>uid://7cfyicsi0ioi::::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0007.png<>uid://kte514vwsp7t::::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0008.png<>uid://dnm5r1wqyax88::::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0009.png<>uid://b5q1es2sb3j56::::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0010.png<>uid://bxotc28qabmyt::::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0011.png
+enemigo_loco.gd::GDScript::-1::1740325136::0::1::::<>CharacterBody2D<>::
+enemigo_loco.tscn::PackedScene::854492344677722170::1740401990::0::1::::<><>::res://escenas/enemigo_loco.gd<>uid://c8dccn101le1w::::res://sprites/dark fantasy big boss walk.png
+jugador.tscn::PackedScene::2734692551322360362::1740410704::0::1::::<><>::res://escenas/character_body_2d.gd<>uid://cw0bhq47bnsc6::::res://sprites/The Female Adventurer - Free/death_Left_Down/sprite_0.png<>uid://bjwvqm3s7vxyo::::res://sprites/The Female Adventurer - Free/death_Left_Down/sprite_1.png<>uid://dws3xoghb2dr6::::res://sprites/The Female Adventurer - Free/death_Left_Down/sprite_2.png<>uid://c4xv7ag21khey::::res://sprites/The Female Adventurer - Free/death_Left_Down/sprite_3.png<>uid://wlgpy4sxdiux::::res://sprites/The Female Adventurer - Free/death_Left_Down/sprite_4.png<>uid://du5gopvwop6ct::::res://sprites/The Female Adventurer - Free/death_Left_Down/sprite_5.png<>uid://c08sar0ayh4xk::::res://sprites/The Female Adventurer - Free/death_Left_Down/sprite_6.png<>uid://ctpvlefdidiut::::res://sprites/The Female Adventurer - Free/death_Left_Down/sprite_7.png<>uid://db6723pvtqn2i::::res://sprites/The Female Adventurer - Free/death_Right_Down/sprite_0.png<>uid://baygmuf4yhbug::::res://sprites/The Female Adventurer - Free/death_Right_Down/sprite_1.png<>uid://tnskq3p3lckt::::res://sprites/The Female Adventurer - Free/death_Right_Down/sprite_2.png<>uid://bl1prp7ppkmvp::::res://sprites/The Female Adventurer - Free/death_Right_Down/sprite_3.png<>uid://c0wrq8uepjho7::::res://sprites/The Female Adventurer - Free/death_Right_Down/sprite_4.png<>uid://do840h7i5nujs::::res://sprites/The Female Adventurer - Free/death_Right_Down/sprite_5.png<>uid://dlivyaotbs2wi::::res://sprites/The Female Adventurer - Free/death_Right_Down/sprite_6.png<>uid://cxefftwokthvh::::res://sprites/The Female Adventurer - Free/death_Right_Down/sprite_7.png<>uid://c6fwcp25yui8e::::res://sprites/The Female Adventurer - Free/IdleSeparadoLeftDown/Idle_Left_Down_frame_0.png<>uid://d07p40vqdtax4::::res://sprites/The Female Adventurer - Free/IdleSeparadoLeftDown/Idle_Left_Down_frame_1.png<>uid://cpw8ctd0nkkbn::::res://sprites/The Female Adventurer - Free/IdleSeparadoLeftDown/Idle_Left_Down_frame_2.png<>uid://bdtc2mynfqop0::::res://sprites/The Female Adventurer - Free/IdleSeparadoLeftDown/Idle_Left_Down_frame_3.png<>uid://conyg0o44ay8w::::res://sprites/The Female Adventurer - Free/IdleSeparadoLeftDown/Idle_Left_Down_frame_4.png<>uid://855xj2p37spr::::res://sprites/The Female Adventurer - Free/IdleSeparadoLeftDown/Idle_Left_Down_frame_5.png<>uid://jcuadjrhkaxd::::res://sprites/The Female Adventurer - Free/IdleSeparadoLeftDown/Idle_Left_Down_frame_6.png<>uid://d4lwblpcjb3f4::::res://sprites/The Female Adventurer - Free/IdleSeparadoLeftDown/Idle_Left_Down_frame_7.png<>uid://nlo32bx4el74::::res://sprites/The Female Adventurer - Free/IdleSeparadoRightDown/frame_0.png<>uid://bp2727541d8qt::::res://sprites/The Female Adventurer - Free/IdleSeparadoRightDown/frame_1.png<>uid://4m2jyv85o7qh::::res://sprites/The Female Adventurer - Free/IdleSeparadoRightDown/frame_2.png<>uid://mrlb4skg71ix::::res://sprites/The Female Adventurer - Free/IdleSeparadoRightDown/frame_3.png<>uid://bj28x5oh08iqo::::res://sprites/The Female Adventurer - Free/IdleSeparadoRightDown/frame_4.png<>uid://co6hy2ylpod7l::::res://sprites/The Female Adventurer - Free/IdleSeparadoRightDown/frame_5.png<>uid://r2vfu5sssy02::::res://sprites/The Female Adventurer - Free/IdleSeparadoRightDown/frame_6.png<>uid://j0adb1wwsqhr::::res://sprites/The Female Adventurer - Free/IdleSeparadoRightDown/frame_7.png<>uid://deqifwoc8ueb2::::res://sprites/The Female Adventurer - Free/walk_Left_Down/sprite_0.png<>uid://bfxncvbsb2i44::::res://sprites/The Female Adventurer - Free/walk_Left_Down/sprite_1.png<>uid://bjv1ypwvd0417::::res://sprites/The Female Adventurer - Free/walk_Left_Down/sprite_2.png<>uid://337dlenmdnlo::::res://sprites/The Female Adventurer - Free/walk_Left_Down/sprite_3.png<>uid://brjtolpfstaa7::::res://sprites/The Female Adventurer - Free/walk_Left_Down/sprite_4.png<>uid://bx5mc3kc8j7eo::::res://sprites/The Female Adventurer - Free/walk_Left_Down/sprite_5.png<>uid://cu15hn2lb7r85::::res://sprites/The Female Adventurer - Free/walk_Left_Down/sprite_6.png<>uid://cqncdd2kmxqsk::::res://sprites/The Female Adventurer - Free/walk_Left_Down/sprite_7.png<>uid://dn35rbtbuy07::::res://sprites/The Female Adventurer - Free/walk_Right_Down/sprite_0.png<>uid://bkn0a12pcxpv0::::res://sprites/The Female Adventurer - Free/walk_Right_Down/sprite_1.png<>uid://qq15g3kbmvi8::::res://sprites/The Female Adventurer - Free/walk_Right_Down/sprite_2.png<>uid://dt3ucauhx335::::res://sprites/The Female Adventurer - Free/walk_Right_Down/sprite_3.png<>uid://dkdxdvpjtdm4x::::res://sprites/The Female Adventurer - Free/walk_Right_Down/sprite_4.png<>uid://dekkq232k4jxb::::res://sprites/The Female Adventurer - Free/walk_Right_Down/sprite_5.png<>uid://b3n2dc1286bre::::res://sprites/The Female Adventurer - Free/walk_Right_Down/sprite_6.png<>uid://cwfrrnn4j68f4::::res://sprites/The Female Adventurer - Free/walk_Right_Down/sprite_7.png<>uid://x1js5cloyc6l::::res://Musica/Wasted sound in GTA V ⧸ Sonido de muerte GTA V.mp3<>uid://bwkn5vshiddwd::::res://Musica/portall.mp3
+key_area.gd::GDScript::-1::1740404468::0::1::::<>Area2D<>::
+key_area.tscn::PackedScene::319216284868094941::1740404522::0::1::::<><>::res://escenas/key_area.gd<>uid://p1rrqwrbhgcp::::res://sprites/key_32x32_24f/sprite_00.png<>uid://d0m3p8wcqvae6::::res://sprites/key_32x32_24f/sprite_01.png<>uid://c7inj3rd7gv1k::::res://sprites/key_32x32_24f/sprite_02.png<>uid://tf736v8fomgh::::res://sprites/key_32x32_24f/sprite_03.png<>uid://8dg2mgwt78c4::::res://sprites/key_32x32_24f/sprite_04.png<>uid://bci3yof1sxvhn::::res://sprites/key_32x32_24f/sprite_05.png<>uid://dauw018oj25pw::::res://sprites/key_32x32_24f/sprite_06.png<>uid://cxb482le71cse::::res://sprites/key_32x32_24f/sprite_07.png<>uid://fjf08lytckc8::::res://sprites/key_32x32_24f/sprite_08.png<>uid://14x5y6ldqx51::::res://sprites/key_32x32_24f/sprite_09.png<>uid://cd2wcxc3mb4ke::::res://sprites/key_32x32_24f/sprite_10.png<>uid://1yo7myruaweo::::res://sprites/key_32x32_24f/sprite_11.png<>uid://c455cpquoltwi::::res://sprites/key_32x32_24f/sprite_12.png<>uid://x17igrdcpcjn::::res://sprites/key_32x32_24f/sprite_13.png<>uid://bl67r88vo36sq::::res://sprites/key_32x32_24f/sprite_14.png<>uid://cahlc0s2cn1nn::::res://sprites/key_32x32_24f/sprite_15.png<>uid://bsdfgegaa8vg8::::res://sprites/key_32x32_24f/sprite_16.png<>uid://bfya2dtxcpkcd::::res://sprites/key_32x32_24f/sprite_17.png<>uid://b0mwxn6e5nydh::::res://sprites/key_32x32_24f/sprite_18.png<>uid://cu4sycfa6ql2n::::res://sprites/key_32x32_24f/sprite_19.png<>uid://c4yitakvcmnq::::res://sprites/key_32x32_24f/sprite_20.png<>uid://bpbks7fjq02en::::res://sprites/key_32x32_24f/sprite_21.png<>uid://c81mmjuewgnf::::res://sprites/key_32x32_24f/sprite_22.png<>uid://msey7hy61u7u::::res://sprites/key_32x32_24f/sprite_23.png<>uid://cefds1hesatl3::::res://Musica/pick.mp3
+mapa_1.gd::GDScript::-1::1740404418::0::1::::<>Node2D<>::
+mapa_1.tscn::PackedScene::1774969142343735378::1740410704::0::1::::<><>::res://escenas/mapa_1.gd<>uid://dvqd0ofsn368a::::res://sprites/2D_SL_Knight_v1.0/Pray/sprite_0.png<>res://escenas/node_2d.gd<>uid://ctld6pfbnxxhe::::res://escenas/suelillo.tscn<>uid://be7x8syjhvq6u::::res://escenas/jugador.tscn<>uid://b4y48f8bsahfd::::res://sprites/2D_SL_Knight_v1.0/Pray/sprite_1.png<>uid://dw2cjswhsbsts::::res://sprites/2D_SL_Knight_v1.0/Pray/sprite_2.png<>uid://blvpcpidl0vrx::::res://sprites/2D_SL_Knight_v1.0/Pray/sprite_3.png<>uid://dw4sp8ut4offw::::res://sprites/2D_SL_Knight_v1.0/Pray/sprite_4.png<>uid://dnjv5b1u3topf::::res://sprites/2D_SL_Knight_v1.0/Pray/sprite_5.png<>uid://8qtm5f3bn8e0::::res://sprites/2D_SL_Knight_v1.0/Pray/sprite_6.png<>uid://dtd03ujgpd70n::::res://sprites/2D_SL_Knight_v1.0/Pray/sprite_7.png<>uid://bxewu4xf58alg::::res://sprites/Hoguera-removebg-preview.png<>uid://b8ekc60roov8g::::res://sprites/Fuego/1_1.png<>uid://bjfb62qjyuf5b::::res://escenas/enemigo_1.tscn<>uid://dpx3cdimlstso::::res://sprites/Fuego/1_2.png<>uid://bppgug1b4dr8v::::res://sprites/Fuego/1_3.png<>uid://cjmfyenapxus1::::res://sprites/Fuego/1_4.png<>uid://vrf81obudbu0::::res://sprites/Fuego/1_5.png<>uid://bjp3nwrr1g2r5::::res://sprites/Fuego/1_6.png<>uid://cnhw5mgemogsi::::res://sprites/Fuego/1_7.png<>uid://dne6wn8v5qgna::::res://sprites/Fuego/1_8.png<>uid://csv57krvaeqlv::::res://sprites/Fuego/1_9.png<>uid://budgkvaykfidr::::res://sprites/Fuego/1_10.png<>uid://cx0qylp2px0bh::::res://sprites/Fuego/1_11.png<>uid://5cm31hab33k1::::res://sprites/Fuego/1_12.png<>uid://dq56wa4i5b05g::::res://sprites/Fuego/1_13.png<>uid://dup0e5y2m257y::::res://sprites/Fuego/1_14.png<>uid://rh116favel4j::::res://sprites/Mushroom/Mushroom-Stun/sprite_00.png<>uid://c103b4hhpwfu0::::res://sprites/Mushroom/Mushroom-Stun/sprite_01.png<>uid://n030d5ncmhke::::res://sprites/Mushroom/Mushroom-Stun/sprite_02.png<>uid://dru3wsl4jt4pv::::res://sprites/Mushroom/Mushroom-Stun/sprite_03.png<>uid://1gvxhmj60lbu::::res://sprites/Mushroom/Mushroom-Stun/sprite_04.png<>uid://dia4g78g5xf65::::res://sprites/Mushroom/Mushroom-Stun/sprite_05.png<>uid://1xyiyc4pol82::::res://sprites/Mushroom/Mushroom-Stun/sprite_06.png<>uid://duyx6ywdprdpr::::res://sprites/Mushroom/Mushroom-Stun/sprite_07.png<>uid://bh1uvgcpnai5j::::res://sprites/Mushroom/Mushroom-Stun/sprite_08.png<>uid://cumssye2uowsx::::res://sprites/Mushroom/Mushroom-Stun/sprite_09.png<>uid://biepuxenrddkt::::res://sprites/Mushroom/Mushroom-Stun/sprite_10.png<>uid://c1ahh5p7pxipm::::res://sprites/Mushroom/Mushroom-Stun/sprite_11.png<>uid://d43t574khkfl::::res://sprites/Mushroom/Mushroom-Stun/sprite_12.png<>uid://df78lbskvtgvt::::res://sprites/Mushroom/Mushroom-Stun/sprite_13.png<>uid://y6w0agtnrei::::res://sprites/Mushroom/Mushroom-Stun/sprite_14.png<>uid://be7akspgyd62d::::res://sprites/Mushroom/Mushroom-Stun/sprite_15.png<>uid://b3isjol0gw8se::::res://sprites/Mushroom/Mushroom-Stun/sprite_16.png<>uid://xilp5j06odjq::::res://sprites/Mushroom/Mushroom-Stun/sprite_17.png<>uid://cxiq8bbx860l1::::res://sprites/Mushroom/Mushroom-Die.png<>uid://v1blrh0cd3em::::res://sprites/Undead executioner puppet/summonAppear/sprite_0.png<>uid://dt8qjngu1s2g5::::res://sprites/Undead executioner puppet/summonAppear/sprite_1.png<>uid://0x1xmciuwpnp::::res://sprites/Undead executioner puppet/summonAppear/sprite_2.png<>uid://s0difvnj7o8e::::res://sprites/Undead executioner puppet/summonAppear/sprite_3.png<>uid://6e1v4t8j4ldv::::res://sprites/Undead executioner puppet/summonAppear/sprite_4.png<>uid://bmfspn5irfwj2::::res://sprites/Undead executioner puppet/summonAppear/sprite_5.png<>uid://cyoqyaq0p7bsd::::res://sprites/Undead executioner puppet/summonIdle/sprite_0.png<>uid://o0htn5prca45::::res://sprites/Undead executioner puppet/summonIdle/sprite_1.png<>uid://nm7qvcstr4im::::res://sprites/Undead executioner puppet/summonIdle/sprite_2.png<>uid://l244fhnp4xpa::::res://sprites/Undead executioner puppet/summonIdle/sprite_3.png<>uid://cw8gjdu0n52hl::::res://sprites/Forest of Illusion Files/Forest of Illusion Files/Layers/back.png<>uid://bgw30wxok281t::::res://sprites/Forest of Illusion Files/Forest of Illusion Files/Layers/middle.png<>uid://cdwq0npbsho28::::res://sprites/Forest of Illusion Files/suelo.png<>uid://esvpfc3f0d62::::res://escenas/key_area.tscn<>uid://c65mykxhru07r::::res://escenas/canvas_layer.tscn<>uid://chbiljpp8fq0v::::res://pixelout/Woodtrap.ttf<>uid://cefds1hesatl3::::res://Musica/pick.mp3<>uid://clspiay0gujqa::::res://Musica/La Aldea En El Bosque - Música Orquestal⧸Cinemática⧸Videojuegos.mp3<>uid://b273dto5d2htw::::res://escenas/portal_area.tscn<>uid://7t4rmqnkmklj::::res://sprites/craftpix-net-610575-free-street-animal-pixel-art-asset-pack/3 Cat/Idle.png<>uid://dtvaox0yvls27::::res://sprites/craftpix-net-610575-free-street-animal-pixel-art-asset-pack/4 Cat 2/Idle.png<>uid://c4s4d87eha8fo::::res://sprites/craftpix-net-610575-free-street-animal-pixel-art-asset-pack/7 Bird/Idle.png
+mapa_2.gd::GDScript::-1::1740410523::0::1::::<>Node2D<>::
+mapa_2.tscn::PackedScene::6703318251621921472::1740410739::0::1::::<><>::res://escenas/mapa_2.gd<>uid://be7x8syjhvq6u::::res://escenas/jugador.tscn<>uid://c65mykxhru07r::::res://escenas/canvas_layer.tscn<>uid://chbiljpp8fq0v::::res://pixelout/Woodtrap.ttf<>uid://dclhshnnlxu2g::::res://sprites/Tileset/00Atlas.png<>uid://d21h85f5paqcs::::res://sprites/Free Pixel Art Forest/Preview/Background.png<>uid://b273dto5d2htw::::res://escenas/portal_area.tscn<>uid://esvpfc3f0d62::::res://escenas/key_area.tscn<>uid://du0rwnvbtjl7d::::res://escenas/enemigo_2.tscn<>uid://bhsjpa8el6j2::::res://escenas/enemigo_3.tscn<>uid://mf6mm4teg2jm::::res://escenas/enemigo_loco.tscn<>res://escenas/nps.gd<>uid://b7hnhvmx2vynt::::res://sprites/wizard_idle-removebg-preview.png<>uid://bksc7g7u7jpcc::::res://sprites/Eleonore/Idle/Idle1.png<>uid://24eggqnkcxny::::res://sprites/Eleonore/Idle/Idle2.png<>uid://lcfbftjdqcyt::::res://sprites/Eleonore/Idle/Idle3.png<>uid://cg5o4104fvvx0::::res://sprites/Eleonore/Idle/Idle4.png<>uid://bixd5ajkcren4::::res://sprites/Eleonore/Idle/Idle5.png<>uid://t12tg1y532kq::::res://sprites/Eleonore/Idle/Idle6.png<>uid://cagkcfrys8kvq::::res://sprites/Eleonore/Idle/Idle7.png<>uid://cuq2lb641c4fp::::res://sprites/Eleonore/Idle/Idle8.png<>uid://duqlbq4d0f6rd::::res://sprites/Eleonore/Idle/Idle9.png<>uid://i4jmlr0rtup0::::res://sprites/2D_SL_Knight_v1.0/Death.png<>uid://d0s374rjl233d::::res://sprites/skeletonAsset/skeletonDie-Sheet32x32_head.png<>uid://630mtvvt28g::::res://sprites/Ball and Chain Bot/idle.png<>uid://v1blrh0cd3em::::res://sprites/Undead executioner puppet/summonAppear/sprite_0.png<>uid://dt8qjngu1s2g5::::res://sprites/Undead executioner puppet/summonAppear/sprite_1.png<>uid://0x1xmciuwpnp::::res://sprites/Undead executioner puppet/summonAppear/sprite_2.png<>uid://s0difvnj7o8e::::res://sprites/Undead executioner puppet/summonAppear/sprite_3.png<>uid://6e1v4t8j4ldv::::res://sprites/Undead executioner puppet/summonAppear/sprite_4.png<>uid://bmfspn5irfwj2::::res://sprites/Undead executioner puppet/summonAppear/sprite_5.png<>uid://cyoqyaq0p7bsd::::res://sprites/Undead executioner puppet/summonIdle/sprite_0.png<>uid://o0htn5prca45::::res://sprites/Undead executioner puppet/summonIdle/sprite_1.png<>uid://nm7qvcstr4im::::res://sprites/Undead executioner puppet/summonIdle/sprite_2.png<>uid://l244fhnp4xpa::::res://sprites/Undead executioner puppet/summonIdle/sprite_3.png<>uid://kxvlxfi3nf3n::::res://Musica/Dark Forest Ambient Music - (Royalty Free).mp3<>uid://cefds1hesatl3::::res://Musica/pick.mp3<>uid://dvq0dlcs2da7e::::res://escenas/plataforma.tscn
+menu.gd::GDScript::-1::1740252355::0::1::::<>Node2D<>::
+menu.tscn::PackedScene::3648322595040179726::1740410704::0::1::::<><>::uid://bos3l4sajmyn8::::res://sprites/fores.jpg<>res://escenas/menu.gd<>uid://jmfrjb8e5us8::::res://pixelout/Kibbe Granite.ttf<>uid://cs0fxqck0pdsh::::res://escenas/controles.tscn<>uid://cw8d0pi10pjh1::::res://Musica/Lanayru Sand Sea - The Legend of Zelda： Skyward Sword.mp3
+node_2d.gd::GDScript::-1::1740151849::0::1::::<>Node2D<>::
+nps.gd::GDScript::-1::1740410619::0::1::::<>Node2D<>::
+portal_area.gd::GDScript::-1::1740151849::0::1::::<>Area2D<>::
+portal_area.tscn::PackedScene::4349286004168120192::1740247099::0::1::::<><>::res://escenas/portal_area.gd<>uid://dpl7mef0g7574::::res://sprites/spr_portal_strip8/sprite_0.png<>uid://c8oku7ey4dvtc::::res://sprites/spr_portal_strip8/sprite_1.png<>uid://b5st8dyoeclqb::::res://sprites/spr_portal_strip8/sprite_2.png<>uid://btpv2jxhtpnl::::res://sprites/spr_portal_strip8/sprite_3.png<>uid://0lqgwu3u454d::::res://sprites/spr_portal_strip8/sprite_4.png<>uid://bgdjjso6oqxss::::res://sprites/spr_portal_strip8/sprite_5.png<>uid://cuh3xf8t675rx::::res://sprites/spr_portal_strip8/sprite_6.png<>uid://dop1xr2qkdxht::::res://sprites/spr_portal_strip8/sprite_7.png
+plataforma.tscn::PackedScene::8667781675444314060::1740410704::0::1::::<><>::uid://dd3d1vav8c84h::::res://sprites/platform.png
+victoria.tscn::PackedScene::7655215835253107497::1740411952::0::1::::<><>::uid://be7x8syjhvq6u::::res://escenas/jugador.tscn<>uid://1h34muh7amxc::::res://Musica/Epilogue (The Legend of Zelda： Breath of the Wild OST).mp3
+suelillo.tscn::PackedScene::6129375858030838966::1740247098::0::1::::<><>::uid://fpaqncyw2kdx::::res://sprites/Forest of Illusion Files/Forest of Illusion Files/Layers/tiles.png
+tope.gd::GDScript::-1::1740314285::0::1::::<>RigidBody2D<>::
+::res://Musica/::1740407217
+Dark Forest Ambient Music - (Royalty Free).mp3::AudioStreamMP3::750665041467242177::1740400193::1740400988::1::::<><>::
+Epilogue (The Legend of Zelda： Breath of the Wild OST).mp3::AudioStreamMP3::1841113104225078816::1740400774::1740400988::1::::<><>::
+La Aldea En El Bosque - Música Orquestal⧸Cinemática⧸Videojuegos.mp3::AudioStreamMP3::5583002526440377060::1740400486::1740400988::1::::<><>::
+Lanayru Sand Sea - The Legend of Zelda： Skyward Sword.mp3::AudioStreamMP3::6385347990556826100::1740400417::1740400988::1::::<><>::
+Magic PORTAL Sound FX (NO Copyright).mp3::AudioStreamMP3::2514517048864474926::1740400582::1740400988::1::::<><>::
+Minecraft Item Pickup Sound Effect-[AudioTrimmer.com].mp3::AudioStreamMP3::7281902400602768328::1740402760::1740402799::1::::<><>::
+pick.mp3::AudioStreamMP3::5064134302603770814::1740402760::1740404017::1::::<><>::
+portall.mp3::AudioStreamMP3::3952063047119215475::1740407169::1740407217::1::::<><>::
+Wasted sound in GTA V ⧸ Sonido de muerte GTA V.mp3::AudioStreamMP3::1668597401815043505::1740400645::1740400988::1::::<><>::
+::res://pixelout/::1740250713
+212 Keyboard Functions.otf::FontFile::3372820325247397619::1740250707::1740250713::1::::<><>::
+212 Keyboard.otf::FontFile::3441269297565124238::1740250707::1740250713::1::::<><>::
+Keytip.ttf::FontFile::1848256722116564718::1740245576::1740245582::1::::<><>::
+Kibbe Granite.ttf::FontFile::656806545012097253::1740245560::1740245582::1::::<><>::
+Pixelout Personal Use Only.ttf::FontFile::5675919780698235579::1740151849::1740151929::1::::<><>::
+Woodtrap.ttf::FontFile::5266733526889638015::1740245568::1740245582::1::::<><>::
+::res://sprites/::1740412617
+dark fantasy big boss walk.png::CompressedTexture2D::7095392070416327730::1740249456::1740249485::1::::<><>::
+fores.jpg::CompressedTexture2D::3407944564725205803::1740249593::1740249612::1::::<><>::
+forest.jpg::CompressedTexture2D::4949430065040244277::1740249365::1740249485::1::::<><>::
+Hoguera-removebg-preview.png::CompressedTexture2D::4010394647079265476::1740151849::1740151929::1::::<><>::
+pixel-art-village-scene-with-charming-houses-towering-castle-distance_14117-1102598.jpg::CompressedTexture2D::3045277975945273447::1740412574::1740412625::1::::<><>::
+platform.png::CompressedTexture2D::7427860844715614501::1740409336::1740409384::1::::<><>::
+styleButton.res::StyleBoxFlat::7791292613352123966::1740407295::0::1::::<><>::
+wizard idle.png::CompressedTexture2D::4373836054791381341::1740151849::1740151929::1::::<><>::
+wizard_idle-removebg-preview.png::CompressedTexture2D::4647717268461809509::1740308491::1740308556::1::::<><>::
+::res://sprites/2D_SL_Knight_v1.0/::1740151930
+_Info.txt::TextFile::-1::1740151850::0::1::::<><>::
+Attacks.png::CompressedTexture2D::7692157898364621601::1740151850::1740151930::1::::<><>::
+attack_from_air.png::CompressedTexture2D::6459390446699359731::1740151850::1740151930::1::::<><>::
+Climb.png::CompressedTexture2D::3781931368799620664::1740151850::1740151930::1::::<><>::
+crouch_attacks.png::CompressedTexture2D::19845000886938614::1740151850::1740151930::1::::<><>::
+crouch_idle.png::CompressedTexture2D::1204052916404093870::1740151850::1740151930::1::::<><>::
+Death.png::CompressedTexture2D::621946191611649903::1740151850::1740151930::1::::<><>::
+Hanging.png::CompressedTexture2D::2091647322127737479::1740151850::1740151930::1::::<><>::
+Health.png::CompressedTexture2D::6208015164492826139::1740151850::1740151930::1::::<><>::
+Hurt.png::CompressedTexture2D::6025842703932383855::1740151850::1740151930::1::::<><>::
+Idle.png::CompressedTexture2D::3418854537045764082::1740151850::1740151930::1::::<><>::
+Jump.png::CompressedTexture2D::8254769956953735982::1740151850::1740151930::1::::<><>::
+license.txt::TextFile::-1::1740151850::0::1::::<><>::
+Pray.png::CompressedTexture2D::6330421049341004928::1740151850::1740151930::1::::<><>::
+Roll.png::CompressedTexture2D::7023685339375990589::1740151850::1740151930::1::::<><>::
+Run.png::CompressedTexture2D::2591083064822747625::1740151850::1740151930::1::::<><>::
+Slide.png::CompressedTexture2D::2724398071647239436::1740151850::1740151930::1::::<><>::
+::res://sprites/2D_SL_Knight_v1.0/_PSD/::1740151851
+::res://sprites/2D_SL_Knight_v1.0/Pray/::1740151930
+sprite_0.png::CompressedTexture2D::8666485351256133006::1740151850::1740151930::1::::<><>::
+sprite_1.png::CompressedTexture2D::4473262252947358025::1740151850::1740151930::1::::<><>::
+sprite_2.png::CompressedTexture2D::8759293296354469096::1740151850::1740151930::1::::<><>::
+sprite_3.png::CompressedTexture2D::3202765023386720261::1740151850::1740151930::1::::<><>::
+sprite_4.png::CompressedTexture2D::8764405023831345012::1740151850::1740151930::1::::<><>::
+sprite_5.png::CompressedTexture2D::8091625142460659091::1740151850::1740151930::1::::<><>::
+sprite_6.png::CompressedTexture2D::2350438521208050525::1740151850::1740151930::1::::<><>::
+sprite_7.png::CompressedTexture2D::8500612205175652455::1740151850::1740151930::1::::<><>::
+::res://sprites/Ball and Chain Bot/::1740249485
+attack.png::CompressedTexture2D::6360447817953197713::1740249426::1740249485::1::::<><>::
+charge.png::CompressedTexture2D::2559679289802707735::1740249426::1740249485::1::::<><>::
+death.png::CompressedTexture2D::3216661215280691309::1740249426::1740249485::1::::<><>::
+hit.png::CompressedTexture2D::2250229554314216232::1740249426::1740249485::1::::<><>::
+idle.png::CompressedTexture2D::65741091635408156::1740249426::1740249485::1::::<><>::
+run.png::CompressedTexture2D::2574794773772939701::1740249426::1740249485::1::::<><>::
+transition to charge.png::CompressedTexture2D::1939454637551841603::1740249426::1740249485::1::::<><>::
+::res://sprites/controles/::1740251455
+keys-removebg-preview (1).png::CompressedTexture2D::8185971085233234515::1740251279::1740251455::1::::<><>::
+keys-removebg-preview (2).png::CompressedTexture2D::1356407119888342184::1740251333::1740251455::1::::<><>::
+keys-removebg-preview.png::CompressedTexture2D::3331300246623155498::1740251263::1740251455::1::::<><>::
+keys.png::CompressedTexture2D::1451809941615386093::1740251184::1740251455::1::::<><>::
+pointer-removebg-preview.png::CompressedTexture2D::3522226803814540841::1740251210::1740251455::1::::<><>::
+::res://sprites/craftpix-net-610575-free-street-animal-pixel-art-asset-pack/::1740151931
+Coupon by craftpix.png::CompressedTexture2D::3615263164758316578::1740151851::1740151931::1::::<><>::
+Font.txt::TextFile::-1::1740151851::0::1::::<><>::
+license.txt::TextFile::-1::1740151851::0::1::::<><>::
+::res://sprites/craftpix-net-610575-free-street-animal-pixel-art-asset-pack/1 Dog/::1740151930
+Attack.png::CompressedTexture2D::8013695985476625503::1740151851::1740151930::1::::<><>::
+Death.png::CompressedTexture2D::2926643841738864353::1740151851::1740151930::1::::<><>::
+Hurt.png::CompressedTexture2D::9068031127319995042::1740151851::1740151930::1::::<><>::
+Idle.png::CompressedTexture2D::8224399686658166524::1740151851::1740151930::1::::<><>::
+Walk.png::CompressedTexture2D::2977043973591354363::1740151851::1740151930::1::::<><>::
+::res://sprites/craftpix-net-610575-free-street-animal-pixel-art-asset-pack/2 Dog 2/::1740151930
+Attack.png::CompressedTexture2D::7191938834886940904::1740151851::1740151930::1::::<><>::
+Death.png::CompressedTexture2D::5621010023670470192::1740151851::1740151930::1::::<><>::
+Hurt.png::CompressedTexture2D::1915645229449436611::1740151851::1740151930::1::::<><>::
+Idle.png::CompressedTexture2D::419816635951102969::1740151851::1740151930::1::::<><>::
+Walk.png::CompressedTexture2D::4092658309756867567::1740151851::1740151929::1::::<><>::
+::res://sprites/craftpix-net-610575-free-street-animal-pixel-art-asset-pack/3 Cat/::1740151929
+Attack.png::CompressedTexture2D::3883080645073774674::1740151851::1740151929::1::::<><>::
+Death.png::CompressedTexture2D::5132474471554717057::1740151851::1740151929::1::::<><>::
+Hurt.png::CompressedTexture2D::6957913432688300598::1740151851::1740151929::1::::<><>::
+Idle.png::CompressedTexture2D::2287057980632362567::1740151851::1740151929::1::::<><>::
+Walk.png::CompressedTexture2D::3941523151838822602::1740151851::1740151929::1::::<><>::
+::res://sprites/craftpix-net-610575-free-street-animal-pixel-art-asset-pack/4 Cat 2/::1740151929
+Attack.png::CompressedTexture2D::6992423126981268208::1740151851::1740151929::1::::<><>::
+Death.png::CompressedTexture2D::3622100817332831804::1740151851::1740151929::1::::<><>::
+Hurt.png::CompressedTexture2D::4487518266050963185::1740151852::1740151929::1::::<><>::
+Idle.png::CompressedTexture2D::8536228261927973350::1740151852::1740151929::1::::<><>::
+Walk.png::CompressedTexture2D::4599774378989763458::1740151852::1740151929::1::::<><>::
+::res://sprites/craftpix-net-610575-free-street-animal-pixel-art-asset-pack/5 Rat/::1740151929
+Death.png::CompressedTexture2D::3313826647796286567::1740151852::1740151929::1::::<><>::
+Hurt.png::CompressedTexture2D::121875166434458536::1740151852::1740151929::1::::<><>::
+Idle.png::CompressedTexture2D::4282467413971253215::1740151852::1740151929::1::::<><>::
+Walk.png::CompressedTexture2D::1559706047653907698::1740151852::1740151929::1::::<><>::
+::res://sprites/craftpix-net-610575-free-street-animal-pixel-art-asset-pack/6 Rat 2/::1740151930
+Death.png::CompressedTexture2D::3777329610566319645::1740151852::1740151929::1::::<><>::
+Hurt.png::CompressedTexture2D::6128161010047775723::1740151852::1740151929::1::::<><>::
+Idle.png::CompressedTexture2D::7970477995719561895::1740151852::1740151930::1::::<><>::
+Walk.png::CompressedTexture2D::3605719528645689708::1740151852::1740151930::1::::<><>::
+::res://sprites/craftpix-net-610575-free-street-animal-pixel-art-asset-pack/7 Bird/::1740151930
+Death.png::CompressedTexture2D::3632752945594029485::1740151852::1740151930::1::::<><>::
+Hurt.png::CompressedTexture2D::5955122250432928016::1740151852::1740151930::1::::<><>::
+Idle.png::CompressedTexture2D::6847244565529589804::1740151852::1740151930::1::::<><>::
+Walk.png::CompressedTexture2D::180892063311303559::1740151852::1740151930::1::::<><>::
+::res://sprites/craftpix-net-610575-free-street-animal-pixel-art-asset-pack/8 Bird 2/::1740151929
+Death.png::CompressedTexture2D::906451971062654085::1740151852::1740151929::1::::<><>::
+Hurt.png::CompressedTexture2D::2646699090121232518::1740151852::1740151929::1::::<><>::
+Idle.png::CompressedTexture2D::2224236569763093555::1740151852::1740151929::1::::<><>::
+Walk.png::CompressedTexture2D::1027458043502774227::1740151852::1740151929::1::::<><>::
+::res://sprites/craftpix-net-610575-free-street-animal-pixel-art-asset-pack/PSD/::1740151852
+::res://sprites/Eleonore/::1740323718
+::res://sprites/Eleonore/Idle/::1740323734
+Idle1.png::CompressedTexture2D::3125646864562675018::1740323718::1740323734::1::::<><>::
+Idle2.png::CompressedTexture2D::1955219656290204158::1740323718::1740323734::1::::<><>::
+Idle3.png::CompressedTexture2D::776511698665807451::1740323718::1740323734::1::::<><>::
+Idle4.png::CompressedTexture2D::5256808993310535763::1740323718::1740323734::1::::<><>::
+Idle5.png::CompressedTexture2D::2995647860297121167::1740323718::1740323734::1::::<><>::
+Idle6.png::CompressedTexture2D::1388935496053745040::1740323718::1740323734::1::::<><>::
+Idle7.png::CompressedTexture2D::4785838665420274538::1740323718::1740323734::1::::<><>::
+Idle8.png::CompressedTexture2D::6211307388514225981::1740323718::1740323734::1::::<><>::
+Idle9.png::CompressedTexture2D::8596739525962121241::1740323718::1740323734::1::::<><>::
+::res://sprites/Eleonore/Idle/Shadow/::1740323734
+Shadow1.png::CompressedTexture2D::3487113407416773760::1740323718::1740323734::1::::<><>::
+Shadow2.png::CompressedTexture2D::3586120961019455691::1740323718::1740323734::1::::<><>::
+Shadow3.png::CompressedTexture2D::883285851377412348::1740323718::1740323734::1::::<><>::
+Shadow4.png::CompressedTexture2D::1664507179756297490::1740323718::1740323734::1::::<><>::
+Shadow5.png::CompressedTexture2D::468630583025423216::1740323719::1740323734::1::::<><>::
+Shadow6.png::CompressedTexture2D::7033599335405695308::1740323719::1740323734::1::::<><>::
+Shadow7.png::CompressedTexture2D::3639078167538599370::1740323719::1740323734::1::::<><>::
+Shadow8.png::CompressedTexture2D::4553692883709111789::1740323719::1740323734::1::::<><>::
+Shadow9.png::CompressedTexture2D::7428781734899302830::1740323719::1740323734::1::::<><>::
+::res://sprites/Forest of Illusion Files/::1740408466
+suelo.png::CompressedTexture2D::5029841031666900007::1740408452::1740408466::1::::<><>::
+::res://sprites/Forest of Illusion Files/__MACOSX/::1740151853
+::res://sprites/Forest of Illusion Files/__MACOSX/Forest of Illusion Files/::1740151853
+._public-license.txt::TextFile::-1::1740151853::0::1::::<><>::
+::res://sprites/Forest of Illusion Files/__MACOSX/Forest of Illusion Files/Aseprite/::1740151853
+::res://sprites/Forest of Illusion Files/__MACOSX/Forest of Illusion Files/Layers/::1740151929
+._back.png::CompressedTexture2D::4176538066534268629::1740151853::1740151929::0::::<><>::
+._middle.png::CompressedTexture2D::3040942379035152447::1740151853::1740151929::0::::<><>::
+._tiles.png::CompressedTexture2D::6453908531187287239::1740151853::1740151929::0::::<><>::
+::res://sprites/Forest of Illusion Files/__MACOSX/Forest of Illusion Files/Previews/::1740151929
+._Previewx3.png::CompressedTexture2D::3726049702153069527::1740151853::1740151929::0::::<><>::
+::res://sprites/Forest of Illusion Files/Forest of Illusion Files/::1740151853
+public-license.txt::TextFile::-1::1740151852::0::1::::<><>::
+::res://sprites/Forest of Illusion Files/Forest of Illusion Files/Aseprite/::1740151852
+::res://sprites/Forest of Illusion Files/Forest of Illusion Files/Layers/::1740151929
+back.png::CompressedTexture2D::6385500957029237317::1740151852::1740151929::1::::<><>::
+middle.png::CompressedTexture2D::2854715968450458115::1740151852::1740151929::1::::<><>::
+tiles.png::CompressedTexture2D::381939144217620061::1740151852::1740151929::1::::<><>::
+::res://sprites/Forest of Illusion Files/Forest of Illusion Files/Previews/::1740151930
+Preview.png::CompressedTexture2D::6325061389459381378::1740151853::1740151929::1::::<><>::
+Previewx3.png::CompressedTexture2D::6887080479576171776::1740151853::1740151930::1::::<><>::
+::res://sprites/Free Pixel Art Forest/::1740249405
+changelog.txt::TextFile::-1::1740249405::0::1::::<><>::
+Contact.txt::TextFile::-1::1740249405::0::1::::<><>::
+license.txt::TextFile::-1::1740249405::0::1::::<><>::
+readme.txt::TextFile::-1::1740249405::0::1::::<><>::
+::res://sprites/Free Pixel Art Forest/PNG/::1740249405
+::res://sprites/Free Pixel Art Forest/PNG/Background layers/::1740249485
+Layer_0000_9.png::CompressedTexture2D::6136937014196317875::1740249405::1740249485::1::::<><>::
+Layer_0001_8.png::CompressedTexture2D::3579348464677740256::1740249405::1740249485::1::::<><>::
+Layer_0002_7.png::CompressedTexture2D::3023434233955097758::1740249405::1740249485::1::::<><>::
+Layer_0003_6.png::CompressedTexture2D::4670685177483230763::1740249405::1740249485::1::::<><>::
+Layer_0004_Lights.png::CompressedTexture2D::5970736817651798475::1740249405::1740249485::1::::<><>::
+Layer_0005_5.png::CompressedTexture2D::1691482396267469574::1740249405::1740249485::1::::<><>::
+Layer_0006_4.png::CompressedTexture2D::1537231372482436650::1740249405::1740249485::1::::<><>::
+Layer_0007_Lights.png::CompressedTexture2D::7117081689763341021::1740249405::1740249485::1::::<><>::
+Layer_0008_3.png::CompressedTexture2D::331615029065596907::1740249405::1740249485::1::::<><>::
+Layer_0009_2.png::CompressedTexture2D::9009928870199512146::1740249405::1740249485::1::::<><>::
+Layer_0010_1.png::CompressedTexture2D::2554967217103943656::1740249405::1740249485::1::::<><>::
+Layer_0011_0.png::CompressedTexture2D::8865623828318277556::1740249405::1740249485::1::::<><>::
+::res://sprites/Free Pixel Art Forest/Preview/::1740249485
+Background.png::CompressedTexture2D::9108520185867611270::1740249405::1740249485::1::::<><>::
+::res://sprites/Free Pixel Art Forest/PSD/::1740249405
+::res://sprites/Free Pixel Art Forest/You may also like/::1740249486
+Pixel Art Forest.png::CompressedTexture2D::440969221062564031::1740249405::1740249485::1::::<><>::
+Pixel Art Plataformer Painted Style.png::CompressedTexture2D::5567564362735757306::1740249405::1740249486::1::::<><>::
+Pixel Art Runner.png::CompressedTexture2D::6327570647383644498::1740249405::1740249486::1::::<><>::
+Pixel Art Snowy Forest.png::CompressedTexture2D::8115356507270003086::1740249405::1740249485::1::::<><>::
+::res://sprites/Fuego/::1740151930
+1.png::CompressedTexture2D::7252603881718830713::1740151853::1740151929::1::::<><>::
+1_1.png::CompressedTexture2D::4711522443915534700::1740151853::1740151930::1::::<><>::
+1_2.png::CompressedTexture2D::8261279211867575166::1740151853::1740151930::1::::<><>::
+1_3.png::CompressedTexture2D::3470619377798523715::1740151853::1740151930::1::::<><>::
+1_4.png::CompressedTexture2D::5429660167391591478::1740151853::1740151930::1::::<><>::
+1_5.png::CompressedTexture2D::1509424041687037629::1740151853::1740151930::1::::<><>::
+1_6.png::CompressedTexture2D::3050810416447306620::1740151853::1740151930::1::::<><>::
+1_7.png::CompressedTexture2D::5701136966364414388::1740151853::1740151930::1::::<><>::
+1_8.png::CompressedTexture2D::8081896778408599186::1740151853::1740151930::1::::<><>::
+1_9.png::CompressedTexture2D::6081471693343487435::1740151853::1740151930::1::::<><>::
+1_10.png::CompressedTexture2D::3796773953705948255::1740151853::1740151930::1::::<><>::
+1_11.png::CompressedTexture2D::6439809148027074517::1740151853::1740151930::1::::<><>::
+1_12.png::CompressedTexture2D::2110574047214829966::1740151853::1740151930::1::::<><>::
+1_13.png::CompressedTexture2D::8346136441354253454::1740151853::1740151930::1::::<><>::
+1_14.png::CompressedTexture2D::8595531272165328456::1740151853::1740151930::1::::<><>::
+::res://sprites/key_32x32_24f/::1740151930
+sprite_00.png::CompressedTexture2D::1107569898682773203::1740151853::1740151930::1::::<><>::
+sprite_01.png::CompressedTexture2D::8940484305154194191::1740151853::1740151930::1::::<><>::
+sprite_02.png::CompressedTexture2D::7036206275981633826::1740151853::1740151930::1::::<><>::
+sprite_03.png::CompressedTexture2D::1345904526062140323::1740151853::1740151930::1::::<><>::
+sprite_04.png::CompressedTexture2D::2322838132284572885::1740151854::1740151930::1::::<><>::
+sprite_05.png::CompressedTexture2D::2545057072110050215::1740151854::1740151930::1::::<><>::
+sprite_06.png::CompressedTexture2D::7201931442083852148::1740151854::1740151930::1::::<><>::
+sprite_07.png::CompressedTexture2D::6391070308152927488::1740151854::1740151930::1::::<><>::
+sprite_08.png::CompressedTexture2D::369873599167488781::1740151854::1740151930::1::::<><>::
+sprite_09.png::CompressedTexture2D::1886228263061146562::1740151854::1740151930::1::::<><>::
+sprite_10.png::CompressedTexture2D::5040486655503548436::1740151854::1740151930::1::::<><>::
+sprite_11.png::CompressedTexture2D::1875362852144625998::1740151854::1740151930::1::::<><>::
+sprite_12.png::CompressedTexture2D::6872075060376733304::1740151854::1740151930::1::::<><>::
+sprite_13.png::CompressedTexture2D::1669974796941412095::1740151854::1740151930::1::::<><>::
+sprite_14.png::CompressedTexture2D::3224468761575310480::1740151854::1740151930::1::::<><>::
+sprite_15.png::CompressedTexture2D::4787964812293065111::1740151854::1740151930::1::::<><>::
+sprite_16.png::CompressedTexture2D::3656327521530673609::1740151854::1740151930::1::::<><>::
+sprite_17.png::CompressedTexture2D::2786958372385752743::1740151854::1740151930::1::::<><>::
+sprite_18.png::CompressedTexture2D::4167291885708162133::1740151854::1740151930::1::::<><>::
+sprite_19.png::CompressedTexture2D::6237621072750888447::1740151854::1740151930::1::::<><>::
+sprite_20.png::CompressedTexture2D::201717134747595546::1740151854::1740151930::1::::<><>::
+sprite_21.png::CompressedTexture2D::3441958719138140201::1740151854::1740151930::1::::<><>::
+sprite_22.png::CompressedTexture2D::210102869597191559::1740151854::1740151930::1::::<><>::
+sprite_23.png::CompressedTexture2D::879712342948006180::1740151854::1740151930::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/::1740249467
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack1-MoonstoneKeeper-SUCART/::1740249464
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack1-MoonstoneKeeper-SUCART/GIF/::1740249464
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack1-MoonstoneKeeper-SUCART/No BG/::1740249485
+frame0000.png::CompressedTexture2D::6334044656690070363::1740249464::1740249485::1::::<><>::
+frame0001.png::CompressedTexture2D::9013342335872640429::1740249464::1740249485::1::::<><>::
+frame0002.png::CompressedTexture2D::9000460336894589608::1740249464::1740249485::1::::<><>::
+frame0003.png::CompressedTexture2D::6148371155671579425::1740249464::1740249485::1::::<><>::
+frame0004.png::CompressedTexture2D::2851267833752758783::1740249464::1740249485::1::::<><>::
+frame0005.png::CompressedTexture2D::8084755729733734553::1740249464::1740249485::1::::<><>::
+frame0006.png::CompressedTexture2D::3051038320912490311::1740249464::1740249485::1::::<><>::
+frame0007.png::CompressedTexture2D::8411525453850576094::1740249464::1740249485::1::::<><>::
+frame0008.png::CompressedTexture2D::3037301784117976035::1740249464::1740249485::1::::<><>::
+frame0009.png::CompressedTexture2D::4230710449475688687::1740249464::1740249485::1::::<><>::
+frame0010.png::CompressedTexture2D::6857027038529292339::1740249464::1740249485::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack1-MoonstoneKeeper-SUCART/With BG/::1740249485
+frame0000.png::CompressedTexture2D::2644518354589396440::1740249464::1740249485::1::::<><>::
+frame0001.png::CompressedTexture2D::1768705298789824590::1740249464::1740249485::1::::<><>::
+frame0002.png::CompressedTexture2D::2707802001877661787::1740249464::1740249485::1::::<><>::
+frame0003.png::CompressedTexture2D::1723937054459773730::1740249464::1740249485::1::::<><>::
+frame0004.png::CompressedTexture2D::4539926894685674749::1740249464::1740249485::1::::<><>::
+frame0005.png::CompressedTexture2D::8072371559706946786::1740249464::1740249485::1::::<><>::
+frame0006.png::CompressedTexture2D::4421852307100813743::1740249464::1740249485::1::::<><>::
+frame0007.png::CompressedTexture2D::6305295765166208371::1740249464::1740249485::1::::<><>::
+frame0008.png::CompressedTexture2D::8533782821510585140::1740249464::1740249485::1::::<><>::
+frame0009.png::CompressedTexture2D::5280115666043315276::1740249464::1740249485::1::::<><>::
+frame0010.png::CompressedTexture2D::2880181675767417222::1740249464::1740249485::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack2-MoonstoneKeeper-SUCART/::1740249464
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack2-MoonstoneKeeper-SUCART/GIF/::1740249464
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack2-MoonstoneKeeper-SUCART/No BG/::1740249485
+frame0000.png::CompressedTexture2D::6609784456975881520::1740249464::1740249485::1::::<><>::
+frame0001.png::CompressedTexture2D::3218554252910503146::1740249464::1740249485::1::::<><>::
+frame0002.png::CompressedTexture2D::3184672582976593569::1740249464::1740249485::1::::<><>::
+frame0003.png::CompressedTexture2D::1321613811013992724::1740249464::1740249485::1::::<><>::
+frame0004.png::CompressedTexture2D::2551692826001983464::1740249464::1740249485::1::::<><>::
+frame0005.png::CompressedTexture2D::5289434928009565810::1740249464::1740249485::1::::<><>::
+frame0006.png::CompressedTexture2D::790783107059971677::1740249464::1740249485::1::::<><>::
+frame0007.png::CompressedTexture2D::4388878329219741615::1740249464::1740249485::1::::<><>::
+frame0008.png::CompressedTexture2D::7676420083024321030::1740249464::1740249485::1::::<><>::
+frame0009.png::CompressedTexture2D::1494314904704278170::1740249464::1740249485::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack2-MoonstoneKeeper-SUCART/With BG/::1740249486
+frame0000.png::CompressedTexture2D::6913477721309801118::1740249464::1740249485::1::::<><>::
+frame0001.png::CompressedTexture2D::6283462466597281465::1740249464::1740249485::1::::<><>::
+frame0002.png::CompressedTexture2D::6177816946715989627::1740249464::1740249485::1::::<><>::
+frame0003.png::CompressedTexture2D::7551061210125343595::1740249464::1740249485::1::::<><>::
+frame0004.png::CompressedTexture2D::103657095256467838::1740249464::1740249485::1::::<><>::
+frame0005.png::CompressedTexture2D::1394977622447649162::1740249464::1740249485::1::::<><>::
+frame0006.png::CompressedTexture2D::8417220797023612312::1740249464::1740249485::1::::<><>::
+frame0007.png::CompressedTexture2D::6780945862239021104::1740249464::1740249486::1::::<><>::
+frame0008.png::CompressedTexture2D::2293550847493118623::1740249464::1740249486::1::::<><>::
+frame0009.png::CompressedTexture2D::5867532296578742436::1740249464::1740249486::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Dash-MoonstoneKeeper-SUCART/::1740249465
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Dash-MoonstoneKeeper-SUCART/GIF/::1740249464
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Dash-MoonstoneKeeper-SUCART/No BG/::1740249486
+frame0000.png::CompressedTexture2D::1256784154490292540::1740249465::1740249486::1::::<><>::
+frame0001.png::CompressedTexture2D::601842775102674878::1740249465::1740249486::1::::<><>::
+frame0002.png::CompressedTexture2D::4789054319436353930::1740249465::1740249486::1::::<><>::
+frame0003.png::CompressedTexture2D::8478691654684913659::1740249465::1740249486::1::::<><>::
+frame0004.png::CompressedTexture2D::4836227428640859018::1740249465::1740249486::1::::<><>::
+frame0005.png::CompressedTexture2D::8859228155255309809::1740249465::1740249486::1::::<><>::
+frame0006.png::CompressedTexture2D::1141661161903014497::1740249465::1740249486::1::::<><>::
+frame0007.png::CompressedTexture2D::2819726422861352765::1740249465::1740249486::1::::<><>::
+frame0008.png::CompressedTexture2D::4166126208434921911::1740249465::1740249486::1::::<><>::
+frame0009.png::CompressedTexture2D::3833161477137056454::1740249465::1740249486::1::::<><>::
+frame0010.png::CompressedTexture2D::7801525933871864729::1740249465::1740249486::1::::<><>::
+frame0011.png::CompressedTexture2D::2071099092490598198::1740249465::1740249486::1::::<><>::
+frame0012.png::CompressedTexture2D::3035310754953749248::1740249465::1740249486::1::::<><>::
+frame0013.png::CompressedTexture2D::1466084159707672070::1740249465::1740249486::1::::<><>::
+frame0014.png::CompressedTexture2D::838183887263408852::1740249465::1740249486::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Dash-MoonstoneKeeper-SUCART/With BG/::1740249486
+frame0000.png::CompressedTexture2D::6639625461055168031::1740249465::1740249486::1::::<><>::
+frame0001.png::CompressedTexture2D::5606854236152682943::1740249465::1740249486::1::::<><>::
+frame0002.png::CompressedTexture2D::4980255902836023094::1740249465::1740249486::1::::<><>::
+frame0003.png::CompressedTexture2D::18064477380648059::1740249465::1740249486::1::::<><>::
+frame0004.png::CompressedTexture2D::3673039201695863634::1740249465::1740249486::1::::<><>::
+frame0005.png::CompressedTexture2D::254108622325543793::1740249465::1740249486::1::::<><>::
+frame0006.png::CompressedTexture2D::6676942255971193230::1740249465::1740249486::1::::<><>::
+frame0007.png::CompressedTexture2D::6198742017131920527::1740249465::1740249486::1::::<><>::
+frame0008.png::CompressedTexture2D::8575214429343560407::1740249465::1740249486::1::::<><>::
+frame0009.png::CompressedTexture2D::6678784196345737221::1740249465::1740249486::1::::<><>::
+frame0010.png::CompressedTexture2D::2246334199460906949::1740249465::1740249486::1::::<><>::
+frame0011.png::CompressedTexture2D::4525318889647399005::1740249465::1740249486::1::::<><>::
+frame0012.png::CompressedTexture2D::7684303642726744588::1740249465::1740249486::1::::<><>::
+frame0013.png::CompressedTexture2D::1591632109339519062::1740249465::1740249486::1::::<><>::
+frame0014.png::CompressedTexture2D::2172127978291856319::1740249465::1740249486::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Death-MoonstoneKeeper-SUCART/::1740249465
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Death-MoonstoneKeeper-SUCART/GIF/::1740249465
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Death-MoonstoneKeeper-SUCART/No BG/::1740249485
+frame0000.png::CompressedTexture2D::6346999064365495544::1740249465::1740249485::1::::<><>::
+frame0001.png::CompressedTexture2D::4689452492397317617::1740249465::1740249485::1::::<><>::
+frame0002.png::CompressedTexture2D::9035184812655118353::1740249465::1740249485::1::::<><>::
+frame0003.png::CompressedTexture2D::9037899536113245672::1740249465::1740249485::1::::<><>::
+frame0004.png::CompressedTexture2D::5901740856724926777::1740249465::1740249485::1::::<><>::
+frame0005.png::CompressedTexture2D::9010275472069979501::1740249465::1740249485::1::::<><>::
+frame0006.png::CompressedTexture2D::622436234932124438::1740249465::1740249485::1::::<><>::
+frame0007.png::CompressedTexture2D::8947469935829982168::1740249465::1740249485::1::::<><>::
+frame0008.png::CompressedTexture2D::6857360496885222415::1740249465::1740249485::1::::<><>::
+frame0009.png::CompressedTexture2D::2937546954639093680::1740249465::1740249485::1::::<><>::
+frame0010.png::CompressedTexture2D::8287240470946982076::1740249465::1740249485::1::::<><>::
+frame0011.png::CompressedTexture2D::8406848090868074027::1740249465::1740249485::1::::<><>::
+frame0012.png::CompressedTexture2D::2809211238349775307::1740249465::1740249485::1::::<><>::
+frame0013.png::CompressedTexture2D::2098538934900242297::1740249465::1740249485::1::::<><>::
+frame0014.png::CompressedTexture2D::2969839942987664586::1740249465::1740249485::1::::<><>::
+frame0015.png::CompressedTexture2D::8372768523019098419::1740249465::1740249485::1::::<><>::
+frame0016.png::CompressedTexture2D::1601082580407510690::1740249465::1740249485::1::::<><>::
+frame0017.png::CompressedTexture2D::3843073115585410225::1740249465::1740249485::1::::<><>::
+frame0018.png::CompressedTexture2D::8639686321389289146::1740249465::1740249485::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Death-MoonstoneKeeper-SUCART/With BG/::1740249486
+frame0000.png::CompressedTexture2D::4604009120527591393::1740249465::1740249485::1::::<><>::
+frame0001.png::CompressedTexture2D::4156041650960363630::1740249465::1740249485::1::::<><>::
+frame0002.png::CompressedTexture2D::4917894034301984630::1740249465::1740249485::1::::<><>::
+frame0003.png::CompressedTexture2D::8676843062250670849::1740249465::1740249485::1::::<><>::
+frame0004.png::CompressedTexture2D::2103827927985199697::1740249465::1740249485::1::::<><>::
+frame0005.png::CompressedTexture2D::7960937530048138698::1740249465::1740249486::1::::<><>::
+frame0006.png::CompressedTexture2D::4134355757217389648::1740249465::1740249486::1::::<><>::
+frame0007.png::CompressedTexture2D::4315980496576776514::1740249465::1740249486::1::::<><>::
+frame0008.png::CompressedTexture2D::3256802300242839951::1740249465::1740249486::1::::<><>::
+frame0009.png::CompressedTexture2D::3715004577786215651::1740249465::1740249486::1::::<><>::
+frame0010.png::CompressedTexture2D::5925461439336387817::1740249465::1740249486::1::::<><>::
+frame0011.png::CompressedTexture2D::5026543644481963811::1740249465::1740249486::1::::<><>::
+frame0012.png::CompressedTexture2D::1175694093476488489::1740249465::1740249486::1::::<><>::
+frame0013.png::CompressedTexture2D::8411456394797112628::1740249465::1740249485::1::::<><>::
+frame0014.png::CompressedTexture2D::8182536397707418632::1740249465::1740249485::1::::<><>::
+frame0015.png::CompressedTexture2D::4408834491786593730::1740249465::1740249485::1::::<><>::
+frame0016.png::CompressedTexture2D::8482705689122912526::1740249466::1740249485::1::::<><>::
+frame0017.png::CompressedTexture2D::6336144673700752772::1740249466::1740249485::1::::<><>::
+frame0018.png::CompressedTexture2D::1217920476917356371::1740249466::1740249485::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Hit-MoonstoneKeeper-SUCART/::1740249466
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Hit-MoonstoneKeeper-SUCART/GIF/::1740249466
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Hit-MoonstoneKeeper-SUCART/No BG/::1740249485
+frame0000.png::CompressedTexture2D::2490919379988598011::1740249466::1740249485::1::::<><>::
+frame0001.png::CompressedTexture2D::6942904837320250282::1740249466::1740249485::1::::<><>::
+frame0002.png::CompressedTexture2D::1065367726448879028::1740249466::1740249485::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Hit-MoonstoneKeeper-SUCART/With BG/::1740249485
+frame0000.png::CompressedTexture2D::6682620167997258079::1740249466::1740249485::1::::<><>::
+frame0001.png::CompressedTexture2D::5725697185558220292::1740249466::1740249485::1::::<><>::
+frame0002.png::CompressedTexture2D::430679749713494021::1740249466::1740249485::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Idle-MoonstoneKeeper-SUCART/::1740249466
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Idle-MoonstoneKeeper-SUCART/GIF/::1740249466
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Idle-MoonstoneKeeper-SUCART/No BG/::1740249485
+frame0000.png::CompressedTexture2D::6652463180309923890::1740249466::1740249485::1::::<><>::
+frame0001.png::CompressedTexture2D::8549227413702331665::1740249466::1740249485::1::::<><>::
+frame0002.png::CompressedTexture2D::1760569716498782665::1740249466::1740249485::1::::<><>::
+frame0003.png::CompressedTexture2D::216734123559243052::1740249466::1740249485::1::::<><>::
+frame0004.png::CompressedTexture2D::8987241471667481526::1740249466::1740249485::1::::<><>::
+frame0005.png::CompressedTexture2D::2609293168858033361::1740249466::1740249485::1::::<><>::
+frame0006.png::CompressedTexture2D::4986357976259739377::1740249466::1740249485::1::::<><>::
+frame0007.png::CompressedTexture2D::4928961012698406500::1740249466::1740249485::1::::<><>::
+frame0008.png::CompressedTexture2D::7280575996059030280::1740249466::1740249485::1::::<><>::
+frame0009.png::CompressedTexture2D::5954714310645870920::1740249466::1740249485::1::::<><>::
+frame0010.png::CompressedTexture2D::6536375264157217069::1740249466::1740249485::1::::<><>::
+frame0011.png::CompressedTexture2D::1142531323257135049::1740249466::1740249485::1::::<><>::
+frame0012.png::CompressedTexture2D::3691602025812506185::1740249466::1740249485::1::::<><>::
+frame0013.png::CompressedTexture2D::344480715373065707::1740249466::1740249485::1::::<><>::
+frame0014.png::CompressedTexture2D::8018921523801201409::1740249466::1740249485::1::::<><>::
+frame0015.png::CompressedTexture2D::1470122585503485022::1740249466::1740249485::1::::<><>::
+frame0016.png::CompressedTexture2D::6088047224283168670::1740249466::1740249485::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Idle-MoonstoneKeeper-SUCART/With BG/::1740249485
+frame0000.png::CompressedTexture2D::1104579334833896570::1740249466::1740249485::1::::<><>::
+frame0001.png::CompressedTexture2D::429598751949709796::1740249466::1740249485::1::::<><>::
+frame0002.png::CompressedTexture2D::8386789464356874323::1740249466::1740249485::1::::<><>::
+frame0003.png::CompressedTexture2D::7042983715527550429::1740249466::1740249485::1::::<><>::
+frame0004.png::CompressedTexture2D::4658358008436994557::1740249466::1740249485::1::::<><>::
+frame0005.png::CompressedTexture2D::9165664574325837095::1740249466::1740249485::1::::<><>::
+frame0006.png::CompressedTexture2D::3495116356653376835::1740249466::1740249485::1::::<><>::
+frame0007.png::CompressedTexture2D::5433473472043738871::1740249466::1740249485::1::::<><>::
+frame0008.png::CompressedTexture2D::1568877627668264636::1740249466::1740249485::1::::<><>::
+frame0009.png::CompressedTexture2D::3346658261918607881::1740249466::1740249485::1::::<><>::
+frame0010.png::CompressedTexture2D::8760204155923897664::1740249466::1740249485::1::::<><>::
+frame0011.png::CompressedTexture2D::7696346939497666945::1740249466::1740249485::1::::<><>::
+frame0012.png::CompressedTexture2D::3058612623240228388::1740249466::1740249485::1::::<><>::
+frame0013.png::CompressedTexture2D::1548515455646352880::1740249466::1740249485::1::::<><>::
+frame0014.png::CompressedTexture2D::4988484441392600048::1740249466::1740249485::1::::<><>::
+frame0015.png::CompressedTexture2D::7420266014116000250::1740249466::1740249485::1::::<><>::
+frame0016.png::CompressedTexture2D::7815763805476851294::1740249466::1740249485::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Jump Loop-MoonstoneKeeper-SUCART/::1740249466
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Jump Loop-MoonstoneKeeper-SUCART/GIF/::1740249466
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Jump Loop-MoonstoneKeeper-SUCART/No BG/::1740249485
+frame0000.png::CompressedTexture2D::41265713325112225::1740249466::1740249485::1::::<><>::
+frame0001.png::CompressedTexture2D::2375825413656305643::1740249466::1740249485::1::::<><>::
+frame0002.png::CompressedTexture2D::5143146745627035244::1740249466::1740249485::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Jump Loop-MoonstoneKeeper-SUCART/With BG/::1740249485
+frame0000.png::CompressedTexture2D::2060339293605865957::1740249466::1740249485::1::::<><>::
+frame0001.png::CompressedTexture2D::3618756781721243362::1740249466::1740249485::1::::<><>::
+frame0002.png::CompressedTexture2D::117578780499920299::1740249466::1740249485::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Jump Start-MoonstoneKeeper-SUCART/::1740249466
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Jump Start-MoonstoneKeeper-SUCART/GIF/::1740249466
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Jump Start-MoonstoneKeeper-SUCART/No BG/::1740249485
+frame0000.png::CompressedTexture2D::8371374057047501910::1740249466::1740249485::1::::<><>::
+frame0001.png::CompressedTexture2D::1592019711876355576::1740249466::1740249485::1::::<><>::
+frame0002.png::CompressedTexture2D::2423418235140061266::1740249466::1740249485::1::::<><>::
+frame0003.png::CompressedTexture2D::7822416485699890198::1740249466::1740249485::1::::<><>::
+frame0004.png::CompressedTexture2D::5752044035288795368::1740249466::1740249485::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Jump Start-MoonstoneKeeper-SUCART/With BG/::1740249485
+frame0000.png::CompressedTexture2D::6352895573487376586::1740249466::1740249485::1::::<><>::
+frame0001.png::CompressedTexture2D::6631891365722066087::1740249466::1740249485::1::::<><>::
+frame0002.png::CompressedTexture2D::8828125170802370775::1740249466::1740249485::1::::<><>::
+frame0003.png::CompressedTexture2D::6295171191193503233::1740249466::1740249485::1::::<><>::
+frame0004.png::CompressedTexture2D::8880082895200777586::1740249466::1740249485::1::::<><>::
+frame0005.png::CompressedTexture2D::4157636855451640245::1740249467::1740249485::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Land-MoonstoneKeeper-SUCART/::1740249467
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Land-MoonstoneKeeper-SUCART/GIF/::1740249467
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Land-MoonstoneKeeper-SUCART/No BG/::1740249485
+frame0000.png::CompressedTexture2D::8940125515841327114::1740249467::1740249485::1::::<><>::
+frame0001.png::CompressedTexture2D::7241131689189263180::1740249467::1740249485::1::::<><>::
+frame0002.png::CompressedTexture2D::1130159436268611567::1740249467::1740249485::1::::<><>::
+frame0003.png::CompressedTexture2D::4513130077466590355::1740249467::1740249485::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Land-MoonstoneKeeper-SUCART/With BG/::1740249485
+frame0000.png::CompressedTexture2D::6856134770857707050::1740249467::1740249485::1::::<><>::
+frame0001.png::CompressedTexture2D::4339878012991284167::1740249467::1740249485::1::::<><>::
+frame0002.png::CompressedTexture2D::3437732620723975117::1740249467::1740249485::1::::<><>::
+frame0003.png::CompressedTexture2D::3013366124756490580::1740249467::1740249485::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Portraits-MoonstoneKeeper-SUCART/::1740249485
+Facing_Down.png::CompressedTexture2D::1286419964834679460::1740249467::1740249485::1::::<><>::
+Facing_Straight.png::CompressedTexture2D::3450881873194820200::1740249467::1740249485::1::::<><>::
+Facing_Up.png::CompressedTexture2D::5063116319280098621::1740249467::1740249485::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Run Alt-MoonstoneKeeper-SUCART/::1740249467
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Run Alt-MoonstoneKeeper-SUCART/GIF/::1740249467
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Run Alt-MoonstoneKeeper-SUCART/No BG/::1740249485
+frame0000.png::CompressedTexture2D::6368117947379819162::1740249467::1740249485::1::::<><>::
+frame0001.png::CompressedTexture2D::4772964397064456543::1740249467::1740249485::1::::<><>::
+frame0002.png::CompressedTexture2D::3607486106188461715::1740249467::1740249485::1::::<><>::
+frame0003.png::CompressedTexture2D::4198246202033130510::1740249467::1740249485::1::::<><>::
+frame0004.png::CompressedTexture2D::5674008712374643627::1740249467::1740249485::1::::<><>::
+frame0005.png::CompressedTexture2D::1534079594145668585::1740249467::1740249485::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Run Alt-MoonstoneKeeper-SUCART/With BG/::1740249485
+frame0000.png::CompressedTexture2D::6012673233988973098::1740249467::1740249485::1::::<><>::
+frame0001.png::CompressedTexture2D::4059651573378988534::1740249467::1740249485::1::::<><>::
+frame0002.png::CompressedTexture2D::9015850033399972863::1740249467::1740249485::1::::<><>::
+frame0003.png::CompressedTexture2D::185904215600362936::1740249467::1740249485::1::::<><>::
+frame0004.png::CompressedTexture2D::6207414472306301877::1740249467::1740249485::1::::<><>::
+frame0005.png::CompressedTexture2D::6873428280582545841::1740249467::1740249485::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Run-MoonstoneKeeper-SUCART/::1740249467
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Run-MoonstoneKeeper-SUCART/GIF/::1740249467
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Run-MoonstoneKeeper-SUCART/No BG/::1740249485
+frame0000.png::CompressedTexture2D::8975199593088060943::1740249467::1740249485::1::::<><>::
+frame0001.png::CompressedTexture2D::1107549630665004338::1740249467::1740249485::1::::<><>::
+frame0002.png::CompressedTexture2D::2870786638259322303::1740249467::1740249485::1::::<><>::
+frame0003.png::CompressedTexture2D::5448810847853059092::1740249467::1740249485::1::::<><>::
+frame0004.png::CompressedTexture2D::8484052602483313888::1740249467::1740249485::1::::<><>::
+frame0005.png::CompressedTexture2D::2373761889045732282::1740249467::1740249485::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Run-MoonstoneKeeper-SUCART/With BG/::1740249485
+frame0000.png::CompressedTexture2D::8117706308605541073::1740249467::1740249485::1::::<><>::
+frame0001.png::CompressedTexture2D::4287687819735174405::1740249467::1740249485::1::::<><>::
+frame0002.png::CompressedTexture2D::4425884621670126689::1740249467::1740249485::1::::<><>::
+frame0003.png::CompressedTexture2D::8433237718296439992::1740249467::1740249485::1::::<><>::
+frame0004.png::CompressedTexture2D::7271607140418495613::1740249467::1740249485::1::::<><>::
+frame0005.png::CompressedTexture2D::8930373101866614262::1740249467::1740249485::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/::1740249467
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/GIF/::1740249467
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/::1740249485
+frame0000.png::CompressedTexture2D::8531275517870489129::1740249467::1740249485::1::::<><>::
+frame0001.png::CompressedTexture2D::3708824533213602609::1740249467::1740249485::1::::<><>::
+frame0002.png::CompressedTexture2D::741380784523275688::1740249467::1740249485::1::::<><>::
+frame0003.png::CompressedTexture2D::442680692613390445::1740249467::1740249485::1::::<><>::
+frame0004.png::CompressedTexture2D::677497929741751646::1740249467::1740249485::1::::<><>::
+frame0005.png::CompressedTexture2D::3734138237740742340::1740249467::1740249485::1::::<><>::
+frame0006.png::CompressedTexture2D::8784963181127742551::1740249467::1740249485::1::::<><>::
+frame0007.png::CompressedTexture2D::2250518620048636300::1740249467::1740249485::1::::<><>::
+frame0008.png::CompressedTexture2D::741409466886373343::1740249467::1740249485::1::::<><>::
+frame0009.png::CompressedTexture2D::8098342820053686111::1740249467::1740249485::1::::<><>::
+frame0010.png::CompressedTexture2D::4526702809836884399::1740249467::1740249485::1::::<><>::
+frame0011.png::CompressedTexture2D::4030824040211075771::1740249467::1740249485::1::::<><>::
+::res://sprites/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/With BG/::1740249485
+frame0000.png::CompressedTexture2D::7213498357297214466::1740249467::1740249485::1::::<><>::
+frame0001.png::CompressedTexture2D::4823708197880778600::1740249467::1740249485::1::::<><>::
+frame0002.png::CompressedTexture2D::8981927040599829282::1740249467::1740249485::1::::<><>::
+frame0003.png::CompressedTexture2D::3543886658340840444::1740249467::1740249485::1::::<><>::
+frame0004.png::CompressedTexture2D::7700181176851757535::1740249467::1740249485::1::::<><>::
+frame0005.png::CompressedTexture2D::4741687103905905853::1740249467::1740249485::1::::<><>::
+frame0006.png::CompressedTexture2D::8395827456283975792::1740249467::1740249485::1::::<><>::
+frame0007.png::CompressedTexture2D::1748763935232588746::1740249467::1740249485::1::::<><>::
+frame0008.png::CompressedTexture2D::5507173629735633049::1740249467::1740249485::1::::<><>::
+frame0009.png::CompressedTexture2D::9020041357779280905::1740249467::1740249485::1::::<><>::
+frame0010.png::CompressedTexture2D::2323514206920879414::1740249467::1740249485::1::::<><>::
+frame0011.png::CompressedTexture2D::142744239396422350::1740249467::1740249485::1::::<><>::
+::res://sprites/Mushroom/::1740151929
+Mushroom-Die.png::CompressedTexture2D::6404730251335066268::1740151854::1740151929::1::::<><>::
+::res://sprites/Mushroom/Mushroom with VFX/::1740151930
+Mushroom-Attack.png::CompressedTexture2D::4925607274805939420::1740151854::1740151930::1::::<><>::
+Mushroom-AttackWithStun.png::CompressedTexture2D::79037037361777769::1740151854::1740151930::1::::<><>::
+Mushroom-Die.png::CompressedTexture2D::8498029230055703865::1740151854::1740151930::1::::<><>::
+Mushroom-Hit.png::CompressedTexture2D::3490488644732433948::1740151854::1740151930::1::::<><>::
+Mushroom-Idle.png::CompressedTexture2D::217353361795395398::1740151854::1740151930::1::::<><>::
+Mushroom-Run.png::CompressedTexture2D::4803640989375467504::1740151854::1740151930::1::::<><>::
+Mushroom-Stun.png::CompressedTexture2D::4821584080361058274::1740151854::1740151930::1::::<><>::
+::res://sprites/Mushroom/Mushroom without VFX/::1740151930
+Mushroom-Attack.png::CompressedTexture2D::4752302800154125153::1740151855::1740151930::1::::<><>::
+Mushroom-AttackWithStun.png::CompressedTexture2D::8417249588592982967::1740151855::1740151930::1::::<><>::
+Mushroom-Die.png::CompressedTexture2D::8319928303633750400::1740151855::1740151930::1::::<><>::
+Mushroom-Hit.png::CompressedTexture2D::4138128108849542101::1740151855::1740151930::1::::<><>::
+Mushroom-Idle.png::CompressedTexture2D::5944087243148546791::1740151855::1740151930::1::::<><>::
+Mushroom-Run.png::CompressedTexture2D::6346509853721309954::1740151855::1740151930::1::::<><>::
+Mushroom-Stun.png::CompressedTexture2D::5598226401443033713::1740151855::1740151930::1::::<><>::
+::res://sprites/Mushroom/Mushroom-LeftRun/::1740151930
+sprite_0.png::CompressedTexture2D::3282482298131088723::1740151855::1740151930::1::::<><>::
+sprite_1.png::CompressedTexture2D::118279928853457465::1740151855::1740151930::1::::<><>::
+sprite_2.png::CompressedTexture2D::3191450068868210714::1740151855::1740151930::1::::<><>::
+sprite_3.png::CompressedTexture2D::5621030138977871052::1740151855::1740151930::1::::<><>::
+sprite_4.png::CompressedTexture2D::751304115133201920::1740151855::1740151930::1::::<><>::
+sprite_5.png::CompressedTexture2D::5557174589038433582::1740151855::1740151930::1::::<><>::
+sprite_6.png::CompressedTexture2D::3180626701652211974::1740151855::1740151930::1::::<><>::
+sprite_7.png::CompressedTexture2D::1658525499827161606::1740151855::1740151930::1::::<><>::
+::res://sprites/Mushroom/Mushroom-RightRun/::1740151930
+sprite_0.png::CompressedTexture2D::5620036651280372976::1740151855::1740151930::1::::<><>::
+sprite_1.png::CompressedTexture2D::3060555217369620520::1740151855::1740151930::1::::<><>::
+sprite_2.png::CompressedTexture2D::854769394518325879::1740151855::1740151930::1::::<><>::
+sprite_3.png::CompressedTexture2D::2463915347672922473::1740151855::1740151930::1::::<><>::
+sprite_4.png::CompressedTexture2D::6113802382052726489::1740151855::1740151930::1::::<><>::
+sprite_5.png::CompressedTexture2D::817453084690041336::1740151855::1740151930::1::::<><>::
+sprite_6.png::CompressedTexture2D::8697662823245576233::1740151855::1740151930::1::::<><>::
+sprite_7.png::CompressedTexture2D::8266908953355342202::1740151855::1740151930::1::::<><>::
+::res://sprites/Mushroom/Mushroom-Stun/::1740151930
+sprite_00.png::CompressedTexture2D::1209287694554534847::1740151855::1740151930::1::::<><>::
+sprite_01.png::CompressedTexture2D::6651064141747653653::1740151855::1740151930::1::::<><>::
+sprite_02.png::CompressedTexture2D::965809336298994964::1740151855::1740151929::1::::<><>::
+sprite_03.png::CompressedTexture2D::8395500275014004239::1740151855::1740151929::1::::<><>::
+sprite_04.png::CompressedTexture2D::1838612717873553594::1740151855::1740151929::1::::<><>::
+sprite_05.png::CompressedTexture2D::7722546039776582888::1740151856::1740151929::1::::<><>::
+sprite_06.png::CompressedTexture2D::1873863382098099881::1740151856::1740151929::1::::<><>::
+sprite_07.png::CompressedTexture2D::8614037135085190003::1740151856::1740151929::1::::<><>::
+sprite_08.png::CompressedTexture2D::2932668571220837717::1740151856::1740151929::1::::<><>::
+sprite_09.png::CompressedTexture2D::6202517091349332195::1740151856::1740151929::1::::<><>::
+sprite_10.png::CompressedTexture2D::2957136629412965051::1740151856::1740151929::1::::<><>::
+sprite_11.png::CompressedTexture2D::6598190421829206546::1740151856::1740151929::1::::<><>::
+sprite_12.png::CompressedTexture2D::272169118129007829::1740151856::1740151929::1::::<><>::
+sprite_13.png::CompressedTexture2D::7578289742706626461::1740151856::1740151929::1::::<><>::
+sprite_14.png::CompressedTexture2D::51467893721389996::1740151856::1740151929::1::::<><>::
+sprite_15.png::CompressedTexture2D::2733254973211400493::1740151856::1740151929::1::::<><>::
+sprite_16.png::CompressedTexture2D::4369333059069984092::1740151856::1740151929::1::::<><>::
+sprite_17.png::CompressedTexture2D::1631554690317837710::1740151856::1740151929::1::::<><>::
+::res://sprites/skeletonAsset/::1740249485
+skeletonAttack-Sheet146x64.png::CompressedTexture2D::8588559550807430694::1740249420::1740249485::1::::<><>::
+skeletonDie-Sheet32x32_head.png::CompressedTexture2D::8952900712669148691::1740249420::1740249485::1::::<><>::
+skeletonDie-Sheet79x64_body.png::CompressedTexture2D::960094089606118492::1740249420::1740249485::1::::<><>::
+skeletonDie-Sheet118x64_all.png::CompressedTexture2D::7624180856899933895::1740249420::1740249485::1::::<><>::
+skeletonHurt-Sheet64x64.png::CompressedTexture2D::2428750467694991837::1740249420::1740249485::1::::<><>::
+skeletonHurt-Sheet64x64_noRed.png::CompressedTexture2D::1731164774529921916::1740249420::1740249485::1::::<><>::
+skeletonIdle-Sheet64x64.png::CompressedTexture2D::2130609090757866712::1740249420::1740249485::1::::<><>::
+skeletonMove-Sheet64x64.png::CompressedTexture2D::2649152967400634736::1740249420::1740249485::1::::<><>::
+::res://sprites/skeletonAsset/Gifs/::1740249420
+::res://sprites/spr_portal_strip8/::1740151929
+sprite_0.png::CompressedTexture2D::8236767453202451861::1740151856::1740151929::1::::<><>::
+sprite_1.png::CompressedTexture2D::7118619069859639236::1740151856::1740151929::1::::<><>::
+sprite_2.png::CompressedTexture2D::4530457541755462493::1740151856::1740151929::1::::<><>::
+sprite_3.png::CompressedTexture2D::110361710617495209::1740151856::1740151929::1::::<><>::
+sprite_4.png::CompressedTexture2D::1778412620603045501::1740151856::1740151929::1::::<><>::
+sprite_5.png::CompressedTexture2D::2814310372338944274::1740151856::1740151929::1::::<><>::
+sprite_6.png::CompressedTexture2D::6192810347983830753::1740151856::1740151929::1::::<><>::
+sprite_7.png::CompressedTexture2D::8174492178741540437::1740151856::1740151929::1::::<><>::
+::res://sprites/The Female Adventurer - Free/::1740151929
+frame dimensions.png::CompressedTexture2D::4233165731289682954::1740151856::1740151929::1::::<><>::
+Shadow.png::CompressedTexture2D::5431076554716126710::1740151856::1740151929::1::::<><>::
+::res://sprites/The Female Adventurer - Free/Dash - NEW/::1740151929
+Dash.png::CompressedTexture2D::7620668485365447536::1740151856::1740151929::1::::<><>::
+Dash_Down.png::CompressedTexture2D::1219787371994070444::1740151856::1740151929::1::::<><>::
+Dash_Left_Down.png::CompressedTexture2D::2604170711281602993::1740151856::1740151929::1::::<><>::
+Dash_Left_Up.png::CompressedTexture2D::88051506561938892::1740151856::1740151929::1::::<><>::
+Dash_Right_Down.png::CompressedTexture2D::2017226563111870154::1740151856::1740151929::1::::<><>::
+Dash_Right_Up.png::CompressedTexture2D::295806743838427378::1740151857::1740151929::1::::<><>::
+Dash_Up.png::CompressedTexture2D::5539891483109728053::1740151857::1740151929::1::::<><>::
+::res://sprites/The Female Adventurer - Free/Dash - NEW/Dust/::1740151929
+Dash_Dust.png::CompressedTexture2D::232230406790726500::1740151857::1740151929::1::::<><>::
+Dash_Dust_Down.png::CompressedTexture2D::391124742721077762::1740151857::1740151929::1::::<><>::
+Dash_Dust_left_Down.png::CompressedTexture2D::8793610253066447348::1740151857::1740151929::1::::<><>::
+Dash_Dust_left_Up.png::CompressedTexture2D::704179747113858252::1740151857::1740151929::1::::<><>::
+Dash_Dust_right_Down.png::CompressedTexture2D::788910135040304342::1740151857::1740151929::1::::<><>::
+Dash_Dust_right_Up.png::CompressedTexture2D::3985120024086741033::1740151857::1740151929::1::::<><>::
+Dash_Dust_Up.png::CompressedTexture2D::6866439621961097064::1740151857::1740151929::1::::<><>::
+::res://sprites/The Female Adventurer - Free/Death/::1740151929
+death.png::CompressedTexture2D::8156296514397437097::1740151857::1740151929::1::::<><>::
+death_Down.png::CompressedTexture2D::6781994964317006216::1740151857::1740151929::1::::<><>::
+death_Left_Down.png::CompressedTexture2D::7375056316635954499::1740151857::1740151929::1::::<><>::
+death_Left_Up.png::CompressedTexture2D::6215519974914908253::1740151857::1740151929::1::::<><>::
+death_Right_Down.png::CompressedTexture2D::4484423245594278445::1740151857::1740151929::1::::<><>::
+death_Right_Up.png::CompressedTexture2D::1581550653894834171::1740151857::1740151929::1::::<><>::
+death_Up.png::CompressedTexture2D::6576784256676614207::1740151857::1740151929::1::::<><>::
+::res://sprites/The Female Adventurer - Free/death_Left_Down/::1740151929
+sprite_0.png::CompressedTexture2D::6368679475453241827::1740151857::1740151929::1::::<><>::
+sprite_1.png::CompressedTexture2D::3064840890971460226::1740151857::1740151929::1::::<><>::
+sprite_2.png::CompressedTexture2D::8742317304662543285::1740151857::1740151929::1::::<><>::
+sprite_3.png::CompressedTexture2D::6857130734016297484::1740151857::1740151929::1::::<><>::
+sprite_4.png::CompressedTexture2D::1567255110404974951::1740151857::1740151929::1::::<><>::
+sprite_5.png::CompressedTexture2D::8625360380843069867::1740151857::1740151929::1::::<><>::
+sprite_6.png::CompressedTexture2D::6596780761640225028::1740151857::1740151929::1::::<><>::
+sprite_7.png::CompressedTexture2D::6138689981365311123::1740151857::1740151929::1::::<><>::
+::res://sprites/The Female Adventurer - Free/death_Right_Down/::1740151929
+sprite_0.png::CompressedTexture2D::7295439260103197026::1740151857::1740151929::1::::<><>::
+sprite_1.png::CompressedTexture2D::2436352540814994506::1740151857::1740151929::1::::<><>::
+sprite_2.png::CompressedTexture2D::1361536588081747431::1740151857::1740151929::1::::<><>::
+sprite_3.png::CompressedTexture2D::3213113736690869161::1740151858::1740151929::1::::<><>::
+sprite_4.png::CompressedTexture2D::6574041294874627152::1740151858::1740151929::1::::<><>::
+sprite_5.png::CompressedTexture2D::8211836183034879196::1740151858::1740151929::1::::<><>::
+sprite_6.png::CompressedTexture2D::7949172291524561504::1740151858::1740151929::1::::<><>::
+sprite_7.png::CompressedTexture2D::6395755828590107621::1740151858::1740151929::1::::<><>::
+::res://sprites/The Female Adventurer - Free/Death_Shadow/::1740151929
+death_normal.png::CompressedTexture2D::8475737933009929620::1740151858::1740151929::1::::<><>::
+death_normal_down.png::CompressedTexture2D::6662250491622319512::1740151858::1740151929::1::::<><>::
+death_normal_left_down.png::CompressedTexture2D::8321375494653809057::1740151858::1740151929::1::::<><>::
+death_normal_left_up.png::CompressedTexture2D::8244928425175280762::1740151858::1740151929::1::::<><>::
+death_normal_right_down.png::CompressedTexture2D::1271824366059859767::1740151858::1740151929::1::::<><>::
+death_normal_right_up.png::CompressedTexture2D::5078254426791024914::1740151858::1740151929::1::::<><>::
+death_normal_up.png::CompressedTexture2D::9105860091475767919::1740151858::1740151929::1::::<><>::
+::res://sprites/The Female Adventurer - Free/Idle/::1740151929
+Idle.png::CompressedTexture2D::1376381366782115006::1740151858::1740151929::1::::<><>::
+Idle_Down.png::CompressedTexture2D::6815362343854888844::1740151858::1740151929::1::::<><>::
+Idle_Left_Down.png::CompressedTexture2D::1494381595362528148::1740151858::1740151929::1::::<><>::
+Idle_Left_Up.png::CompressedTexture2D::638775044200709305::1740151858::1740151929::1::::<><>::
+Idle_Right_Down.png::CompressedTexture2D::3646030655975825158::1740151858::1740151929::1::::<><>::
+Idle_Right_Up.png::CompressedTexture2D::3674481796434850350::1740151858::1740151929::1::::<><>::
+Idle_Up.png::CompressedTexture2D::364858533248397632::1740151858::1740151929::1::::<><>::
+::res://sprites/The Female Adventurer - Free/IdleSeparadoLeftDown/::1740151929
+Idle_Left_Down_frame_0.png::CompressedTexture2D::6960357585320079526::1740151858::1740151929::1::::<><>::
+Idle_Left_Down_frame_1.png::CompressedTexture2D::8981007119331134259::1740151858::1740151929::1::::<><>::
+Idle_Left_Down_frame_2.png::CompressedTexture2D::5873098568626834647::1740151858::1740151929::1::::<><>::
+Idle_Left_Down_frame_3.png::CompressedTexture2D::2636380710308794559::1740151858::1740151929::1::::<><>::
+Idle_Left_Down_frame_4.png::CompressedTexture2D::5783791347778682440::1740151858::1740151929::1::::<><>::
+Idle_Left_Down_frame_5.png::CompressedTexture2D::2380026270859766839::1740151858::1740151929::1::::<><>::
+Idle_Left_Down_frame_6.png::CompressedTexture2D::637042860361180849::1740151858::1740151929::1::::<><>::
+Idle_Left_Down_frame_7.png::CompressedTexture2D::9218784832543554511::1740151858::1740151929::1::::<><>::
+::res://sprites/The Female Adventurer - Free/IdleSeparadoRightDown/::1740151929
+frame_0.png::CompressedTexture2D::936064583476343961::1740151859::1740151929::1::::<><>::
+frame_1.png::CompressedTexture2D::3496984426271025551::1740151859::1740151929::1::::<><>::
+frame_2.png::CompressedTexture2D::2061905724042838103::1740151859::1740151929::1::::<><>::
+frame_3.png::CompressedTexture2D::878031769637034799::1740151859::1740151929::1::::<><>::
+frame_4.png::CompressedTexture2D::3075904807496641734::1740151859::1740151929::1::::<><>::
+frame_5.png::CompressedTexture2D::5819950222423740695::1740151859::1740151929::1::::<><>::
+frame_6.png::CompressedTexture2D::1250233624677547837::1740151859::1740151929::1::::<><>::
+frame_7.png::CompressedTexture2D::683314487693470447::1740151859::1740151929::1::::<><>::
+::res://sprites/The Female Adventurer - Free/Walk/::1740151929
+walk.png::CompressedTexture2D::6502457466910065836::1740151859::1740151929::1::::<><>::
+walk_Down.png::CompressedTexture2D::3026759995200814547::1740151859::1740151929::1::::<><>::
+walk_Left_Down.png::CompressedTexture2D::8358503138531766789::1740151859::1740151929::1::::<><>::
+walk_Left_Up.png::CompressedTexture2D::3849917260204876325::1740151859::1740151929::1::::<><>::
+walk_Right_Down.png::CompressedTexture2D::7523824104658474378::1740151859::1740151929::1::::<><>::
+walk_Right_Up.png::CompressedTexture2D::7769086067381902233::1740151859::1740151929::1::::<><>::
+walk_Up.png::CompressedTexture2D::3982987354126273578::1740151859::1740151929::1::::<><>::
+::res://sprites/The Female Adventurer - Free/walk_Left_Down/::1740151929
+sprite_0.png::CompressedTexture2D::7473543311884771005::1740151859::1740151929::1::::<><>::
+sprite_1.png::CompressedTexture2D::2785639588075814527::1740151859::1740151929::1::::<><>::
+sprite_2.png::CompressedTexture2D::3063094532931412640::1740151859::1740151929::1::::<><>::
+sprite_3.png::CompressedTexture2D::2025039084671721136::1740151859::1740151929::1::::<><>::
+sprite_4.png::CompressedTexture2D::3599389650484316728::1740151859::1740151929::1::::<><>::
+sprite_5.png::CompressedTexture2D::4063429081727855534::1740151859::1740151929::1::::<><>::
+sprite_6.png::CompressedTexture2D::6232126797108407796::1740151859::1740151929::1::::<><>::
+sprite_7.png::CompressedTexture2D::5922826767515828006::1740151859::1740151929::1::::<><>::
+::res://sprites/The Female Adventurer - Free/walk_Right_Down/::1740151929
+sprite_0.png::CompressedTexture2D::239157986638663074::1740151859::1740151929::1::::<><>::
+sprite_1.png::CompressedTexture2D::3116665363697312663::1740151859::1740151929::1::::<><>::
+sprite_2.png::CompressedTexture2D::1157684116753360821::1740151859::1740151929::1::::<><>::
+sprite_3.png::CompressedTexture2D::251525605882492270::1740151859::1740151929::1::::<><>::
+sprite_4.png::CompressedTexture2D::7868746595534010953::1740151860::1740151929::1::::<><>::
+sprite_5.png::CompressedTexture2D::7461298408428421787::1740151860::1740151929::1::::<><>::
+sprite_6.png::CompressedTexture2D::4380190079030884914::1740151860::1740151929::1::::<><>::
+sprite_7.png::CompressedTexture2D::6328381067783546931::1740151860::1740151929::1::::<><>::
+::res://sprites/Tileset/::1740252810
+00Atlas.png::CompressedTexture2D::7322805445241875508::1632473891::1740252810::1::::<><>::
+bridge1.png::CompressedTexture2D::3337383000778044282::1632474308::1740252810::1::::<><>::
+bridge2.png::CompressedTexture2D::1765735481293405184::1632474308::1740252809::1::::<><>::
+bridge3.png::CompressedTexture2D::2114377649252091112::1632474308::1740252809::1::::<><>::
+bridge4.png::CompressedTexture2D::3551822936019498637::1632474308::1740252809::1::::<><>::
+bridge5.png::CompressedTexture2D::689486828193660754::1632474308::1740252809::1::::<><>::
+bridge6.png::CompressedTexture2D::8350097113618159063::1632474308::1740252809::1::::<><>::
+bridge7.png::CompressedTexture2D::2625340604333234334::1632474308::1740252809::1::::<><>::
+bridge8.png::CompressedTexture2D::4397831705043808214::1632474308::1740252809::1::::<><>::
+bridge9.png::CompressedTexture2D::3386753424493145040::1632474308::1740252809::1::::<><>::
+grass1.png::CompressedTexture2D::5912327969364666232::1632474322::1740252809::1::::<><>::
+grass2.png::CompressedTexture2D::7891090194193611431::1632474322::1740252809::1::::<><>::
+grass3.png::CompressedTexture2D::3899963567087614015::1632474322::1740252809::1::::<><>::
+grass4.png::CompressedTexture2D::3591253931619693631::1632474322::1740252809::1::::<><>::
+grass5.png::CompressedTexture2D::5606708680483596695::1632474322::1740252809::1::::<><>::
+grass6.png::CompressedTexture2D::3622458420750611277::1632474322::1740252809::1::::<><>::
+grass7.png::CompressedTexture2D::4220084370008254705::1632474322::1740252809::1::::<><>::
+grass8.png::CompressedTexture2D::7666440439404647207::1632474322::1740252809::1::::<><>::
+grass9.png::CompressedTexture2D::588639677496450720::1632474322::1740252809::1::::<><>::
+grass10.png::CompressedTexture2D::5426703890237210824::1632474322::1740252809::1::::<><>::
+grass11.png::CompressedTexture2D::1346409890484785922::1632474322::1740252809::1::::<><>::
+grass12.png::CompressedTexture2D::7137239756301745977::1632474322::1740252810::1::::<><>::
+platforms1.png::CompressedTexture2D::3688110483808995690::1632474279::1740252810::1::::<><>::
+platforms2.png::CompressedTexture2D::5987885080016716781::1632474279::1740252810::1::::<><>::
+platforms3.png::CompressedTexture2D::281050807165337139::1632474279::1740252810::1::::<><>::
+platforms4.png::CompressedTexture2D::1861583368945031143::1632474279::1740252810::1::::<><>::
+platforms5.png::CompressedTexture2D::7142354757460897537::1632474279::1740252810::1::::<><>::
+platforms6.png::CompressedTexture2D::8678355511449030265::1632474279::1740252810::1::::<><>::
+platforms7.png::CompressedTexture2D::9119856892601717256::1632474279::1740252810::1::::<><>::
+platforms8.png::CompressedTexture2D::5571355565943284512::1632474279::1740252810::1::::<><>::
+platforms9.png::CompressedTexture2D::1688458266791275449::1632474279::1740252810::1::::<><>::
+platforms10.png::CompressedTexture2D::7153595079943442574::1632474279::1740252810::1::::<><>::
+platforms11.png::CompressedTexture2D::6728650434099658398::1632474279::1740252810::1::::<><>::
+platforms12.png::CompressedTexture2D::8210391755155512569::1632474280::1740252810::1::::<><>::
+platvariation1.png::CompressedTexture2D::822933854117065647::1632474295::1740252810::1::::<><>::
+platvariation2.png::CompressedTexture2D::5742064528986205103::1632474296::1740252810::1::::<><>::
+platvariation3.png::CompressedTexture2D::190549669932892846::1632474296::1740252810::1::::<><>::
+platvariation4.png::CompressedTexture2D::4289050102644288485::1632474296::1740252810::1::::<><>::
+platvariation5.png::CompressedTexture2D::5291131417211675137::1632474296::1740252810::1::::<><>::
+platvariation6.png::CompressedTexture2D::2010435530721369566::1632474296::1740252810::1::::<><>::
+platvariation7.png::CompressedTexture2D::5206245380562014737::1632474296::1740252810::1::::<><>::
+platvariation8.png::CompressedTexture2D::9076473686142937283::1632474296::1740252810::1::::<><>::
+platvariation9.png::CompressedTexture2D::8080957219225114294::1632474296::1740252810::1::::<><>::
+platvariation10.png::CompressedTexture2D::3675282778674133134::1632474296::1740252809::1::::<><>::
+platvariation11.png::CompressedTexture2D::8889695409832356932::1632474296::1740252809::1::::<><>::
+platvariation12.png::CompressedTexture2D::6205969264805533362::1632474296::1740252809::1::::<><>::
+platvariation13.png::CompressedTexture2D::5342830206109633125::1632474296::1740252809::1::::<><>::
+platvariation14.png::CompressedTexture2D::4900835184443471610::1632474296::1740252809::1::::<><>::
+platvariation15.png::CompressedTexture2D::7927532876474839050::1632474296::1740252809::1::::<><>::
+platvariation16.png::CompressedTexture2D::8422865442284821582::1632474296::1740252809::1::::<><>::
+platvariation17.png::CompressedTexture2D::5060453329802251020::1632474296::1740252809::1::::<><>::
+platvariation18.png::CompressedTexture2D::356419708683257861::1632474296::1740252809::1::::<><>::
+tileMain1.png::CompressedTexture2D::9005381468806393405::1632474246::1740252809::1::::<><>::
+tileMain2.png::CompressedTexture2D::3825908934041747299::1632474246::1740252809::1::::<><>::
+tileMain3.png::CompressedTexture2D::7268390529498806862::1632474246::1740252809::1::::<><>::
+tileMain4.png::CompressedTexture2D::4871417913705529997::1632474246::1740252809::1::::<><>::
+tileMain5.png::CompressedTexture2D::8551540895184852736::1632474246::1740252809::1::::<><>::
+tileMain6.png::CompressedTexture2D::408414193489785192::1632474246::1740252809::1::::<><>::
+tileMain7.png::CompressedTexture2D::6838376198834184958::1632474246::1740252809::1::::<><>::
+tileMain8.png::CompressedTexture2D::5040359489185381465::1632474246::1740252809::1::::<><>::
+tileMain9.png::CompressedTexture2D::2127005717327702646::1632474246::1740252809::1::::<><>::
+tileMain10.png::CompressedTexture2D::417040802174789703::1632474246::1740252809::1::::<><>::
+tileMain11.png::CompressedTexture2D::6476902586413564194::1632474246::1740252809::1::::<><>::
+tileMain12.png::CompressedTexture2D::4656117288840119346::1632474246::1740252809::1::::<><>::
+tileMain13.png::CompressedTexture2D::6802773161941883139::1632474246::1740252809::1::::<><>::
+tileMain14.png::CompressedTexture2D::2926377205079909638::1632474246::1740252809::1::::<><>::
+tileMain15.png::CompressedTexture2D::248485232860281925::1632474246::1740252809::1::::<><>::
+tileMain16.png::CompressedTexture2D::6135813060340736612::1632474246::1740252809::1::::<><>::
+tileMain17.png::CompressedTexture2D::7628841262321169354::1632474246::1740252809::1::::<><>::
+tileMain18.png::CompressedTexture2D::2886269184424467306::1632474246::1740252809::1::::<><>::
+tileMain19.png::CompressedTexture2D::1404648535441711996::1632474246::1740252809::1::::<><>::
+tileMain20.png::CompressedTexture2D::2163262107721768480::1632474246::1740252809::1::::<><>::
+tileMain21.png::CompressedTexture2D::3628858993405385424::1632474246::1740252809::1::::<><>::
+tileMain22.png::CompressedTexture2D::7632388947093558475::1632474246::1740252809::1::::<><>::
+tileMain23.png::CompressedTexture2D::1282912601285994338::1632474246::1740252809::1::::<><>::
+tileMain24.png::CompressedTexture2D::3029461573109859548::1632474247::1740252809::1::::<><>::
+tileMain25.png::CompressedTexture2D::1956553883567945944::1632474247::1740252809::1::::<><>::
+tileMain26.png::CompressedTexture2D::1252501193353861001::1632474247::1740252809::1::::<><>::
+tileMain27.png::CompressedTexture2D::4817191625247214372::1632474247::1740252809::1::::<><>::
+tileMain28.png::CompressedTexture2D::7543248993011161284::1632474247::1740252809::1::::<><>::
+tileMain29.png::CompressedTexture2D::7379595778370333526::1632474247::1740252809::1::::<><>::
+tileMain30.png::CompressedTexture2D::5628092987861767670::1632474247::1740252809::1::::<><>::
+tileMain31.png::CompressedTexture2D::1802914598151828749::1632474247::1740252809::1::::<><>::
+tileMain32.png::CompressedTexture2D::7284810617989580890::1632474247::1740252809::1::::<><>::
+water1.png::CompressedTexture2D::8002882127099314333::1632474315::1740252809::1::::<><>::
+water2.png::CompressedTexture2D::1933364541803627588::1632474315::1740252809::1::::<><>::
+::res://sprites/Undead executioner puppet/::1740151860
+::res://sprites/Undead executioner puppet/png/::1740151929
+attacking.png::CompressedTexture2D::9127081929137278982::1740151860::1740151929::1::::<><>::
+death.png::CompressedTexture2D::1220642645923123095::1740151860::1740151929::1::::<><>::
+idle2.png::CompressedTexture2D::1019258959888383557::1740151860::1740151929::1::::<><>::
+idle.png::CompressedTexture2D::2774899725821588283::1740151860::1740151929::1::::<><>::
+skill1.png::CompressedTexture2D::8830456116207427184::1740151860::1740151929::1::::<><>::
+summon.png::CompressedTexture2D::6675417813894303910::1740151860::1740151929::1::::<><>::
+summonAppear.png::CompressedTexture2D::2717274405067674137::1740151860::1740151929::1::::<><>::
+summonDeath.png::CompressedTexture2D::8476448642947702039::1740151860::1740151929::1::::<><>::
+summonIdle.png::CompressedTexture2D::3687808933242200437::1740151860::1740151929::1::::<><>::
+::res://sprites/Undead executioner puppet/summonAppear/::1740151929
+sprite_0.png::CompressedTexture2D::1527720803579246620::1740151860::1740151929::1::::<><>::
+sprite_1.png::CompressedTexture2D::8561962783131869062::1740151860::1740151929::1::::<><>::
+sprite_2.png::CompressedTexture2D::1803822128126828277::1740151860::1740151929::1::::<><>::
+sprite_3.png::CompressedTexture2D::1315205362327221902::1740151860::1740151929::1::::<><>::
+sprite_4.png::CompressedTexture2D::2185729361320160639::1740151860::1740151929::1::::<><>::
+sprite_5.png::CompressedTexture2D::3240129118432266077::1740151860::1740151929::1::::<><>::
+::res://sprites/Undead executioner puppet/summonIdle/::1740151929
+sprite_0.png::CompressedTexture2D::6487289260067857915::1740151860::1740151929::1::::<><>::
+sprite_1.png::CompressedTexture2D::1034712933669519096::1740151860::1740151929::1::::<><>::
+sprite_2.png::CompressedTexture2D::939200123738035336::1740151860::1740151929::1::::<><>::
+sprite_3.png::CompressedTexture2D::829628334233693714::1740151860::1740151929::1::::<><>::

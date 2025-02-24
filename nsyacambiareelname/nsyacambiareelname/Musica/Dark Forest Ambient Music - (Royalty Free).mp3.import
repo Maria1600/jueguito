@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://kxvlxfi3nf3n"
+path="res://.godot/imported/Dark Forest Ambient Music - (Royalty Free).mp3-78b6b5e8abb2f6a12ea77832f8a98d2c.mp3str"
+
+[deps]
+
+source_file="res://Musica/Dark Forest Ambient Music - (Royalty Free).mp3"
+dest_files=["res://.godot/imported/Dark Forest Ambient Music - (Royalty Free).mp3-78b6b5e8abb2f6a12ea77832f8a98d2c.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

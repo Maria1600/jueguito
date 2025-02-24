@@ -1,0 +1,417 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_p1f28"]
+
+[resource]
+script = ExtResource("1_p1f28")
+using_states = PackedStringArray()
+titles = {}
+character_names = PackedStringArray("\"start\"", "{\"speaker\"", "\"speaker\"", "\"text\"", "\"next\"")
+first_title = ""
+lines = {
+"0": {
+"id": "0",
+"next_id": "1",
+"text": "{",
+"type": "dialogue"
+},
+"1": {
+"character": "\"start\"",
+"id": "1",
+"next_id": "2",
+"text": "[",
+"type": "dialogue"
+},
+"10": {
+"id": "10",
+"next_id": "11",
+"text": "{",
+"type": "dialogue"
+},
+"11": {
+"character": "\"speaker\"",
+"id": "11",
+"next_id": "12",
+"text": "\"player\",",
+"type": "dialogue"
+},
+"12": {
+"character": "\"text\"",
+"id": "12",
+"next_id": "13",
+"text": "\"Tenia curiosidad por ver como son los monstruos en realidad\",",
+"type": "dialogue"
+},
+"13": {
+"character": "\"next\"",
+"id": "13",
+"next_id": "14",
+"text": "\"start_2\"",
+"type": "dialogue"
+},
+"14": {
+"id": "14",
+"next_id": "15",
+"text": "},",
+"type": "dialogue"
+},
+"15": {
+"id": "15",
+"next_id": "16",
+"text": "{",
+"type": "dialogue"
+},
+"16": {
+"character": "\"speaker\"",
+"id": "16",
+"next_id": "17",
+"text": "\"player\",",
+"type": "dialogue"
+},
+"17": {
+"character": "\"text\"",
+"id": "17",
+"next_id": "18",
+"text": "\"¿Y tu como has acabado aqui?\",",
+"type": "dialogue"
+},
+"18": {
+"character": "\"next\"",
+"id": "18",
+"next_id": "19",
+"text": "\"start_2\"",
+"type": "dialogue"
+},
+"19": {
+"id": "19",
+"next_id": "20",
+"text": "},",
+"type": "dialogue"
+},
+"2": {
+"character": "{\"speaker\"",
+"id": "2",
+"next_id": "3",
+"text": "\"Caballero\", \"text\": \"Hey tu la de ahi acercate.\"},",
+"type": "dialogue"
+},
+"20": {
+"id": "20",
+"next_id": "21",
+"text": "{",
+"type": "dialogue"
+},
+"21": {
+"character": "\"speaker\"",
+"id": "21",
+"next_id": "22",
+"text": "\"player\",",
+"type": "dialogue"
+},
+"22": {
+"character": "\"text\"",
+"id": "22",
+"next_id": "23",
+"text": "\"iuhjendfbsvgyusa\",",
+"type": "dialogue"
+},
+"23": {
+"character": "\"next\"",
+"id": "23",
+"next_id": "24",
+"text": "\"start_2\"",
+"type": "dialogue"
+},
+"24": {
+"id": "24",
+"next_id": "25",
+"text": "},",
+"type": "dialogue"
+},
+"25": {
+"character": "{\"speaker\"",
+"id": "25",
+"next_id": "26",
+"text": "\"Caballero\", \"text\": \"Vaaale...\"},",
+"type": "dialogue"
+},
+"26": {
+"character": "{\"speaker\"",
+"id": "26",
+"next_id": "27",
+"text": "\"Caballero\", \"text\": \"De todas formas chica, te va ser dificil salir de aqui todo esta plagado de monstruos...\"},",
+"type": "dialogue"
+},
+"27": {
+"character": "{\"speaker\"",
+"id": "27",
+"next_id": "28",
+"text": "\"Caballero\", \"text\": \"Ademas de que este bosque es extraño... He intentando salir varias veces pero siempre vuelvo al punto de partida.\"},",
+"type": "dialogue"
+},
+"28": {
+"id": "28",
+"next_id": "29",
+"text": "{",
+"type": "dialogue"
+},
+"29": {
+"character": "\"speaker\"",
+"id": "29",
+"next_id": "30",
+"text": "\"player\",",
+"type": "dialogue"
+},
+"3": {
+"character": "{\"speaker\"",
+"id": "3",
+"next_id": "4",
+"text": "\"Caballero\", \"text\": \"No pensaba que me iba a encontrar con alguien mas aqui.\"},",
+"type": "dialogue"
+},
+"30": {
+"character": "\"text\"",
+"id": "30",
+"next_id": "31",
+"text": "\"Vale eso es raro.\",",
+"type": "dialogue"
+},
+"31": {
+"character": "\"next\"",
+"id": "31",
+"next_id": "32",
+"text": "\"start_3\"",
+"type": "dialogue"
+},
+"32": {
+"id": "32",
+"next_id": "33",
+"text": "},",
+"type": "dialogue"
+},
+"33": {
+"character": "{\"speaker\"",
+"id": "33",
+"next_id": "34",
+"text": "\"Caballero\", \"text\": \"Y que lo digas...\"},",
+"type": "dialogue"
+},
+"34": {
+"id": "34",
+"next_id": "35",
+"text": "{",
+"type": "dialogue"
+},
+"35": {
+"character": "\"speaker\"",
+"id": "35",
+"next_id": "36",
+"text": "\"player\",",
+"type": "dialogue"
+},
+"36": {
+"character": "\"text\"",
+"id": "36",
+"next_id": "37",
+"text": "\"Wao es un bosque magicooooo\",",
+"type": "dialogue"
+},
+"37": {
+"character": "\"next\"",
+"id": "37",
+"next_id": "38",
+"text": "\"start_3\"",
+"type": "dialogue"
+},
+"38": {
+"id": "38",
+"next_id": "39",
+"text": "},",
+"type": "dialogue"
+},
+"39": {
+"character": "{\"speaker\"",
+"id": "39",
+"next_id": "40",
+"text": "\"Caballero\", \"text\": \"No tiene gracia chica.\"},",
+"type": "dialogue"
+},
+"4": {
+"character": "{\"speaker\"",
+"id": "4",
+"next_id": "5",
+"text": "\"Caballero\", \"text\": \"Yo estaba persiguiendo a un criminal y sin querer acabe adentrandome en este bosque. ¿Y tu como acabaste aquí?\"},",
+"type": "dialogue"
+},
+"40": {
+"id": "40",
+"next_id": "41",
+"text": "{",
+"type": "dialogue"
+},
+"41": {
+"character": "\"speaker\"",
+"id": "41",
+"next_id": "42",
+"text": "\"player\",",
+"type": "dialogue"
+},
+"42": {
+"character": "\"text\"",
+"id": "42",
+"next_id": "43",
+"text": "\"Umm... creo que deberia verlo por mi misma\",",
+"type": "dialogue"
+},
+"43": {
+"character": "\"next\"",
+"id": "43",
+"next_id": "44",
+"text": "\"start_3\"",
+"type": "dialogue"
+},
+"44": {
+"id": "44",
+"next_id": "45",
+"text": "},",
+"type": "dialogue"
+},
+"45": {
+"id": "45",
+"next_id": "46",
+"text": "{",
+"type": "dialogue"
+},
+"46": {
+"character": "\"speaker\"",
+"id": "46",
+"next_id": "47",
+"text": "\"player\",",
+"type": "dialogue"
+},
+"47": {
+"character": "\"text\"",
+"id": "47",
+"next_id": "48",
+"text": "\"ewiubhfvnnpsswn ahcvvjhcxcb jsd\",",
+"type": "dialogue"
+},
+"48": {
+"character": "\"next\"",
+"id": "48",
+"next_id": "49",
+"text": "\"start_3\"",
+"type": "dialogue"
+},
+"49": {
+"id": "49",
+"next_id": "50",
+"text": "},",
+"type": "dialogue"
+},
+"5": {
+"id": "5",
+"next_id": "6",
+"text": "{",
+"type": "dialogue"
+},
+"50": {
+"character": "{\"speaker\"",
+"id": "50",
+"next_id": "52",
+"text": "\"Caballero\", \"text\": \"¿Chica est",
+"type": "dialogue"
+},
+"51": {
+"id": "51",
+"next_id": "52",
+"type": ""
+},
+"52": {
+"id": "52",
+"is_snippet": false,
+"next_id": "end",
+"next_id_after": "",
+"type": "goto"
+},
+"6": {
+"character": "\"speaker\"",
+"id": "6",
+"next_id": "7",
+"text": "\"player\",",
+"type": "dialogue"
+},
+"7": {
+"character": "\"text\"",
+"id": "7",
+"next_id": "8",
+"text": "\"No tengo ni idea\",",
+"type": "dialogue"
+},
+"8": {
+"character": "\"next\"",
+"id": "8",
+"next_id": "9",
+"text": "\"start_2\"",
+"type": "dialogue"
+},
+"9": {
+"id": "9",
+"next_id": "10",
+"text": "},",
+"type": "dialogue"
+}
+}
+raw_text = "{
+  \"start\": [
+    {\"speaker\": \"Caballero\", \"text\": \"Hey tu la de ahi acercate.\"},
+    {\"speaker\": \"Caballero\", \"text\": \"No pensaba que me iba a encontrar con alguien mas aqui.\"},
+    {\"speaker\": \"Caballero\", \"text\": \"Yo estaba persiguiendo a un criminal y sin querer acabe adentrandome en este bosque. ¿Y tu como acabaste aquí?\"},
+    {
+      \"speaker\": \"player\",
+      \"text\": \"No tengo ni idea\",
+      \"next\": \"start_2\"
+    },
+    {
+      \"speaker\": \"player\",
+      \"text\": \"Tenia curiosidad por ver como son los monstruos en realidad\",
+      \"next\": \"start_2\"
+    },
+    {
+      \"speaker\": \"player\",
+      \"text\": \"¿Y tu como has acabado aqui?\",
+      \"next\": \"start_2\"
+    },
+    {
+      \"speaker\": \"player\",
+      \"text\": \"iuhjendfbsvgyusa\",
+      \"next\": \"start_2\"
+    },
+    {\"speaker\": \"Caballero\", \"text\": \"Vaaale...\"},
+    {\"speaker\": \"Caballero\", \"text\": \"De todas formas chica, te va ser dificil salir de aqui todo esta plagado de monstruos...\"},
+    {\"speaker\": \"Caballero\", \"text\": \"Ademas de que este bosque es extraño... He intentando salir varias veces pero siempre vuelvo al punto de partida.\"},
+    {
+      \"speaker\": \"player\",
+      \"text\": \"Vale eso es raro.\",
+      \"next\": \"start_3\"
+    },
+    {\"speaker\": \"Caballero\", \"text\": \"Y que lo digas...\"},
+    {
+      \"speaker\": \"player\",
+      \"text\": \"Wao es un bosque magicooooo\",
+      \"next\": \"start_3\"
+    },
+    {\"speaker\": \"Caballero\", \"text\": \"No tiene gracia chica.\"},
+    {
+      \"speaker\": \"player\",
+      \"text\": \"Umm... creo que deberia verlo por mi misma\",
+      \"next\": \"start_3\"
+    },
+    {
+      \"speaker\": \"player\",
+      \"text\": \"ewiubhfvnnpsswn ahcvvjhcxcb jsd\",
+      \"next\": \"start_3\"
+    },
+    {\"speaker\": \"Caballero\", \"text\": \"¿Chica est
+"
+metadata/dialogue_manager_version = "3.3.2"

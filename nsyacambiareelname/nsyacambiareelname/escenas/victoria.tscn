@@ -1,0 +1,43 @@
+[gd_scene load_steps=7 format=3 uid="uid://dhcij0bkv5yeb"]
+
+[ext_resource type="PackedScene" uid="uid://be7x8syjhvq6u" path="res://escenas/jugador.tscn" id="1_sgii2"]
+[ext_resource type="Texture2D" uid="uid://bjnfjvsrvvdyt" path="res://sprites/pixel-art-village-scene-with-charming-houses-towering-castle-distance_14117-1102598.jpg" id="2_53rr2"]
+[ext_resource type="AudioStream" uid="uid://1h34muh7amxc" path="res://Musica/Epilogue (The Legend of Zelda： Breath of the Wild OST).mp3" id="2_gpgdw"]
+
+[sub_resource type="Animation" id="Animation_4ma1w"]
+resource_name = "cine"
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_6fr5y"]
+_data = {
+"cine": SubResource("Animation_4ma1w")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_il0gv"]
+size = Vector2(1657, 248.5)
+
+[node name="Victoria" type="Node2D"]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_6fr5y")
+}
+
+[node name="Personaje" parent="." instance=ExtResource("1_sgii2")]
+z_index = 1
+position = Vector2(308, 240)
+scale = Vector2(3.5, 3.5)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(809, 64)
+scale = Vector2(0.7975, 0.578947)
+texture = ExtResource("2_53rr2")
+
+[node name="RigidBody2D" type="RigidBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
+position = Vector2(812.5, 442)
+shape = SubResource("RectangleShape2D_il0gv")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_gpgdw")
+autoplay = true

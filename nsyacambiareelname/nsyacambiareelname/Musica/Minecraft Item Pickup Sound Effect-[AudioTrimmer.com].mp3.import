@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://db0n4se8emwui"
+path="res://.godot/imported/Minecraft Item Pickup Sound Effect-[AudioTrimmer.com].mp3-193bff8b5ac24839a6e1719624ff4074.mp3str"
+
+[deps]
+
+source_file="res://Musica/Minecraft Item Pickup Sound Effect-[AudioTrimmer.com].mp3"
+dest_files=["res://.godot/imported/Minecraft Item Pickup Sound Effect-[AudioTrimmer.com].mp3-193bff8b5ac24839a6e1719624ff4074.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

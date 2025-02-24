@@ -1,4 +1,4 @@
-[gd_scene load_steps=52 format=3 uid="uid://be7x8syjhvq6u"]
+[gd_scene load_steps=54 format=3 uid="uid://be7x8syjhvq6u"]
 
 [ext_resource type="Script" path="res://escenas/character_body_2d.gd" id="1_a6d0f"]
 [ext_resource type="Texture2D" uid="uid://cw0bhq47bnsc6" path="res://sprites/The Female Adventurer - Free/death_Left_Down/sprite_0.png" id="1_dd0xg"]
@@ -49,6 +49,8 @@
 [ext_resource type="Texture2D" uid="uid://dekkq232k4jxb" path="res://sprites/The Female Adventurer - Free/walk_Right_Down/sprite_5.png" id="46_ff437"]
 [ext_resource type="Texture2D" uid="uid://b3n2dc1286bre" path="res://sprites/The Female Adventurer - Free/walk_Right_Down/sprite_6.png" id="47_s5rxq"]
 [ext_resource type="Texture2D" uid="uid://cwfrrnn4j68f4" path="res://sprites/The Female Adventurer - Free/walk_Right_Down/sprite_7.png" id="48_lqas8"]
+[ext_resource type="AudioStream" uid="uid://x1js5cloyc6l" path="res://Musica/Wasted sound in GTA V ⧸ Sonido de muerte GTA V.mp3" id="50_h3hl5"]
+[ext_resource type="AudioStream" uid="uid://bwkn5vshiddwd" path="res://Musica/portall.mp3" id="50_w067q"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ns2nc"]
 size = Vector2(15, 26)
@@ -240,3 +242,12 @@ shape = SubResource("RectangleShape2D_ns2nc")
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_qcjvl")
 animation = &"deathLeftDown"
+
+[node name="PortalAudio" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("50_w067q")
+volume_db = 1.981
+
+[node name="DeadAudio" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("50_h3hl5")
+volume_db = 3.962
+bus = &"Efectos"
