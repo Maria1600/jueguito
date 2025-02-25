@@ -9,6 +9,7 @@ var last_direction = 1  # 1 = Derecha, -1 = Izquierda (por defecto derecha)
 var llaves_recogidas: int = 0  # Variable para almacenar la cantidad de llaves recogidas
 @export var dialogue_resource: DialogueResource
 var muelto: bool = false
+var quieto: bool = false
 @onready var sound_effect_death = $DeadAudio
 @onready var sound_effect_portal = $PortalAudio
 
@@ -21,28 +22,30 @@ func _physics_process(delta: float) -> void:
 		velocity.y += gravity * delta  
 
 	if(!muelto):
-		# Movimiento izquierda/derecha
-		var direction  = Input.get_axis("left", "right")
-		if direction:
-			velocity.x = direction * SPEED
-			last_direction = direction  # Guardar la última dirección
-			if direction < 0:
-				animated_sprite.play("walkLeftDown")
+		if(!quieto):
+			# Movimiento izquierda/derecha
+			var direction  = Input.get_axis("left", "right")
+			if direction:
+				velocity.x = direction * SPEED
+				last_direction = direction  # Guardar la última dirección
+				if direction < 0:
+					animated_sprite.play("walkLeftDown")
+				else:
+					animated_sprite.play("walkRightDown")
 			else:
-				animated_sprite.play("walkRightDown")
+				velocity.x = move_toward(velocity.x, 0, SPEED)  # Suaviza el frenado
+				if last_direction < 0:
+					animated_sprite.play("idleLeftDown")
+				else:
+					animated_sprite.play("idleRightDown")
+			# Salto
+			if Input.is_action_just_pressed("jump") and is_on_floor():
+				velocity.y = JUMP_VELOCITY
+			# Aplicar movimiento
+			move_and_slide()
 		else:
-			velocity.x = move_toward(velocity.x, 0, SPEED)  # Suaviza el frenado
-			if last_direction < 0:
-				animated_sprite.play("idleLeftDown")
-			else:
-				animated_sprite.play("idleRightDown")
+			animated_sprite.play("idleRightDown")
 
-		# Salto
-		if Input.is_action_just_pressed("jump") and is_on_floor():
-			velocity.y = JUMP_VELOCITY
-
-	# Aplicar movimiento
-	move_and_slide()
 
 func suma_llave():
 	llaves_recogidas += 1
@@ -84,3 +87,6 @@ func muere():
 
 func _on_se_cayo_lol_body_entered(body: Node2D) -> void:
 	muere()
+	
+func quietoo():
+	quieto = true

@@ -4,6 +4,7 @@ var game_over
 var keys_label
 var buenas_respuestas : int = 0
 var sound_effect
+var button
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -20,6 +21,9 @@ func play_audio_key():
 
 func set_keys_label(key):
 	keys_label = key  # Guarda la referencia del Label
+
+func set_button(key):
+	button = key  # Guarda la referencia del Label
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
